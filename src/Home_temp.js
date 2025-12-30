@@ -1,0 +1,98 @@
+// src/HomePage.js
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { itineraryData } from "./Data"; // 引入資料
+
+// --- 子組件：單個行程項目 ---
+const ItineraryItem = ({ item }) => {
+  return (
+    <Link to={`/detail/${item.id}`} className="text-decoration-none">
+      <div className="card mb-3 shadow-sm border-0 item-hover">
+        <div className="card-body d-flex gap-3 align-items-start">
+          <div className="d-flex flex-column align-items-center" style={{ minWidth: "70px" }}>
+            <span className="badge bg-primary rounded-pill p-2">{item.time}</span>
+            <div style={{ width: "2px", height: "40px", background: "#e9ecef", marginTop: "8px" }}></div>
+          </div>
+          <div>
+            <h5 className="card-title fw-bold text-dark mb-1">
+              <span className="me-2">📍</span>
+              {item.place}
+            </h5>
+            <p className="card-text text-muted small">{item.note}</p>
+          </div>
+          <div className="ms-auto align-self-center text-muted">&gt;</div>
+        </div>
+      </div>
+    </Link>
+  );
+};
+
+// --- 子組件：Tab 按鈕 ---
+const TabButton = ({ day, isActive, onClick }) => {
+  return (
+    <button
+      onClick={onClick}
+      className={`btn btn-sm rounded-pill px-3 py-2 fw-bold ${
+        isActive ? "btn-primary" : "btn-outline-secondary"
+      }`}
+      style={{ whiteSpace: "nowrap", flexShrink: 0 }}
+    >
+      Day {day}
+    </button>
+  );
+};
+
+// --- 主頁面組件 ---
+const Home = () => {
+  const [currentDay, setCurrentDay] = useState(1);
+  const currentItinerary = itineraryData.find((d) => d.day === currentDay);
+
+  return (
+    <div className="bg-light min-vh-100 d-flex flex-column">
+      <header className="bg-white shadow-sm p-3 sticky-top">
+        <div className="container" style={{ maxWidth: "600px" }}>
+          <h4 className="m-0 fw-bold text-primary d-flex align-items-center">
+            📅 16天深度旅遊
+          </h4>
+        </div>
+      </header>
+
+      <div className="container py-3" style={{ maxWidth: "600px" }}>
+        {/* Tabs 區域 */}
+        <div className="bg-white p-3 rounded shadow-sm mb-3">
+          <div
+            className="d-flex gap-2 overflow-auto pb-1"
+            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          >
+            {itineraryData.map((item) => (
+              <TabButton
+                key={item.day}
+                day={item.day}
+                isActive={currentDay === item.day}
+                onClick={() => setCurrentDay(item.day)}
+              />
+            ))}
+          </div>
+        </div>
+
+        {/* 列表內容區域 */}
+        <div className="bg-white p-4 rounded shadow-sm">
+          <div className="mb-4 border-bottom pb-2">
+            <h2 className="h4 fw-bold text-dark">{currentItinerary.title}</h2>
+            <p className="text-muted small m-0">今日行程規劃</p>
+          </div>
+
+          <div>
+            {currentItinerary.items.map((item) => (
+              <ItineraryItem key={item.id} item={item} />
+            ))}
+          </div>
+
+          <div style={{ height: "50px" }}></div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
