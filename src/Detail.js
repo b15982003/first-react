@@ -43,11 +43,16 @@ const Detail = () => {
           <div className="detail-content">
             {foundItem.content ? (
               foundItem.content.map((block, index) => {
-                
                 // 情況 A: 如果是文字
                 if (block.type === "text") {
                   return (
-                    <p key={index} className="fs-5 text-dark lh-lg mb-4">
+                    <p
+                      key={index}
+                      className="fs-5 text-dark lh-lg mb-4"
+                      style={{
+                        whiteSpace: "pre-line",
+                      }}
+                    >
                       {block.value}
                     </p>
                   );
