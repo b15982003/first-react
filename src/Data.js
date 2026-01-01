@@ -629,11 +629,259 @@ export const itineraryData = [
     items: [
       {
         id: "d4-1",
-        time: "09:00",
-        place: "地點...",
-        note: "備註",
-        description: "...",
-        mapUrl: "",
+        time: "09:30",
+        place: "Háifoss 雙子瀑布",
+        note: "冰島第四高瀑布 / 絕美峽谷",
+        mapUrl: "https://maps.app.goo.gl/huZeo2xmnQU133Hh9",
+        content: [
+          {
+            type: "text",
+            value:
+              "Háifoss 意為「高的瀑布」，高達 122 公尺。當你站在峽谷邊緣往下看時，那種深不見底的震撼感完全不同於其他瀑布。而且這裡買一送一，旁邊緊鄰著另一個瀑布叫「Granni (鄰居)」，兩條白練同時墜入深谷，畫面非常經典。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/flow_2.png",
+            alt: "Háifoss 與 Granni 雙瀑布",
+          },
+
+          { type: "text", value: "📜 歷史與傳說：" },
+          {
+            type: "text",
+            value:
+              "傳說這座瀑布下的山洞裡住著一個女巨人 (Ogress)。曾經有一群旅人在河邊丟石頭玩，打中了女巨人的家，她憤怒地出來想把旅人抓走。雖然這只是傳說，但也為這片荒涼的峽谷增添了神秘感。",
+          },
+
+          { type: "text", value: "⚠️ 必讀！路況與安全警告 (Critical)：" },
+          {
+            type: "text",
+            value:
+              "1. 惡名昭彰的 332 號路：\n通往停車場的最後 7 公里是碎石路 (Gravel Road)，路況非常顛簸，充滿坑洞。請務必開 4WD (四輪驅動) 車輛前往，並放慢速度以免爆胎。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 冬季 (2月) 風險：\n您是 2 月前往，這條路很有可能被積雪封閉或變得泥濘不堪。出發前「務必」查看 road.is 路況圖。如果顯示紅色 (Closed) 或 藍色 (Slippery/Wet Snow)，請果斷放棄，不要冒險闖入，會卡在荒野中。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 懸崖無護欄：\n這裡保持著非常原始的狀態，懸崖邊緣幾乎沒有護欄。這邊風勢通常很大（位於高地邊緣），拍照時請絕對不要太靠近邊緣，以免被強風吹落。",
+          },
+        ],
+      },
+      {
+        id: "d4-2",
+        time: "12:00",
+        place: "Mia's Country Van - Local Fish & Chips 午餐",
+        note: "紅色點點餐車 / 冰島最好吃的 Fish & Chips",
+        mapUrl: "https://maps.app.goo.gl/FJXpKv3qjqruhvhT9",
+        content: [
+          {
+            type: "text",
+            value:
+              "這是一個不起眼但驚為天人的路邊小吃。老闆娘 Mia 用當天新鮮捕獲的鱈魚 (Cod)，裹上加入冰島啤酒的麵糊現炸，外皮酥脆、魚肉鮮嫩多汁，完全顛覆你對炸魚薯條油膩的印象！",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/red_car.jpg",
+            alt: "可愛的紅色點點餐車",
+          },
+
+          { type: "text", value: "🍟 必吃推薦 (Menu)：" },
+          {
+            type: "text",
+            value:
+              "這裡只賣一樣東西：Local Fish & Chips (炸魚薯條)。但決勝點在於「調味」！",
+          },
+          {
+            type: "text",
+            value:
+              "● 醬料三選一：\n強烈推薦「Icelandic Tartar (冰島塔塔醬)」，帶有一點酸黃瓜和咖哩的香氣，非常解膩。另外還有甜辣醬 (Sweet Chilli) 和蒜味美乃滋。",
+          },
+          {
+            type: "text",
+            value:
+              "● 獨門風味鹽 (Salts)：\n櫃檯前放著好幾種老闆特製的鹽（例如：熔岩鹽 Lava Salt、海藻鹽 Seaweed Salt）。拿到炸魚後，記得灑一點「海藻鹽」在薯塊上，味道會提升一個檔次！",
+          },
+
+          { type: "text", value: "⚠️ 重要營業提醒 (Must Read)：" },
+          {
+            type: "text",
+            value:
+              "1. 營業時間極短：\n通常只開 12:00 - 16:00 (賣完會提早收)。請務必把這個行程排在中午，太晚來吃不到。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 週五公休疑慮：\n根據近期回報，他們有時候「週五會公休」。如果您剛好是週五經過，建議先查看他們的 Facebook 或 Google Map 最新動態，以免撲空。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 戶外用餐與廁所：\n這裡只有戶外野餐桌 (風大會很冷)，且「沒有廁所」。建議在抵達前或離開後，去旁邊的 Skógafoss 遊客中心借廁所。",
+          },
+        ],
+      },
+      {
+        id: "d4-3",
+        time: "13:00",
+        place: "Fjaðrárgljúfur 羽毛峽谷",
+        note: "Justin Bieber MV 取景地 / 世界最美峽谷",
+        mapUrl: "https://maps.app.goo.gl/qn8gsB9qrF4V36aZ9",
+        content: [
+          {
+            type: "text",
+            value:
+              "Fjaðrárgljúfur (發音超難，意為：羽毛河峽谷) 是冰島南部最像「魔戒」場景的地方之一。蜿蜒的 Fjaðrá 河流歷經兩百萬年的侵蝕，將原本平坦的高地切出一道道深邃、蜿蜒的峽谷，兩側懸崖陡峭且長滿苔蘚（冬天會被白雪覆蓋）。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/flow_3.jpg",
+            alt: "蜿蜒曲折的羽毛峽谷",
+          },
+
+          { type: "text", value: "🎥 爆紅原因：" },
+          {
+            type: "text",
+            value:
+              "這裡原本是私房秘境，直到 2015 年 Justin Bieber 的《I'll Show You》MV 在此取景（他在峽谷裡玩滑板、滾草地），這裡瞬間爆紅。但也因為遊客太多踩壞植被，曾一度關閉修復，現在已重新開放，請務必走在棧道上。",
+          },
+
+          { type: "text", value: "🚶 參觀路線 (Hiking)：" },
+          {
+            type: "text",
+            value:
+              "停車場在下方，沿著右側的上坡步道往上走，沿途有 3-4 個觀景台。走到最底端的觀景台（瀑布處）景色最壯觀，來回步行約 1 小時。",
+          },
+
+          { type: "text", value: "⚠️ 冬季安全警告 (Winter Safety)：" },
+          {
+            type: "text",
+            value:
+              "1. 必穿冰爪 (Crampons)：\n通往觀景台的路是上坡，冬天結冰時非常非常滑！沒有穿冰爪幾乎無法行走，甚至會滑下山坡，請務必在停車場就穿好。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 禁止越線：\n為了讓苔蘚重生，步道兩旁都有圍繩。請當個合格的旅人，絕對不要跨越繩索去懸崖邊拍照（雖然 Bieber 有做，但那是錯誤示範）。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 禁飛空拍機：\n此處通常設有「禁止空拍機」的告示牌，起飛前請確認現場規定。",
+          },
+        ],
+      },
+      {
+        id: "d4-4",
+        time: "15:00",
+        place: "Svartifoss 玄武岩瀑布",
+        note: "需健行 / 冰島教堂的靈感來源",
+        mapUrl: "https://maps.app.goo.gl/5QoQeptVszHP2g8R6",
+        content: [
+          {
+            type: "text",
+            value:
+              "Svartifoss (黑瀑布) 位於史卡夫塔山 (Skaftafell) 國家公園內。白色的水流從黑色的六角形玄武岩柱牆上飛流直下，這種黑白強烈對比的幾何美感，是大自然鬼斧神工的傑作。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/flow_4.jpg",
+            alt: "懸掛著黑色玄武岩柱的 Svartifoss",
+          },
+
+          { type: "text", value: "⛪ 文化連結：" },
+          {
+            type: "text",
+            value:
+              "覺得眼熟嗎？雷克雅維克地標「哈爾格林姆大教堂 (Hallgrímskirkja)」的設計師，就是受到這裡的玄武岩柱啟發，才設計出那著名的管風琴狀外觀。",
+          },
+
+          { type: "text", value: "🥾 健行資訊 (Hiking Info)：" },
+          {
+            type: "text",
+            value:
+              "● 難度：中等 (持續上坡)。\n● 時間：從遊客中心出發，單程約 1.5 公里，來回需預留 1.5 - 2 小時。\n● 路線：沿著遊客中心旁的路標 (Svartifoss) 走，前半段是緩坡，後半段能俯瞰冰河沖積平原。",
+          },
+
+          { type: "text", value: "⚠️ 冬季安全警告 (Winter Only)：" },
+          {
+            type: "text",
+            value:
+              "1. 必備冰爪 (Crampons)：\n冬天步道會結冰，尤其是靠近瀑布的下坡路段非常滑。沒有穿冰爪請勿嘗試下去瀑布底部。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 光線注意：\n這條路沒有路燈。如果您抵達時已經黃昏，建議放棄或改期，摸黑下山非常危險。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 停車費：\nSkaftafell 遊客中心停車場需收費 (約 750-1000 ISK)，請使用 Parka App 或現場機器繳費。",
+          },
+        ],
+      },
+      {
+        id: "d4-5",
+        time: "17:00",
+        place: "Vagnsstadir Guesthouse 住宿",
+        note: "住宿 車程三小時",
+        mapUrl: "https://maps.app.goo.gl/V2ShdBc2nwh2MxHr5",
+        content: [
+          {
+            type: "text",
+            value:
+              "這是一間位於著名的「環島一號公路」旁的老牌青旅民宿。雖然設施比較簡單樸實，但乾淨溫馨。因為四周完全沒有光害，只要天氣好，走出房門就能看到滿天星空和極光飛舞。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_4.jpg",
+            alt: "Vagnsstadir 民宿外觀",
+          },
+
+          { type: "text", value: "🏡 住宿特色：" },
+          {
+            type: "text",
+            value:
+              "● 極佳位置：\n往東開車 20 分鐘就到傑古沙龍冰河湖。如果您預約了明天一早的冰洞團，住這裡非常方便。",
+          },
+          {
+            type: "text",
+            value:
+              "● 公共廚房：\n提供設備齊全的廚房（有爐具、冰箱、餐具）。這裡附近沒有餐廳，強烈建議晚餐自己煮。",
+          },
+          {
+            type: "text",
+            value:
+              "● 房型：\n有含衛浴的套房，也有共用衛浴的雅房。預訂時請確認您的訂單類型。",
+          },
+
+          { type: "text", value: "🛒 超級重要！補給警告 (Food Supply)：" },
+          {
+            type: "text",
+            value:
+              "這附近是「食物沙漠」！\n最近的超市在西邊的 Kirkjubæjarklaustur (開車 1 小時) 或東邊的 Höfn (開車 50 分鐘)。\n請務必在抵達前，先在路過的超市買好今天的晚餐和明天的早餐食材，否則晚上會餓肚子喔！",
+          },
+
+          { type: "text", value: "⚠️ 入住提醒：" },
+          {
+            type: "text",
+            value:
+              "櫃檯通常只開到晚上 21:00 或 22:00。如果您因為在路上拍極光會晚到，記得先打電話或 Email 告知民宿，以免被鎖在門外。",
+          },
+
+          {
+            type: "mapButton",
+            url: "https://goo.gl/maps/vagnsstadir",
+            label: "🛏️ 導航去 Vagnsstadir Guesthouse",
+          },
+        ],
       },
     ],
   },
