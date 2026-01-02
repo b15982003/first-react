@@ -621,14 +621,309 @@ export const itineraryData = [
       },
     ],
   },
-
-  // --- 第 4 天  ---
+  // --- 第 4 天 ---
   {
     day: 4,
-    title: "第 4 天標題",
+    title: "2/9 黃金圈",
     items: [
       {
         id: "d4-1",
+        time: "09:00",
+        place: "Brúarfoss 蒂芬妮藍瀑布",
+        note: "冰島最藍的瀑布 / 新開放捷徑",
+        mapUrl: "https://maps.app.goo.gl/XFVW3v7qNHeEm3jw5",
+        content: [
+          {
+            type: "text",
+            value:
+              "Brúarfoss 被稱為「冰島最藍的瀑布」。水源來自 Langjökull 冰川，因為水中懸浮著細微的火山礦物質與冰川沉積物，讓水流呈現出夢幻的乳藍色 (Milky Blue)。",
+          },
+          {
+            type: "text",
+            value:
+              "它的形狀不是垂直落下，而是像馬蹄形一樣匯聚，水流在中間形成白色的漩渦，非常迷人。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/flow_5.jpg",
+            alt: "擁有 Tiffany 藍水色的 Brúarfoss",
+          },
+
+          { type: "text", value: "🚗 交通大解密 (重要！)：" },
+          {
+            type: "text",
+            value:
+              "以前這裡被稱為「秘境」，是因為要徒步來回 2-3 小時。但現在「不需要」了！\n請務必導航到新的官方停車場 (Brúarfoss Parking)，停好車後沿著平坦的步道走 5 分鐘，就能直接看到瀑布與木橋。",
+          },
+          {
+            type: "mapButton",
+            url: "https://maps.app.goo.gl/yL55AF3Q34PKwdA18",
+            label: "導航去 官方停車場",
+          },
+
+          { type: "text", value: "📜 名字由來：" },
+          {
+            type: "text",
+            value:
+              "Brú 意思是「橋」，Foss 是「瀑布」。相傳古代這裡有一座天然石拱橋，但在 16 世紀時，一位管家為了阻止乞丐進入附近富裕的教區，下令把石橋打斷，因此得名。",
+          },
+
+          { type: "text", value: "⚠️ 參觀注意事項：" },
+          {
+            type: "text",
+            value:
+              "1. 停車費：\n新停車場需要收費 (約 750 ISK)，請使用 Parka App 或現場掃描 QR Code 付款。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 鐵橋拍照：\n最佳拍攝點就是橫跨瀑布的那座木橋。但橋面通常濕滑（冬天會結冰），請務必抓好扶手，手機也要拿穩，掉下去就撿不回來了。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 冰爪 (Crampons)：\n雖然路程變短了，但冬天步道依然會積雪結冰，建議穿著簡易冰爪比較安全。",
+          },
+        ],
+      },
+      {
+        id: "d4-2",
+        time: "10:00",
+        place: "Gullfoss 黃金瀑布",
+        note: "冰島最壯觀雙層瀑布 / 必喝羊肉湯 (二十分鐘車程)",
+        mapUrl: "https://maps.app.goo.gl/hX1YZPes2YocSb356",
+        content: [
+          {
+            type: "text",
+            value:
+              "Gullfoss 意為「金色的瀑布」。它的特徵是分為兩層（上層 11 公尺，下層 21 公尺），最後以 90 度角垂直衝入狹窄的古佛斯峽谷中。水量豐沛時激起的水霧，在陽光照射下經常出現巨大的彩虹，這就是「黃金」之名的由來。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/flow_6.jpg",
+            alt: "氣勢磅礡的雙層黃金瀑布",
+          },
+
+          { type: "text", value: "👩‍🌾 傳奇歷史：一位女子救了瀑布" },
+          {
+            type: "text",
+            value:
+              "20 世紀初，外國投資客想買下這裡蓋水力發電廠。地主的女兒 Sigríður Tómasdóttir 為了保護這片美景，不惜赤腳徒步走到雷克雅維克抗議，甚至揚言跳入瀑布以死明志。最終她成功保住了瀑布，被視為冰島第一位環境保護者。",
+          },
+
+          { type: "text", value: "📸 觀賞攻略 (Viewpoints)：" },
+          {
+            type: "text",
+            value:
+              "這裡有上下兩個觀景台：\n1. 上層觀景台 (Upper Deck)：就在停車場旁，可以俯瞰整個瀑布與峽谷的壯闊全景，視野最好。\n2. 下層步道 (Lower Path)：可以走到瀑布邊緣感受水氣。⚠️ 注意：冬天 (11月-3月) 因為步道結冰太危險，通往下層的路通常會「封閉」，請勿跨越圍欄。",
+          },
+
+          { type: "text", value: "🥶 參觀注意事項：" },
+          {
+            type: "text",
+            value:
+              "1. 風超級大：\n這裡是著名的風口，體感溫度會比平地低很多，帽子、圍巾、手套一定要戴好，手機也要拿穩。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 冰爪必備：\n從停車場走到觀景台的路面非常容易結冰，穿冰爪走起來會輕鬆安全很多。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 廁所與付費：\n雖然瀑布免費，但遊客中心 (Gullfoss Cafe) 的廁所是「付費」的 (刷卡)。",
+          },
+
+          {
+            type: "text",
+            value:
+              "🍲 美食推薦：\n如果逛完覺得冷，旁邊的 Gullfoss Cafe 有賣非常好喝的「傳統羊肉湯 (Kjötsúpa)」，料多實在，喝一碗全身都會暖起來！",
+          },
+        ],
+      },
+      {
+        id: "d4-3",
+        time: "12:00",
+        place: "Strokkur 間歇泉 (Geysir 地熱區)",
+        note: "每 8-10 分鐘噴發一次 / 英文 Geyser 的發源地",
+        mapUrl: "https://maps.app.goo.gl/VyeWxDH1mDaSqzZH9",
+        content: [
+          {
+            type: "text",
+            value:
+              "這裡不僅能看到著名的間歇泉噴發，更是英語單字「Geyser (間歇泉)」的語源地（源自冰島語 Geysir）。雖然老大哥「Great Geysir」已經休眠，但旁邊的小老弟「Strokkur」非常盡責，每隔 6-10 分鐘就會噴發一次，水柱高達 15-20 公尺，絕不讓遊客失望。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/up_flow_7.jpg",
+            alt: "Strokkur 間歇泉噴發瞬間",
+          },
+
+          { type: "text", value: "📸 拍攝攻略 (Pro Tips)：" },
+          {
+            type: "text",
+            value:
+              "1. 泡泡出現就要按：\n噴發前，出水口的水會忽上忽下，當看見一個巨大的「藍色水泡 (Blue Bubble)」隆起時，那就是要噴發了！請按住手機的「連拍模式 (Burst)」不要放。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 準備錄影：\n如果不想賭運氣，架好腳架或手持錄影，通常等待時間不會超過 10 分鐘。",
+          },
+
+          { type: "text", value: "⚠️ 安全警告 (Safety First)：" },
+          {
+            type: "text",
+            value:
+              "1. 絕對注意風向！\n圍觀時請一定要站在「上風處」。如果你站在下風處，噴發下來的熱水和蒸汽會瞬間把你淋濕，且水溫很高（約 80-100度），非常危險且狼狽。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 地面結冰：\n噴泉周圍的水氣落地後，在冬天會瞬間結成「薄冰」。這一區非常滑，走路請像企鵝一樣小步走，或穿上冰爪。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 勿觸摸水流：\n流經步道旁的小溪流看起來很像溫泉，但其實溫度極高，請勿用手試水溫。",
+          },
+
+          { type: "text", value: "🍔 吃喝逛街 (Geysir Center)：" },
+          {
+            type: "text",
+            value:
+              "對面的遊客中心 (Geysir Center) 是黃金圈最大的休息站。裡面有：\n● 餐廳：提供披薩、漢堡、傳統羊肉湯等，選擇比 Gullfoss 多。\n● 紀念品店：這裡的冰島羊毛衣 (66 North, Icewear) 和紀念品款式非常齊全，很好逛！",
+          },
+        ],
+      },
+      {
+        id: "d4-4",
+        time: "12:00",
+        place: "午餐",
+        note: "還在找",
+        mapUrl: "https://maps.app.goo.gl/VyeWxDH1mDaSqzZH9",
+        content: [],
+      },
+      {
+        id: "d4-5",
+        time: "14:00",
+        place: "Secret Lagoon 秘密溫泉",
+        note: "冰島最古老的天然泳池 (始於 1891)",
+        mapUrl: "https://maps.app.goo.gl/eoS8bM62xkNmPGap9",
+        content: [
+          {
+            type: "text",
+            value:
+              "Secret Lagoon (冰島語：Gamla Laugin，意為「老池子」) 是冰島現存最古老的游泳池。不同於藍湖的科技感，這裡保留了百年前最原始的樣貌：天然的苔蘚岩壁、四周冒著白煙的地熱孔，還有飄浮在水面上的蒸氣，氛圍非常夢幻。",
+          },
+          {
+            type: "text",
+            value: "⚠️ 重要提醒 帶毛巾、泳衣、拖鞋 防水手機套 盥洗用具",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/secret_lagoon_spring.jpg",
+            alt: "充滿蒸氣與自然氛圍的 Secret Lagoon",
+          },
+
+          { type: "text", value: "♨️ 體驗亮點：" },
+          {
+            type: "text",
+            value:
+              "● 漂浮麵條 (Pool Noodles)：\n池邊有免費提供的泡沫浮條。夾在腋下或枕在頭下，讓身體自然漂浮在溫暖的泉水中，看著天空發呆，是這裡最道地的玩法。",
+          },
+          {
+            type: "text",
+            value:
+              "● 小間歇泉表演：\n不用跑遠，溫泉池畔就有一個迷你的小間歇泉，每隔幾分鐘就會噴發一次，泡在水裡就能欣賞。",
+          },
+          {
+            type: "text",
+            value:
+              "● 邊泡邊喝：\n更衣室旁有小酒吧，您可以買啤酒或蘋果酒 (Cider) 帶進池子裡喝（請小心不要打破杯子）。",
+          },
+
+          { type: "text", value: "⚠️ 重要提醒 (Must Read)：" },
+          {
+            type: "text",
+            value:
+              "1. 必須預約：\n雖然名字叫「秘密」，但現在遊客很多，建議提前 1-2 週上網預約時段，以免現場客滿無法入場。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 洗澡規定：\n下水前必須在淋浴間「全身赤裸」洗淨身體（有提供沐浴乳），這是對這座百年老池水質的基本尊重。",
+          },
+
+          { type: "text", value: "🚗 長途駕駛預警 (Critical)：" },
+          {
+            type: "text",
+            value:
+              "如果您今晚的住宿是在 Vagnsstadir (靠近冰河湖)，請注意：\n從這裡開車到民宿需要 **3.5 - 4 小時** (約 300 公里)。\n建議溫泉不要泡太久 (約 1-1.5 小時)，最晚 17:00 要上路，不然抵達民宿時會非常晚且疲累。",
+          },
+        ],
+      },
+      {
+        id: "d4-6",
+        time: "17:00",
+        place: "South Central Apartments 住宿",
+        note: "位於郊區的溫馨公寓 / 極光觀測點",
+        mapUrl: "https://maps.app.goo.gl/ema26tqWASuBM3ja6",
+        content: [
+          {
+            type: "text",
+            value:
+              "這是一間位於 Brautarholt 鄉間的獨立公寓，距離 Selfoss 市區約 20 分鐘車程。最大的優點是光害極低，走出房門就有機會看到極光！房內附有小廚房，非常適合自煮晚餐。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_4.jpeg",
+            alt: "South Central Apartments 外觀",
+          },
+
+          { type: "text", value: "⚠️ 入住必讀 (Check-in Info)：" },
+          {
+            type: "text",
+            value:
+              "1. 自助入住：\n這裡沒有櫃檯。請務必檢查 Email，屋主會寄送「鑰匙盒密碼 (Keybox Code)」。抵達時直接輸入密碼拿鑰匙即可。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 補給警告：\n附近完全沒有商店！請務必在 Selfoss 市區的超市 (Kronan/Bonus) 先買好晚餐和明天的早餐食材，否則晚上會餓肚子。",
+          },
+
+          { type: "text", value: "🛁 設施亮點：" },
+          {
+            type: "text",
+            value:
+              "● 地熱地板：浴室地板熱熱的，冬天洗澡很舒服。\n● 私人廚房：有電磁爐、微波爐、冰箱，可以煎牛排或煮義大利麵。",
+          },
+        ],
+      },
+      {
+        id: "d4-7",
+        time: "18:30",
+        place: "晚餐",
+        note: "自煮",
+        mapUrl: "",
+        content: [],
+      },
+    ],
+  },
+
+  // --- 第 5 天  ---
+  {
+    day: 5,
+    title: "2/10 最美瀑布 + 前往冰川",
+    items: [
+      {
+        id: "d5-1",
         time: "09:30",
         place: "Háifoss 雙子瀑布",
         note: "冰島第四高瀑布 / 絕美峽谷",
@@ -672,7 +967,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-2",
+        id: "d5-2",
         time: "12:00",
         place: "Mia's Country Van - Local Fish & Chips 午餐",
         note: "紅色點點餐車 / 冰島最好吃的 Fish & Chips",
@@ -725,7 +1020,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-3",
+        id: "d5-3",
         time: "13:00",
         place: "Fjaðrárgljúfur 羽毛峽谷",
         note: "Justin Bieber MV 取景地 / 世界最美峽谷",
@@ -776,7 +1071,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-4",
+        id: "d5-4",
         time: "15:00",
         place: "Svartifoss 玄武岩瀑布",
         note: "需健行 / 冰島教堂的靈感來源",
@@ -827,7 +1122,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-5",
+        id: "d5-5",
         time: "17:00",
         place: "Vagnsstadir Guesthouse 住宿",
         note: "住宿 車程三小時",
@@ -841,7 +1136,7 @@ export const itineraryData = [
 
           {
             type: "image",
-            src: process.env.PUBLIC_URL + "/images/hotel_4.jpg",
+            src: process.env.PUBLIC_URL + "/images/hotel_5.jpg",
             alt: "Vagnsstadir 民宿外觀",
           },
 
@@ -875,23 +1170,445 @@ export const itineraryData = [
             value:
               "櫃檯通常只開到晚上 21:00 或 22:00。如果您因為在路上拍極光會晚到，記得先打電話或 Email 告知民宿，以免被鎖在門外。",
           },
-
-          {
-            type: "mapButton",
-            url: "https://goo.gl/maps/vagnsstadir",
-            label: "🛏️ 導航去 Vagnsstadir Guesthouse",
-          },
         ],
       },
     ],
   },
-
-  // --- 第 5 天 ---
-  { day: 5, title: "第 5 天標題", items: [] },
   // --- 第 6 天 ---
-  { day: 6, title: "第 6 天標題", items: [] },
+  {
+    day: 6,
+    title: "2/11 冰川健行 + 小景點",
+    items: [
+      {
+        id: "d6-1",
+        time: "09:00",
+        place: "冰川健行 (Skaftafell)",
+        note: "走在千萬年的藍冰之上 / 絕對不可錯過的體驗",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "這是冰島之旅的重頭戲！穿上專業裝備，踏上歐洲最大的瓦特納冰原 (Vatnajökull) 的分支——通常是 Falljökull 或 Svínafellsjökull 冰舌。這裡的景色不像地球，你會感覺自己變成了《星際效應》裡的馬修麥康納，走在充滿裂縫的冰凍星球上。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/ice_walk.png",
+            alt: "震撼的冰川健行隊伍",
+          },
+
+          { type: "text", value: "🧊 冰川地質與歷史小教室：" },
+          {
+            type: "text",
+            value:
+              "● 為什麼冰是藍色的？\n冰川冰不是普通的結冰，它是數千年來的積雪經過自身重量極度擠壓形成的。擠壓過程排出了氣泡，使得冰體密度極高，只反射藍光，吸收了其他光譜。",
+          },
+          {
+            type: "text",
+            value:
+              "● 正在消失的歷史：\n你腳下踩的冰可能已有數百上千年歷史。但受到全球暖化影響，冰川正在以驚人的速度後退。嚮導常會指出「幾年前冰川還在這裡」的位置，讓人深刻感受到氣候變遷的震撼。",
+          },
+
+          { type: "text", value: "⚠️ 絕對重要的注意事項 (Safety First)：" },
+          {
+            type: "text",
+            value:
+              "1. 絕對禁止獨自前往 (MUST have a guide)：\n冰川看似平坦，實則佈滿深不見底的「冰裂縫 (Crevasses)」，有些被薄雪覆蓋難以察覺。沒有專業嚮導帶領而擅自走上冰川是自殺行為。一定要參加 Tour。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 鞋子是關鍵 (Boots are essential)：\n一定要穿「高筒、硬底」的登山鞋。因為要綁上冰爪 (Crampons)，軟底鞋或球鞋會被冰爪勒壞，且支撐力不足容易扭傷。如果沒有，現場通常可以付費租借。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 穿著建議：\n洋蔥式穿法。防水防風外套、防水褲（一定要，因為可能會坐在冰上拍照）、手套、毛帽、太陽眼鏡（冰面反光極強）。",
+          },
+          {
+            type: "text",
+            value:
+              "4. 聽從指令：\n嚮導會教你如何使用冰爪走路（要像大猩猩一樣張開腳走），請務必遵守路線，不要為了拍照脫隊。",
+          },
+
+          { type: "text", value: "📸 怎麼拍出神級大片 (Photography Tips)：" },
+          {
+            type: "text",
+            value:
+              "● 陰天比晴天更藍：\n別擔心天氣不好！陰雨天沒有強烈陽光反射，冰川的「藍色」反而會更深邃、更明顯。",
+          },
+          {
+            type: "text",
+            value:
+              "● 人物比例尺：\n拍攝隊伍走成一列的畫面，或是人站在巨大冰裂縫旁，利用人物當比例尺，才能顯出冰川的壯闊。",
+          },
+          {
+            type: "text",
+            value:
+              "● 道具運用：\n嚮導發的「冰鎬 (Ice Axe)」是最好的拍照道具。舉著它、把它插在冰上，照片立刻專業度破表。",
+          },
+          {
+            type: "text",
+            value:
+              "● 低角度：\n蹲下來貼近冰面拍，可以拍出冰層的紋理和火山灰交錯的細節。",
+          },
+          {
+            type: "text",
+            value:
+              "● 手機拿好：\n手凍僵時很容易手滑，手機掉進冰裂縫是絕對撿不回來的。強烈建議用有掛繩的手機殼。",
+          },
+        ],
+      },
+      {
+        id: "d6-2",
+        time: "12:00",
+        place: "午餐",
+        note: "待確認",
+        mapUrl: "",
+        content: [],
+      },
+      {
+        id: "d6-3",
+        time: "14:00",
+        place: "Diamond Beach 鑽石冰沙灘",
+        note: "黑沙灘上的璀璨鑽石 / 攝影師必拍",
+        mapUrl: "https://maps.app.goo.gl/oewfu8CUyGxHUVdT9",
+        content: [
+          {
+            type: "text",
+            value:
+              "這裡可能是世界上最唯美的沙灘。從傑古沙龍冰河湖漂流出海的巨大冰山，被海浪打碎後又被沖回岸上。晶瑩剔透的藍冰與深邃的黑色火山沙灘形成強烈對比，在陽光下每一塊冰都像是在呼吸的鑽石。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/ice_sand.jpg",
+            alt: "黑沙灘上閃閃發光的巨大冰塊",
+          },
+
+          { type: "text", value: "💎 鑽石從哪裡來？" },
+          {
+            type: "text",
+            value:
+              "這些冰塊原本是瓦特納冰原的一部分，崩解後掉入旁邊的傑古沙龍冰河湖 (Jökulsárlón)，隨著潮汐漂流到北大西洋，最後被海浪「退貨」推回這片黑沙灘上。所以每一塊「鑽石」都有千年的歷史！",
+          },
+
+          { type: "text", value: "📸 攝影攻略 (Photo Tips)：" },
+          {
+            type: "text",
+            value:
+              "● 尋找透光冰塊：\n找一塊乾淨透明的冰塊，調整角度讓陽光穿透它，能拍出金黃色或深藍色的光澤。",
+          },
+          {
+            type: "text",
+            value:
+              "● 長曝光 (Long Exposure)：\n如果有腳架，試著用慢快門 (0.5 - 2秒) 拍攝海浪刷過冰塊的瞬間，海水會變成絲綢般的霧狀，畫面會非常夢幻。",
+          },
+          {
+            type: "text",
+            value:
+              "● 低角度：\n盡量把相機放低貼近沙灘，這樣能讓冰塊看起來更巨大、更有氣勢。",
+          },
+
+          { type: "text", value: "⚠️ 致命的安全警告 (Life Saving Info)：" },
+          {
+            type: "text",
+            value:
+              "1. 絕對不要爬上冰塊：\n冰塊非常滑，而且極不穩定！有些看似穩固的冰塊可能在海浪一來時瞬間翻轉 (Flipping)，把人壓在下面或捲入海中。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 小心瘋狗浪 (Sneaker Waves)：\n北大西洋的海浪深不可測。即使看起來風平浪靜，偶爾會突然來一個特別大的浪打上岸。拍照時永遠不要背對大海，並隨時保持警覺，不要為了構圖站得太靠近海水。",
+          },
+        ],
+      },
+      {
+        id: "d6-4",
+        time: "17:00",
+        place: "住宿：Vagnsstadir Guesthouse",
+        note: "距離冰河湖最近的高CP值住宿",
+        mapUrl: "https://maps.app.goo.gl/142SUCJ9wL5HWULt6",
+        content: [
+          {
+            type: "text",
+            value:
+              "Vagnsstadir Guesthouse 是這一帶性價比最高的選擇之一。因為傑古沙龍冰河湖附近的飯店（如 Fosshotel）通常非常昂貴，而這裡提供了乾淨、溫馨且價格合理的住宿環境，非常適合只想有個舒服地方睡覺的旅人。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_6.jpg",
+            alt: "簡單乾淨的房間內部",
+          },
+
+          { type: "text", value: "🏡 設施與服務：" },
+          {
+            type: "text",
+            value:
+              "● 公共廚房 (Kitchen)：\n這是大加分項！廚房設備齊全，有爐台、烤箱、微波爐和各種餐具。你可以把從超市買來的食材煮成豐盛的晚餐，省下大筆外食費。",
+          },
+          {
+            type: "text",
+            value:
+              "● 早餐 (Breakfast)：\n雖然大多數房型不含早餐，但現場可以加購自助式早餐。以冰島物價來說，這裡的早餐吃到飽算是物有所值。",
+          },
+          {
+            type: "text",
+            value:
+              "● 衛浴：\n請留意您預訂的房型。如果是「共用衛浴 (Shared Bathroom)」，浴室通常維持得很乾淨，且數量足夠，不用太擔心排隊問題。",
+          },
+
+          { type: "text", value: "🌌 觀星與極光 (Aurora)：" },
+          {
+            type: "text",
+            value:
+              "因為周圍幾公里內幾乎沒有鄰居和路燈，光害極低。晚上吃飽飯後，建議穿上外套走到戶外，只要天空無雲，看見極光的機率非常高！",
+          },
+
+          { type: "text", value: "🚗 周邊景點距離：" },
+          {
+            type: "text",
+            value:
+              "● 西邊 (往回走)：距離 Jökulsárlón 冰河湖約 20 公里 (開車 15-20 分鐘)。\n● 東邊 (往下走)：距離龍蝦小鎮 Höfn 約 50 公里 (開車 40-50 分鐘)。",
+          },
+        ],
+      },
+      {
+        id: "d6-5",
+        time: "18:00",
+        place: "晚餐",
+        note: "自煮",
+        mapUrl: "",
+        content: [],
+      },
+    ],
+  },
   // --- 第 7 天 ---
-  { day: 7, title: "第 7 天標題", items: [] },
+  {
+    day: 7,
+    title: "2/12 冰川冰洞健行 + 中景點",
+    items: [
+      {
+        id: "d7-1",
+        time: "09:30",
+        place: "藍冰洞健行 (Ice Cave Tour)",
+        note: "冬季限定夢幻藍冰 / 需跟團",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "這是冬季來冰島的重頭戲！乘坐改裝的超級吉普車 (Super Jeep) 穿越荒原，深入瓦特納冰川邊緣的天然冰洞。陽光穿透厚實的冰層，呈現出水晶般的寶石藍色。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/ice_hold.jpg",
+            alt: "夢幻的藍冰洞內部",
+          },
+
+          { type: "text", value: "📸 拍照與穿搭攻略：" },
+          {
+            type: "text",
+            value:
+              "● 穿亮色系：\n強烈建議穿「黃色、紅色」等暖色系外套，在藍色的冰洞裡對比最美，拍照最搶眼。",
+          },
+          {
+            type: "text",
+            value:
+              "● 廣角鏡頭：\n冰洞空間通常有限，手機開廣角模式更能拍出氣勢。",
+          },
+
+          { type: "text", value: "⚠️ 必讀！行前準備 (Preparation)：" },
+          {
+            type: "text",
+            value:
+              "1. 鞋子檢查：\n一定要穿「高筒登山鞋」！因為要綁冰爪。絕對不能穿雪靴 (UGG) 或平底球鞋，現場會被拒絕參加或強制租鞋。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 關於暈車：\n去程的吉普車路段非常顛簸，易暈車者請提前吃藥。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 廁所提醒：\n整個行程約 3 小時「完全沒有廁所」，請務必在出發前於停車場解決。",
+          },
+        ],
+      },
+      {
+        id: "d7-2",
+        time: "13:00",
+        place: "午餐",
+        note: "待確認",
+        mapUrl: "",
+        content: [],
+      },
+      {
+        id: "d7-3",
+        time: "15:00",
+        place: "Skógafoss 彩虹瀑布",
+        note: "白日夢冒險王取景地 / 氣勢磅礡",
+        mapUrl: "https://maps.app.goo.gl/WBWbEMwbHYEcyZRG8",
+        content: [
+          {
+            type: "text",
+            value:
+              "Skógafoss (史科加瀑布) 高 60 公尺、寬 25 公尺，是冰島最壯觀的瀑布之一。因為水量巨大，激起的水霧在陽光下經常形成「雙道彩虹」，所以又有「彩虹瀑布」的美名。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/flow_7.jpg",
+            alt: "氣勢磅礡的 Skógafoss 與遊客渺小的對比",
+          },
+
+          { type: "text", value: "🎥 電影場景大解密 (Walter Mitty Spot)：" },
+          {
+            type: "text",
+            value:
+              "還記得電影《白日夢冒險王》中，主角 Walter Mitty 在喜馬拉雅山尋找肖恩，並跟隨兩個當地人走過一個巨大瀑布的畫面嗎？其實那就是在這裡拍的！雖然電影裡說是喜馬拉雅山，但背景就是 Skógafoss。",
+          },
+
+          { type: "text", value: "📸 如何拍出「白日夢冒險王」風格？" },
+          {
+            type: "text",
+            value:
+              "1. 人物渺小感 (The Scale)：\n電影的精髓在於「大自然與渺小人類」的對比。攝影師要站遠一點（停車場附近），用「長焦鏡頭」或手機的 3x/5x 變焦，壓縮背景，讓瀑布看起來像一面巨大的水牆，人物站在瀑布底部顯得非常渺小。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 孤獨感 (Isolation)：\n盡量避開兩旁的遊客，等待人潮散去的一瞬間。或者讓主角穿著鮮豔（如紅色、黃色）的外套，站在畫面正中央，營造出一種「獨自面對巨大挑戰」的孤獨英雄感。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 剪影效果 (Silhouette)：\n如果是下午逆光時分，可以讓主角站在水霧前，拍出黑色的剪影，背景是金色的水氣，非常有電影海報的質感。",
+          },
+
+          { type: "text", value: "⚠️ 濕身警告 (Warning)：" },
+          {
+            type: "text",
+            value:
+              "越靠近瀑布，水氣越大，基本上跟淋雨沒兩樣！\n● 裝備：務必穿好雨衣、防水褲。\n● 相機保護：鏡頭一定會濕，拍一張就要擦一次，請準備好拭鏡布或將相機包裹防雨套。",
+          },
+
+          { type: "text", value: "🧗 另一種視角：登頂步道" },
+          {
+            type: "text",
+            value:
+              "瀑布右側有一條 527 階的樓梯，可以爬到瀑布頂端。雖然爬樓梯有點累 (約 15-20 分鐘)，但上面有一個突出的觀景台，可以俯瞰瀑布墜落的瞬間，以及遠方的海岸線，視野非常開闊。",
+          },
+        ],
+      },
+      {
+        id: "d7-4",
+        time: "16:30",
+        place: "Reynisfjara 黑沙灘",
+        note: "世界最美沙灘之一 / 玄武岩壁",
+        mapUrl: "https://maps.app.goo.gl/eg6eG5YuARsmSJYd7",
+        content: [
+          {
+            type: "text",
+            value:
+              "Reynisfjara 是冰島南岸最著名的景點。這裡的沙子之所以是黑色的，是因為 Katla 火山噴發後的熔岩遇到海水迅速冷卻，經過數千年的海浪沖刷磨碎，變成了今日細緻的黑色沙礫。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/black_beach.jpg",
+            alt: "壯觀的玄武岩牆與黑沙灘",
+          },
+
+          { type: "text", value: "傳說與地質奇景：" },
+          {
+            type: "text",
+            value:
+              "● 雷尼斯岩柱 (Reynisdrangar)：\n看向海中，聳立著幾根巨大的尖銳岩石。傳說中有兩隻巨怪 (Trolls) 試圖將一艘三桅船拖上岸，但動作太慢，來不及在日出前躲起來，結果被陽光照射到，瞬間變成了石頭，永遠佇立在海中。",
+          },
+          {
+            type: "text",
+            value:
+              "● 玄武岩柱牆 (Gardar)：\n沙灘旁有一大片整齊排列的六角形玄武岩柱，像是一座巨大的管風琴，又像是通往天際的階梯。這是冰島最熱門的拍照背景之一。",
+          },
+          {
+            type: "text",
+            value:
+              "● 哈爾薩內夫海蝕洞 (Hálsanefshellir)：\n在玄武岩牆旁邊有一個巨大的海蝕洞，也是著名的打卡點（注意：漲潮時不可進入）。",
+          },
+
+          { type: "text", value: "🎥 電影朝聖：" },
+          {
+            type: "text",
+            value:
+              "這裡是《權力遊戲 (Game of Thrones)》第 7 季中「東海望 (Eastwatch-by-the-Sea)」的取景地，也是《星際大戰：俠盜一號》的星球場景。那種荒涼、異世界的氛圍完全不需要特效。",
+          },
+
+          { type: "text", value: "⚠️ 致命警告 (Life-Threatening Warning)：" },
+          {
+            type: "text",
+            value: "請嚴肅看待這裡的「瘋狗浪 (Sneaker Waves)」。",
+          },
+          {
+            type: "text",
+            value:
+              "1. 什麼是瘋狗浪？\n即使看起來風平浪靜，偶爾會突然出現一道「比平常遠得多的海浪」，且這道浪「沒有聲音」，力量大到能瞬間把成人捲入冰冷的海水中。幾乎每年都有遊客在此喪命。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 交通號誌系統：\n停車場設有警示燈。亮綠燈表示安全；黃燈表示需注意；紅燈表示極度危險，禁止靠近水邊。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 黃金保命規則：\n● 絕對不要背對大海 (Never turn your back on the ocean)。\n● 拍照時至少離水邊 30 公尺以上。\n● 如果看到玄武岩洞穴地板是濕的，代表海浪打得進來，請勿進入。",
+          },
+        ],
+      },
+      {
+        id: "d7-5",
+        time: "17:00",
+        place: "住宿：Hótel Eldhestar",
+        note: "地熱之都 / 馬術飯店",
+        mapUrl: "https://maps.app.goo.gl/YWyYKYMZS3S2GJWN8",
+        content: [
+          {
+            type: "text",
+            value:
+              "位於 Hveragerði (溫泉鎮) 的知名飯店，周圍地熱資源豐富。這裡也是冰島最大的馬場之一，到處都能看到可愛的冰島馬。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_7.jpg",
+            alt: "Hótel Eldhestar 外觀",
+          },
+          { type: "text", value: "🏡 住宿亮點：" },
+          {
+            type: "text",
+            value:
+              "● 地理位置佳：位於環島公路旁，距離雷克雅維克僅 30 分鐘車程，是很好的中繼站。",
+          },
+          {
+            type: "text",
+            value: "● 戶外熱水桶：飯店有許多露天的地熱浴池，水溫非常舒服。",
+          },
+        ],
+      },
+      {
+        id: "d7-6",
+        time: "18:30",
+        place: "晚餐",
+        note: "自煮",
+        mapUrl: "",
+        content: [],
+      },
+    ],
+  },
   // --- 第 8 天 ---
   { day: 8, title: "第 8 天標題", items: [] },
   // --- 第 9 天 ---
