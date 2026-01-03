@@ -1922,7 +1922,241 @@ export const itineraryData = [
     ],
   },
   // --- 第 9 天 ---
-  { day: 9, title: "第 9 天標題", items: [] },
+  {
+    day: 9,
+    title: "2/14 自由行 & 雷克雅維克深度遊 & 機場住宿",
+    items: [
+      {
+        id: "d9-1",
+        time: "10:00",
+        place: "Laugavegur 購物街 & 托寧湖",
+        note: "購買紀念品 / 餵鴨子 / 市政廳",
+        mapUrl: "https://maps.app.goo.gl/PBo1B94WiWfjJEez6",
+        content: [
+          {
+            type: "text",
+            value:
+              "把握在冰島的最後時光，漫步在主要購物街 Laugavegur。這裡有許多設計小店、戶外用品店 (66°North, Icewear) 和紀念品店。",
+          },
+          {
+            type: "text",
+            value:
+              "接著走到市政廳旁的 Tjörnin (托寧湖)。湖上有很多天鵝和鴨子，冬天湖面結冰時，當地人甚至會在上面溜冰。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/lake.jpg",
+            alt: "雷克雅維克街景與托寧湖",
+          },
+
+          { type: "text", value: "🛍️ 必買伴手禮推薦：" },
+          {
+            type: "text",
+            value:
+              "1. Omnom 巧克力：\n冰島本土的高級巧克力，包裝非常有設計感，適合送禮。\n2. 魚子醬牙膏 (Kalle's)：\n超市就買得到，雖然其實是瑞典的，但在冰島很普及，味道很特別。\n3. 冰島海鹽 (Saltverk)：\n用像石頭一樣的黑色火山鹽或樺樹煙燻鹽，很適合煮菜。",
+          },
+        ],
+      },
+      {
+        id: "d9-2",
+        time: "12:30",
+        place: "午餐：Brauð & Co 肉桂捲",
+        note: "雷克雅維克最香的麵包店",
+        mapUrl: "https://maps.app.goo.gl/qNvzBrFyYSZEzebNA",
+        content: [
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/bakery_1.jpg",
+            alt: "Brauð & Co 肉桂捲",
+          },
+          {
+            type: "text",
+            value:
+              "這間色彩繽紛的塗鴉屋是全冰島最出名的麵包店。還沒走進去就能聞到濃濃的肉桂香。一定要點一個剛出爐的「肉桂捲 (Cinnamon Roll)」，外皮酥脆、內部濕潤，配上一杯對面 Reykjavik Roasters 的咖啡，完美！",
+          },
+        ],
+      },
+      {
+        id: "d9-3",
+        time: "14:30",
+        place: "Perlan 珍珠樓",
+        note: "360度觀景台 / 人造冰洞",
+        mapUrl: "https://maps.app.goo.gl/V7FA3mXWAw6kvD4k6",
+        content: [
+          {
+            type: "text",
+            value:
+              "Perlan 建在巨大的熱水儲存槽之上，擁有觀看雷克雅維克全景的最佳視野。如果你前幾天錯過了藍冰洞，這裡裡面有一個長達 100 公尺的「人造冰洞 (Ice Cave)」展覽，是用真的冰雪打造的，非常逼真。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/build.jpg",
+            alt: "玻璃穹頂的珍珠樓",
+          },
+          { type: "text", value: "🌟 必看展覽 (Wonders of Iceland)：" },
+          {
+            type: "text",
+            value:
+              "● 真實室內冰洞 (Ice Cave)：\n這不是塑膠做的！館方用 350 噸來自藍山的積雪，打造了一條長達 100 公尺、溫度維持在 -10°C 的真實冰洞。你可以穿上館方提供的保暖背心，親手觸摸真正的冰川冰。",
+          },
+          {
+            type: "text",
+            value:
+              "● Áróra 極光天文館 (Planetarium)：\n這是冰島唯一的天文館，播放 8K 高畫質的極光秀。躺在舒適的椅子上，看著穹頂螢幕上舞動的極光，效果非常震撼，而且保證看得到！。",
+          },
+          {
+            type: "text",
+            value:
+              "● 拉特拉爾角懸崖 (Látrabjarg Cliff)：\n這是一座 10 公尺高的仿真海鳥懸崖，上面有栩栩如生的帕芬鳥 (Puffin) 模型，讓你不用跑到西峽灣也能近距離觀察這些可愛的海鸚鵡。",
+          },
+
+          { type: "text", value: "🔭 360度觀景台 (Observation Deck)：" },
+          {
+            type: "text",
+            value:
+              "位於 4 樓的戶外觀景台環繞整個建築一圈，可以無死角俯瞰雷克雅維克市區、海港、甚至遠方的斯奈山冰川。這裡也是拍雷克雅維克全景照的最佳地點。",
+          },
+
+          { type: "text", value: "🍽️ 餐飲推薦：" },
+          {
+            type: "text",
+            value:
+              "● 旋轉餐廳 (Perlan Restaurant)：\n位於 5 樓玻璃穹頂下，地板會緩慢旋轉（約 2 小時轉一圈），邊吃飯邊看風景非常浪漫。",
+          },
+          {
+            type: "text",
+            value:
+              "● 冰淇淋店 (Ice Cream Parlour)：\n位於 4 樓，這裡的自製冰淇淋非常有名，推薦試試看！。",
+          },
+
+          { type: "text", value: "ℹ️ 實用資訊：" },
+          {
+            type: "text",
+            value:
+              "● 門票：\n觀景台、冰洞、天文館的票可以分開買，也可以買套票 (All-in-one)，建議買套票比較划算。\n● 交通：\n提供免費停車場。如果沒開車，可搭乘 18 號公車抵達。",
+          },
+        ],
+      },
+      {
+        id: "d9-4",
+        time: "18:00",
+        place: "情人節晚餐：Messinn",
+        note: "平價美味的鐵鍋魚料理",
+        mapUrl: "https://maps.app.goo.gl/b94a9Hyhv3MHeNkt8",
+        content: [
+          {
+            type: "text",
+            value:
+              "今天是 2/14 情人節，推薦這間氣氛好、食物好吃且價格合理的餐廳。他們的招牌是「鐵鍋魚 (Pan-fried Arctic Char)」，北極紅點鮭魚肉質細嫩，搭配馬鈴薯和奶油醬汁，用熱騰騰的鐵鍋直接上桌。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/m_restaurant.webp",
+            alt: "Messinn",
+          },
+          {
+            type: "text",
+            value: "⚠️ 提醒：情人節這天餐廳通常會客滿，強烈建議提早訂位。",
+          },
+        ],
+      },
+      {
+        id: "d9-5",
+        time: "22:00",
+        place: "前往機場 & 加油",
+        note: "離開市區往機場移動",
+        mapUrl: "https://goo.gl/maps/kef-gas",
+        content: [
+          { type: "text", value: "從市區開往機場約需 45-50 分鐘 (Route 41)。" },
+          {
+            type: "text",
+            value:
+              "⛽ 重要任務：加滿油 (Full Tank)\n租車公司通常要求「滿油還車」。建議在機場附近的加油站（如 Orkan 或 N1 Keflavíkurflugvelli）把油加滿，保留收據以防萬一。",
+          },
+        ],
+      },
+      {
+        id: "d9-6",
+        time: "23:30",
+        place: "還車 (Return Car)",
+        note: "檢查車況 / 歸還鑰匙",
+        mapUrl: "https://goo.gl/maps/car-rental-return",
+        content: [
+          {
+            type: "text",
+            value:
+              "前往您租車公司指定的還車地點（通常在機場旁的 Rental Car Area）。",
+          },
+          { type: "text", value: "⚠️ 還車檢查清單：" },
+          {
+            type: "text",
+            value:
+              "1. 外觀檢查：\n和工作人員一起確認車身有無新增刮痕或凹痕。如果您有保全險 (SCDW, GP)，通常流程會很快。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 拍照存證：\n在交出鑰匙前，建議用手機拍下車子四周、里程數和油表的照片，作為還車時車況良好的證據。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 接駁車：\n還完車後，搭乘免費的機場接駁巴士 (Airport Shuttle) 前往航廈 (Terminal) 或飯店。",
+          },
+        ],
+      },
+      {
+        id: "d9-hotel",
+        time: "23:55",
+        place: "住宿：Aurora Hotel at KEF Airport",
+        note: "走路 5 分鐘進航廈 / 早班機救星",
+        mapUrl: "https://maps.app.goo.gl/FmSgu83Dh2GSBLhv6",
+        content: [
+          {
+            type: "text",
+            value:
+              "這間飯店最大的優勢就是「位置」！它是唯一一間位於機場航廈步行距離內的飯店。對於明天一早要搭飛機的人來說，不用半夜趕接駁車，可以睡到最後一刻。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_9.jpg",
+            alt: "Aurora Hotel 外觀",
+          },
+
+          { type: "text", value: "🏨 住宿亮點：" },
+          {
+            type: "text",
+            value:
+              "● 步行即達：\n走出飯店大門，拉著行李走約 200-300 公尺就到出境大廳，超級方便。",
+          },
+          {
+            type: "text",
+            value:
+              "● 早餐時間：\n為了配合早班機旅客，早餐通常從凌晨 04:00 或 04:30 就開始供應（請依現場公告為準）。",
+          },
+          {
+            type: "text",
+            value:
+              "● 租車公司：\n大部分租車公司都在機場旁，您可以在還完車後，直接走過來入住。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 10 天 ---
   { day: 10, title: "第 10 天標題", items: [] },
+  // --- 第 11 天 ---
+  { day: 11, title: "第 9 天標題", items: [] },
+  // --- 第 12 天 ---
+  { day: 12, title: "第 10 天標題", items: [] },
+  // --- 第 13 天 ---
+  { day: 13, title: "第 9 天標題", items: [] },
+  // --- 第 14 天 ---
+  { day: 14, title: "第 10 天標題", items: [] },
+  // --- 第 15 天 ---
+  { day: 15, title: "第 9 天標題", items: [] },
+  // --- 第 16 天 ---
+  { day: 16, title: "第 10 天標題", items: [] },
 ];
