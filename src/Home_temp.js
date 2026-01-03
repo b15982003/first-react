@@ -1,7 +1,6 @@
-// src/HomePage.js
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { itineraryData } from "./Data"; // 引入資料
+import { itineraryData } from "./Data";
 
 // --- 子組件：單個行程項目 ---
 const ItineraryItem = ({ item }) => {
@@ -52,9 +51,10 @@ const ItineraryItem = ({ item }) => {
 };
 
 // --- 子組件：Tab 按鈕 ---
-const TabButton = ({ day, isActive, onClick }) => {
+const TabButton = React.forwardRef(({ day, isActive, onClick }, ref) => {
   return (
     <button
+      ref={ref} 
       onClick={onClick}
       className={`btn btn-sm rounded-pill px-3 py-2 fw-bold ${
         isActive ? "btn-primary" : "btn-outline-secondary"
@@ -64,12 +64,31 @@ const TabButton = ({ day, isActive, onClick }) => {
       Day {day}
     </button>
   );
-};
+});
 
 // --- 主頁面組件 ---
 const Home = () => {
-  const [currentDay, setCurrentDay] = useState(1);
+  const [currentDay, setCurrentDay] = useState(() => {
+    const savedDay = sessionStorage.getItem("trip_current_day");
+    return savedDay ? parseInt(savedDay, 10) : 1;
+  });
+
+  const tabRefs = useRef({}); 
+
   const currentItinerary = itineraryData.find((d) => d.day === currentDay);
+
+  useEffect(() => {
+    sessionStorage.setItem("trip_current_day", currentDay);
+
+    const activeTab = tabRefs.current[currentDay];
+    if (activeTab) {
+      activeTab.scrollIntoView({
+        behavior: "smooth", 
+        block: "nearest",   
+        inline: "center",  
+      });
+    }
+  }, [currentDay]);
 
   return (
     <div className="bg-light min-vh-100 d-flex flex-column">
@@ -101,6 +120,8 @@ const Home = () => {
             {itineraryData.map((item) => (
               <TabButton
                 key={item.day}
+                // 3. 將每個按鈕的 ref 存入 tabRefs 物件中，key 為 day
+                ref={(el) => (tabRefs.current[item.day] = el)}
                 day={item.day}
                 isActive={currentDay === item.day}
                 onClick={() => setCurrentDay(item.day)}

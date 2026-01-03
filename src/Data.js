@@ -1610,7 +1610,317 @@ export const itineraryData = [
     ],
   },
   // --- 第 8 天 ---
-  { day: 8, title: "第 8 天標題", items: [] },
+  {
+    day: 8,
+    title: "2/13 斯奈山半島與雷克雅維克市區",
+    items: [
+      {
+        id: "d8-1",
+        time: "07:00",
+        place: "早餐",
+        note: "飯店",
+        content: [],
+      },
+      {
+        id: "d8-2",
+        time: "09:30",
+        place: "Ytri Tunga 海豹沙灘",
+        note: "斯奈山半島 / 金沙灘 / 野生海豹棲息地",
+        mapUrl: "https://maps.app.goo.gl/zEM7XnYMUcEjXduD7",
+        content: [
+          {
+            type: "text",
+            value:
+              "今天將前往被稱為「冰島縮影」的斯奈山半島。之所以叫縮影，是因為這裡在小小的區域內，集結了火山、冰川、峽灣、黑沙灘等幾乎所有冰島的地形特色。",
+          },
+          {
+            type: "text",
+            value:
+              "🚗 行車提醒：\n從 Hveragerði 出發，會經過雷克雅維克外圍，穿越海底隧道 (Hvalfjörður Tunnel)，這條隧道不收費，長約 6 公里，請注意速限 (70 km/h) 測速照相非常多！",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/nice_island.jpg",
+            alt: "斯奈山半島",
+          },
+          {
+            type: "text",
+            value:
+              "不同於冰島常見的黑沙灘，Ytri Tunga 是一片美麗的「金黃色沙灘」。這裡是冰島觀賞野生海豹 (Seals) 最容易到達的地方之一。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/sea_post.jpg",
+            alt: "躺在岩石上的野生海豹",
+          },
+
+          { type: "text", value: "🦭 觀賞攻略：" },
+          {
+            type: "text",
+            value:
+              "● 尋找海豹：\n海豹通常喜歡躺在離岸邊不遠的黑色礁石上曬太陽。請準備長焦鏡頭或望遠鏡。如果在沙灘上沒看到，試著往岩石區走走，牠們的保護色跟石頭很像。",
+          },
+          {
+            type: "text",
+            value:
+              "● 保持距離：\n雖然牠們看起來很萌，但請保持至少 50 公尺的距離，不要大聲喧嘩或試圖觸摸，以免嚇跑牠們或被咬傷。",
+          },
+        ],
+      },
+      {
+        id: "d8-3",
+        time: "12:00",
+        place: "Kirkjufell 教堂山",
+        note: "權力遊戲場景 / 攝影師必拍",
+        mapUrl: "https://maps.app.goo.gl/tv1rD3C7aHEQSn8C6",
+        content: [
+          {
+            type: "text",
+            value:
+              "Kirkjufell (463m) 因外型像草帽（或教堂屋頂）而得名。這裡是全冰島被拍攝次數最多的山，也是《權力遊戲》第 7 季中獵狗看到的「箭頭山 (Arrowhead Mountain)」。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/moun_2.jpg",
+            alt: "教堂山與瀑布的經典構圖",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/moun.jpg",
+            alt: "權力遊戲 第 7 季中獵狗看到的「箭頭山",
+          },
+
+          { type: "text", value: "📸 經典機位 (Photo Spot)：" },
+          {
+            type: "text",
+            value:
+              "不要只拍山！最經典的角度是對面的「Kirkjufellsfoss 瀑布」。\n停好車後，走過小橋到瀑布上方，將三道小瀑布作為前景，教堂山作為背景，這是明信片級的構圖。",
+          },
+
+          { type: "text", value: "⚠️ 冬季安全 (Safety)：" },
+          {
+            type: "text",
+            value:
+              "瀑布周圍的步道在 2 月份通常會結成「溜冰場」，非常滑！請務必在下車時就穿好冰爪 (Crampons)，否則很難走到最佳拍攝點。",
+          },
+        ],
+      },
+      {
+        id: "d8-4",
+        time: "13:00",
+        place: "午餐",
+        note: "待確認",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "拍完教堂山，開車 5 分鐘就是 Grundarfjörður 小鎮。推薦以下午餐選擇：",
+          },
+          {
+            type: "text",
+            value:
+              "1. Bjargarsteinn Mathús：\n當地最有名的餐廳，由舊工廠改建，就在海邊。著名的「海鮮湯」和當日鮮魚非常棒，裝潢溫馨。（建議先確認有無營業）",
+          },
+          {
+            type: "text",
+            value:
+              "2. Laki Hafnarkaffi：\n位於港口邊的咖啡廳，有很棒的披薩、湯品和三明治，價格比較親民，速度也快。",
+          },
+        ],
+      },
+      {
+        id: "d8-5",
+        time: "15:00",
+        place: "Reykjavík 市區巡禮",
+        note: "哈爾格林姆教堂 / 太陽航海者 / Harpa",
+        mapUrl: "https://maps.app.goo.gl/55VFkAMSFRbkVxst7",
+        content: [
+          {
+            type: "text",
+            value:
+              "傍晚抵達首都雷克雅維克。如果是 2 月，此時已經天黑，剛好可以欣賞城市的夜景。",
+          },
+          { type: "text", value: "🏙️ 必逛地標：" },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/church.jpg",
+            alt: "哈爾格林姆大教堂",
+          },
+          {
+            type: "mapButton",
+            url: "https://maps.app.goo.gl/z6wKyVpWS7Fra1sJ7",
+            label: "導航去 哈爾格林姆大教堂",
+          },
+          {
+            type: "text",
+            value:
+              "這是雷克雅維克最著名的地標，高 74.5 公尺，無論你在市區的哪個角落，幾乎都能看到它的塔頂。這座教堂耗時 41 年才完工 (1945-1986)，是以冰島著名的 17 世紀聖詩詩人 Hallgrímur Pétursson 命名的。",
+          },
+
+          { type: "text", value: "🌋 建築設計的秘密 (Design & Inspiration)：" },
+          {
+            type: "text",
+            value:
+              "● 向大自然致敬：\n建築師 Guðjón Samúelsson 的設計靈感直接來自冰島的自然景觀——特別是冷卻熔岩形成的「六角形玄武岩柱」(就是您在黑沙灘和 Svartifoss 看到的那些)。\n● 視覺效果：\n教堂兩側高聳的階梯狀飛翼，不僅象徵著火山岩，也像是一座巨大的管風琴，將人們的視線引向高聳的塔樓。",
+          },
+
+          { type: "text", value: "🎹 內部亮點：" },
+          {
+            type: "text",
+            value:
+              "教堂內部走簡約風格，但最吸睛的是入口上方那座巨大的「管風琴」。它高 15 公尺，重達 25 噸，擁有 5,275 根音管。如果運氣好遇到有人在練習，那莊嚴的聲音會震撼全場。",
+          },
+
+          { type: "text", value: "📸 必拍角度 (Photo Spots)：" },
+          {
+            type: "text",
+            value:
+              "1. 正面仰拍：\n站在正門口的廣場中央往上拍，可以拍出建築對稱的幾何美感。\n2. 萊夫·埃里克森雕像 (Leif Erikson)：\n教堂前方有一座顯眼的維京人雕像，他是發現北美洲的第一個歐洲人（比哥倫布還早 500 年）。這是美國為了紀念冰島議會成立 1000 週年送的禮物。試著把雕像和教堂一起拍進去，非常有氣勢。\n3. 彩虹街視角 (Skólavörðustígur)：\n沿著正對教堂的「彩虹街」往下走一點回頭拍，可以用彩虹色的地面引導視線延伸到教堂，這是最經典的網美構圖。",
+          },
+
+          { type: "text", value: "⚠️ 參觀實用資訊 (Visitor Info)：" },
+          {
+            type: "text",
+            value:
+              "1. 門票：\n參觀教堂「一樓大廳」是免費的。\n2. 登塔 (Tower)：\n如果要搭電梯上頂樓看 360 度市景，需要購票 (成人約 1,400 ISK, 兒童約 200 ISK)。售票處在入口左側商店。\n3. 開放時間 (Winter)：\n冬季 (10月-4月) 通常開放至 17:00 (塔樓最後入場 16:30)。週日早上因有彌撒，塔樓通常會關閉至 12:15 左右。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/sun_lan.jpg",
+            alt: "Sun Voyager (太陽航海者)",
+          },
+          {
+            type: "mapButton",
+            url: "https://maps.app.goo.gl/ShCa7aG9qav5EwKy5",
+            label: "導航去 Sun Voyager (太陽航海者)",
+          },
+          {
+            type: "text",
+            value:
+              "● Sun Voyager (太陽航海者)：\n海邊的一個維京船骨架雕塑，象徵著對太陽、夢想和未知的渴望。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/h_musum.jpg",
+            alt: "Harpa 音樂廳",
+          },
+          {
+            type: "mapButton",
+            url: "https://maps.app.goo.gl/w2sC3gyXGcvF24789",
+            label: "導航去 Harpa 音樂廳",
+          },
+          {
+            type: "text",
+            value:
+              "● 蜂巢玻璃 (The Facade)：\n由丹麥建築師 Henning Larsen 與冰島著名的光影藝術家 Olafur Eliasson 聯手設計。外牆由 714 片形狀不一的幾何玻璃組成，設計靈感同樣來自冰島的「玄武岩柱」。",
+          },
+          {
+            type: "text",
+            value:
+              "● 光影變化：\n這些玻璃像魚鱗一樣，會隨著天氣和光線改變顏色。白天是清透的藍綠色，映照著海港；晚上則會有 LED 燈光秀，模擬北極光的流動，非常迷幻。",
+          },
+
+          { type: "text", value: "📸 攝影與參觀攻略：" },
+          {
+            type: "text",
+            value:
+              "1. 免費入場：\nHarpa 的公共區域（大廳、走廊、樓梯）是「完全免費」開放的！非常推薦走進去逛逛，順便避寒。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 內部幾何美學：\n走進去後，抬頭看天花板和側面，充滿了鏡面反射和幾何線條。試著站在樓梯上拍剪影，或是透過蜂巢玻璃拍外面的海港，照片非常有層次感。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 艾爾德堡 (Eldborg)：\n最大的主廳叫「火焰堡 (Eldborg)」，內部是鮮紅色的設計，象徵岩漿。雖然平常不對外開放（除非買票看表演或參加導覽），但從門縫窺探一眼那震撼的紅色也是一種樂趣。",
+          },
+
+          { type: "text", value: "🛍️ 逛街與廁所：" },
+          {
+            type: "text",
+            value:
+              "一樓有很棒的設計選物店 (Epal)，販售北歐風格的家居用品。這裡的廁所也是免費且乾淨的，是市區逛街很棒的中繼站。",
+          },
+        ],
+      },
+      {
+        id: "d8-6",
+        time: "19:00",
+        place: "晚餐：首都美食推薦",
+        note: "羊肉熱狗 / 龍蝦湯 / 麵包湯",
+        mapUrl: "https://goo.gl/maps/reykjavik-dinner",
+        content: [
+          {
+            type: "text",
+            value: "雷克雅維克是美食一級戰區，既然來到市區，晚餐選擇非常多：",
+          },
+          {
+            type: "text",
+            value:
+              '1. Bæjarins Beztu Pylsur (必吃熱狗)：\n柯林頓總統都吃過的路邊攤，必點 "One with everything" (加全部配料)，一份約 600-700 ISK，是最便宜的冰島美食。',
+          },
+          {
+            type: "text",
+            value:
+              "2. The Sea Baron (Sægreifinn)：\n在舊港口旁，最有名的是「龍蝦湯 (Lobster Soup)」配麵包，以及各式各樣的「烤魚串」。",
+          },
+          {
+            type: "text",
+            value:
+              "3. Icelandic Street Food：\n這家店以「無限續碗」的羊肉湯和貝殼麵包湯聞名，非常適合大食量且想省錢的旅人，店員超級熱情！",
+          },
+        ],
+      },
+      {
+        id: "d8-hotel",
+        time: "20:30",
+        place: "住宿：Esjan (Esjan Buses)",
+        note: "住進改裝巴士裡 / 眺望 Esja 山",
+        mapUrl: "https://maps.app.goo.gl/ENAbpHs7cAFeA2537",
+        content: [
+          {
+            type: "text",
+            value:
+              "今晚的住宿非常特別！Esjan 位於雷克雅維克北邊的 Kjalarnes (開車約 20-25 分鐘)，是一間由「廢棄公車」改裝而成的旅館。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_8.jpg",
+            alt: "Esjan 改裝巴士旅館外觀",
+          },
+
+          { type: "text", value: "🚌 住宿體驗：" },
+          {
+            type: "text",
+            value:
+              "● 房間：\n雖然是巴士改裝，但內部裝潢溫馨，有暖氣、小廚房區域 (通常有微波爐、熱水壺) 和舒適的床鋪。",
+          },
+          {
+            type: "text",
+            value:
+              "● 衛浴：\n有些房型(巴士)內有衛浴，有些可能需要使用旁邊的公共衛浴棟，入住時請確認。",
+          },
+          {
+            type: "text",
+            value:
+              "● 極光：\n因為遠離市區光害，且背靠 Esja 山、面海，這裡是極佳的極光觀測點！晚上記得拉開窗簾看看。",
+          },
+
+          {
+            type: "text",
+            value:
+              "⚠️ 補給提醒：\n這裡附近沒有便利商店，請務必在雷克雅維克市區買好明天的早餐和晚上的零食再過來。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 9 天 ---
   { day: 9, title: "第 9 天標題", items: [] },
   // --- 第 10 天 ---
