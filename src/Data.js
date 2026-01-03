@@ -2634,9 +2634,393 @@ export const itineraryData = [
     ],
   },
   // --- 第 12 天 ---
-  { day: 12, title: "第 10 天標題", items: [] },
+  {
+    day: 12,
+    title: "2/17 皇室花園與泰晤士河巡航",
+    items: [
+      {
+        id: "d12-1",
+        time: "10:00",
+        place: "Kensington Palace 肯辛頓宮",
+        note: "維多利亞女王出生地 / 黛安娜王妃故居",
+        mapUrl: "https://maps.app.goo.gl/9b4L4SABYKwheWgG8",
+        content: [
+          {
+            type: "text",
+            value:
+              "這座宮殿位於海德公園的西側，不僅是維多利亞女王出生和長大的地方，也是黛安娜王妃生前的居所。現在則是威廉王子與凱特王妃在倫敦的家（雖然他們主要住溫莎）。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/queen_2.jpg",
+            alt: "肯辛頓宮與花園",
+          },
+
+          { type: "text", value: "👑 必看亮點：" },
+          {
+            type: "text",
+            value:
+              "● 國王與皇后的國事廳 (State Apartments)：\n華麗的喬治亞式建築，尤其是「國王樓梯 (King's Staircase)」上的壁畫非常生動。",
+          },
+          {
+            type: "text",
+            value:
+              "● 維多利亞的童年 (Victoria: A Royal Childhood)：\n展出了女王小時候的玩具、衣服，以及她發現自己成為女王的那間房間。",
+          },
+          {
+            type: "text",
+            value:
+              "● 下沉式花園 (Sunken Garden)：\n這是黛安娜王妃生前最愛的地方。花園裡有一座紀念她的銅像，周圍種滿了她喜歡的白花。",
+          },
+
+          {
+            type: "text",
+            value:
+              "☕ 橘園下午茶 (The Orangery)：\n如果時間允許，宮殿旁的橘園餐廳非常漂亮，適合喝杯咖啡。",
+          },
+        ],
+      },
+      {
+        id: "d12-2",
+        time: "13:00",
+        place: "Moco Museum 現代藝術博物館",
+        note: "2024年新開幕 / Banksy & KAWS",
+        mapUrl: "https://maps.app.goo.gl/kZtamyocZjnkKXju9",
+        content: [
+          {
+            type: "text",
+            value:
+              "Moco Museum 是來自阿姆斯特丹和巴塞隆納的超人氣現代美術館，倫敦館於 2024 年才剛在 Marble Arch 開幕。這裡展出的不是古典油畫，而是最潮的街頭藝術與數位藝術。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/musum_2.jpg",
+            alt: "Moco Museum",
+          },
+
+          { type: "text", value: "🎨 必看三大展區：" },
+          {
+            type: "text",
+            value:
+              "1. 街頭藝術大師 (Moco Masters)：\n這裡有最完整的 **Banksy (班克斯)** 收藏，包含著名的《氣球女孩 (Girl with Balloon)》。還有 **Jean-Michel Basquiat**、**Keith Haring** 和 **KAWS** 的經典公仔，潮流感十足。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 現代大師 (Modern Masters)：\n展出 **Andy Warhol (安迪沃荷)** 的普普藝術作品，以及 **Yayoi Kusama (草間彌生)** 的波點南瓜與畫作。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 數位沉浸體驗 (Digital Immersive)：\n地下一樓有超好拍的「無限鏡屋 (Infinity Room)」與數位藝術裝置。雖然規模比不上 teamLab，但在倫敦市中心能拍到這種夢幻照片非常難得。",
+          },
+
+          { type: "text", value: "📸 參觀小撇步 (Tips)：" },
+          {
+            type: "text",
+            value:
+              "● 拍照友善：這是一間「鼓勵拍照」的博物館，請準備好手機容量，每個角落都很好拍。",
+          },
+          {
+            type: "text",
+            value:
+              "● 羅比威廉斯特展：\n如果運氣好，還能看到英國歌王 Robbie Williams 的跨界藝術展《Radical Honesty》，探討心理健康與成名代價。",
+          },
+          {
+            type: "text",
+            value:
+              "● 停留時間：\n展館共三層樓，但空間不算大，約 **60-90 分鐘** 就可以輕鬆逛完。",
+          },
+        ],
+      },
+      {
+        id: "d12-3",
+        time: "15:30",
+        place: "St. Paul's Cathedral 聖保羅座堂",
+        note: "世界第二大圓頂 / 黛安娜婚禮舉辦地",
+        mapUrl: "https://maps.app.goo.gl/q8c3u92bF6mwN9aJ8",
+        content: [
+          {
+            type: "text",
+            value:
+              "這座巴洛克風格的傑作由克里斯多佛·雷恩爵士 (Sir Christopher Wren) 在 1666 年倫敦大火後重建。高達 111 公尺的巨大圓頂，曾統治倫敦天際線長達 250 年。這裡也是 1981 年查爾斯王子與黛安娜王妃舉行世紀婚禮的地方。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/church_3.jpg",
+            alt: "宏偉的聖保羅座堂圓頂與內部",
+          },
+
+          { type: "text", value: "🧗 必做挑戰：攻頂三部曲 (The Dome Climb)" },
+          {
+            type: "text",
+            value:
+              "如果您體力允許，強烈建議挑戰爬 528 階樓梯到頂端，風景絕對值得：\n1. 耳語廊 (Whispering Gallery) [257階]：\n位於圓頂內部的迴廊。因為特殊的聲學設計，對著牆壁講悄悄話，對面的人（距離 30 公尺）真的聽得到！\n2. 石迴廊 (Stone Gallery) [376階]：\n第一層戶外觀景台，可以近距離看圓頂的結構。\n3. 金迴廊 (Golden Gallery) [528階]：\n最高點的觀景台，視野極佳，可以俯瞰泰晤士河、千禧橋和碎片塔 (The Shard)。",
+          },
+
+          { type: "text", value: "⚰️ 地下墓穴 (The Crypt)：" },
+          {
+            type: "text",
+            value:
+              "教堂地下室是歐洲最大的墓穴之一。這裡安葬了兩位英國最偉大的軍事英雄：擊敗拿破崙的威靈頓公爵 (Wellington) 和納爾遜將軍 (Nelson)。建築師雷恩爵士也長眠於此，他的墓誌銘寫著：「如果你在尋找他的紀念碑，就看看你的周圍吧 (Si monumentum requiris, circumspice)」。",
+          },
+
+          { type: "text", value: "⚠️ 極重要時間警告 (Last Entry)：" },
+          {
+            type: "text",
+            value:
+              "教堂的**最後入場時間通常是 16:00** (16:30 閉館)。\n您安排 **15:30** 抵達非常驚險！建議前面的 Moco Museum 行程盡量準時結束，最好能提早一點到，否則可能來不及登頂，只能參觀一樓。",
+          },
+        ],
+      },
+      {
+        id: "d12-4",
+        time: "17:30",
+        place: "Uber Boat (Blackfriars → Putney)",
+        note: "RB6 航線 / 泰晤士河夕陽巡航",
+        mapUrl: "https://maps.app.goo.gl/9gbBF7QFcca6beAo7",
+        content: [
+          {
+            type: "text",
+            value:
+              "參觀完聖保羅座堂，走路 5-8 分鐘到河邊的 Blackfriars Pier。我們要搭乘 Uber Boat (Thames Clippers) 的 **RB6 航線** 回西倫敦。",
+          },
+
+          { type: "text", value: "⛴️ 航程亮點：" },
+          {
+            type: "text",
+            value:
+              "這是一條「通勤航線」，通常只有平日上下班時間才有船 (往西開)。\n您將從水上穿越倫敦市中心，經過倫敦眼、國會大廈 (Big Ben)、巴特西發電站 (Battersea Power Station)，最後抵達 Putney Bridge。全程約 50 分鐘，沿途夜景美不勝收。",
+          },
+
+          { type: "text", value: "🎫 如何搭乘：" },
+          {
+            type: "text",
+            value:
+              "不需要預約！直接用 Oyster Card 或感應信用卡 (Contactless) 刷卡上船即可。也可以用 Uber App 買票。",
+          },
+
+          { type: "text", value: "🚌 抵達後交通：" },
+          {
+            type: "text",
+            value:
+              "在 Putney Pier 下船後，過橋到 Putney Bridge 地鐵站 (District Line)，搭一站就到 West Brompton (飯店)，或是搭公車 (如 74, 430 號) 也很方便。",
+          },
+        ],
+      },
+      {
+        id: "d12-hotel",
+        time: "19:00",
+        place: "住宿：Ibis Earls Court",
+        note: "西倫敦舒適之夜",
+        mapUrl: "https://maps.app.goo.gl/9BQHvaN1RTE35wSbA",
+        content: [
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_10.jpg",
+            alt: "Ibis Earls Court",
+          },
+          {
+            type: "text",
+            value:
+              "回到飯店休息。如果晚餐還沒吃，Putney Bridge 附近有很多不錯的河岸餐廳，或是回到 Earl's Court 附近覓食。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 13 天 ---
-  { day: 13, title: "第 9 天標題", items: [] },
+  {
+    day: 13,
+    title: "2/18 KKDay 巨石陣一日遊",
+    items: [
+      {
+        id: "d13-1",
+        time: "07:30",
+        place: "集合出發 (Meeting Point)",
+        note: "通常在 Victoria Coach Station 或 Earl's Court",
+        mapUrl: "https://maps.app.goo.gl/FqFz7VNxCSEb4qg78",
+        content: [
+          {
+            type: "text",
+            value:
+              "請務必再次確認您的電子憑證 (Voucher) 上的集合時間與地點。一日遊巴士通常非常準時，遲到是不等人的。",
+          },
+          {
+            type: "text",
+            value:
+              "💡 隨身準備：\n因為車程很長，建議隨身攜帶水和一些零食充飢。車上通常有 USB 充電孔，但建議還是帶著行動電源。",
+          },
+        ],
+      },
+      {
+        id: "d13-2",
+        time: "00:00",
+        place: "Windsor Castle 溫莎堡",
+        note: "女王週末的家 / 英國皇室象徵",
+        mapUrl: "https://maps.app.goo.gl/tSknjTjMio9pgEzJ9",
+        content: [
+          {
+            type: "text",
+            value:
+              "這是世界上有人居住的最大城堡，也是已故伊莉莎白女王最喜歡的「週末別墅」。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/queen_3.jpg",
+            alt: "壯觀的溫莎堡外觀",
+          },
+
+          { type: "text", value: "⚠️ 週三不開放警告 (Closed on Wednesdays)：" },
+          {
+            type: "text",
+            value:
+              "由於您是週三前往，城堡內部（國事廳、聖喬治禮拜堂）可能關閉。導遊通常會帶領進行「小鎮巡禮」。",
+          },
+
+          { type: "text", value: "🚶 替代行程建議：" },
+          {
+            type: "text",
+            value:
+              "1. 溫莎小鎮漫步：\n欣賞城堡宏偉的外牆與圓塔 (Round Tower)。\n2. 伊頓公學 (Eton College)：\n走過泰晤士河上的橋，對岸就是威廉與哈利王子的母校，也是著名的貴族男校。\n3. 歪屋 (The Crooked House)：\n就在城堡對面，一棟傾斜得很誇張的茶屋，非常有趣。",
+          },
+        ],
+      },
+      {
+        id: "d13-3",
+        time: "00:00",
+        place: "Stonehenge 巨石陣",
+        note: "世界文化遺產 / 千古之謎",
+        mapUrl: "https://maps.app.goo.gl/geS14y9rY2pk38EY9",
+        content: [
+          {
+            type: "text",
+            value:
+              "在一片荒蕪的索爾茲伯里平原 (Salisbury Plain) 上，矗立著這些重達 25 噸的巨石。它們是怎麼搬來的？是為了天文觀測還是宗教祭祀？至今仍是謎團。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/big_rock.jpg",
+            alt: "神秘的巨石陣",
+          },
+
+          { type: "text", value: "❓ 千古謎團 (The Mysteries)：" },
+          {
+            type: "text",
+            value:
+              "1. 怎麼搬運的？\n這些巨石分為兩種：巨大的撒森岩 (Sarsen) 和較小的藍石 (Bluestones)。考古發現，那些藍石竟然是從 **240 公里外** 的威爾斯 (Wales) 運來的！在沒有輪子和起重機的史前時代，這幾乎是不可能的任務。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 用途是什麼？\n至今沒有定論。有人說是為了「祭祀祖先」，有人說是「古代天文台」，也有人認為是「治療中心」。最神奇的是，巨石陣的主軸線完美對齊了 **夏至的日出** 與 **冬至的日落**。",
+          },
+
+          { type: "text", value: "🎧 參觀攻略 (Must Do)：" },
+          {
+            type: "text",
+            value:
+              "● 語音導覽 (Audio Guide)：\n這是參觀的靈魂！強烈建議下載官方 App 或現場領取導覽機（通常包含在門票內）。聽著解說繞行一圈，你才會知道這堆石頭背後的血淚與智慧，否則只會覺得這是一堆石頭。",
+          },
+          {
+            type: "text",
+            value:
+              "● 遊客中心 (Visitor Centre)：\n這裡有展示新石器時代的屋子和從遺跡挖出的工具，通常是搭接駁車 (Shuttle Bus) 前往巨石陣前的第一站。",
+          },
+
+          { type: "text", value: "⚠️ 實用提醒 (Important Tips)：" },
+          {
+            type: "text",
+            value:
+              "1. 穿著保暖：\n巨石陣位於平原中央，**「風非常大」** 且完全沒有遮蔽物。2 月份去體感溫度會非常低，請務必戴好毛帽、圍巾和防風外套。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 保持距離：\n為了保護古蹟，遊客只能沿著圍欄外的步道參觀，**不能觸摸石頭**（除非是特殊預約的日出/日落團）。雖然有點距離，但現場看還是很壯觀的。",
+          },
+        ],
+      },
+      {
+        id: "d13-4",
+        time: "00:00",
+        place: "Bath 巴斯古城",
+        note: "羅馬浴場 / 珍·奧斯汀故居",
+        mapUrl: "https://maps.app.goo.gl/xbD3Hzpf2xrhzqbH7",
+        content: [
+          {
+            type: "text",
+            value:
+              "巴斯是英國唯一擁有「天然溫泉」的城市。早在西元 43 年，羅馬人就在此建立了浴場和神廟。整座城市由當地特有的「巴斯岩 (Bath Stone)」建成，呈現溫暖的蜂蜜色，非常優雅。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/romt_spring.jpg",
+            alt: "冒著熱氣的羅馬浴場",
+          },
+
+          { type: "text", value: "🏛️ 必去景點 (Must Visit)：" },
+          {
+            type: "text",
+            value:
+              "1. 羅馬浴場 (The Roman Baths)：\n這是巴斯的心臟。你可以看到冒著熱氣的綠色溫泉水（注意：不能泡！只能看）。語音導覽做得非常好，會還原當時羅馬人的社交生活。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 巴斯修道院 (Bath Abbey)：\n就在浴場隔壁，以其巨大的扇形拱頂和「雅各的天梯 (Jacob's Ladder)」浮雕聞名。如果還有體力，可以參加登塔導覽 (Tower Tour) 俯瞰全城。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 普爾特尼橋 (Pulteney Bridge)：\n這是一座世界上少數「橋上蓋滿商店」的橋樑（類似佛羅倫斯的老橋），也是電影《悲慘世界》中賈維自盡場景的取景地（雖然電影裡是塞納河，但其實是在這拍的）。",
+          },
+          {
+            type: "text",
+            value:
+              "4. 皇家新月樓 (Royal Crescent)：\n由 30 棟房子連成一個巨大的半月形，前方是大片草地，是英國喬治亞式建築的巔峰之作。很多古裝劇（如《柏捷頓家族》）都在此取景。",
+          },
+
+          { type: "text", value: "😋 必吃美食：" },
+          {
+            type: "text",
+            value:
+              "● Sally Lunn's Bun：\n巴斯最古老的房子 (建於 1482 年) 賣的巨大圓麵包，口感像布里歐，配上鹹奶油或肉桂奶油非常好吃。",
+          },
+
+          {
+            type: "text",
+            value:
+              "🍪 伴手禮：Bath Bun (巴斯圓麵包) 或 Sally Lunn's 的巨大麵包。",
+          },
+        ],
+      },
+      {
+        id: "d13-hotel",
+        time: "00:00",
+        place: "返回 Ibis Earls Court",
+        note: "結束充實的一天",
+        mapUrl: "https://goo.gl/maps/ibis-earls-court",
+        content: [
+          {
+            type: "text",
+            value:
+              "巴士通常會在晚上 7:30 - 8:00 左右回到倫敦市區（通常是 Victoria 或 Gloucester Road 附近）。",
+          },
+          {
+            type: "text",
+            value:
+              "今晚可能會比較累，建議在下車點附近吃個晚餐，或是買外帶回飯店休息。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 14 天 ---
   { day: 14, title: "第 10 天標題", items: [] },
   // --- 第 15 天 ---
