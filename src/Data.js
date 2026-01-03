@@ -3005,7 +3005,7 @@ export const itineraryData = [
         time: "00:00",
         place: "返回 Ibis Earls Court",
         note: "結束充實的一天",
-        mapUrl: "https://goo.gl/maps/ibis-earls-court",
+        mapUrl: "https://maps.app.goo.gl/9BQHvaN1RTE35wSbA",
         content: [
           {
             type: "text",
@@ -3022,9 +3022,415 @@ export const itineraryData = [
     ],
   },
   // --- 第 14 天 ---
-  { day: 14, title: "第 10 天標題", items: [] },
+  {
+    day: 14,
+    title: "2/19 走進魔法世界：哈利波特片場",
+    items: [
+      {
+        id: "d14-1",
+        time: "10:45",
+        place: "集合出發 (Meeting Point)",
+        note: "搭乘專車前往華納兄弟片場 車程 1h 30m",
+        content: [],
+      },
+      {
+        id: "d14-2",
+        time: "12:30",
+        place: "Warner Bros. Studio Tour London",
+        note: "霍格華茲大廳 / 斜角巷 / 9¾月台",
+        mapUrl: "https://maps.app.goo.gl/Bo4Mv7vXF9u8RL1m9",
+        content: [
+          {
+            type: "text",
+            value:
+              "歡迎回家！這裡是《哈利波特》電影系列誕生的地方。不同於遊樂園，這裡展示了電影幕後的魔法工藝，包含真實的佈景、服裝、特效模型。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/harry.jpg",
+            alt: "霍格華茲大廳 (Great Hall)",
+          },
+
+          { type: "text", value: "📸 5大必拍場景 (Must Snap)：" },
+          {
+            type: "text",
+            value:
+              "1. 霍格華茲大廳 (Great Hall)：\n大門開啟的那一瞬間最感動！地板是真正的約克石鋪成的。注意看教師席，鄧不利多、石內卜的服裝都在那裡。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 9¾ 月台 (Platform 9¾)：\n這裡停著真正的「霍格華茲特快車」。一定要去推那個「消失在牆壁裡的手推車」，這是經典中的經典。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 古靈閣 (Gringotts)：\n最壯觀的新展區！先看金碧輝煌的銀行大廳，再看被巨龍摧毀後的廢墟，巨龍還會噴火（其實是煙霧特效），非常震撼。",
+          },
+          {
+            type: "text",
+            value:
+              "4. 斜角巷 (Diagon Alley)：\n走在奧利凡德魔杖店、衛斯理兄弟笑話店的櫥窗前，細節多到看不完。這裡是電影中哈利第一次接觸魔法世界的地方。",
+          },
+          {
+            type: "text",
+            value:
+              "5. 霍格華茲城堡模型 (The Model)：\n這是整個參觀的壓軸。電影中所有城堡外觀的空拍鏡頭都是拍這座巨大的模型。搭配燈光與音樂，許多人會在這裡感動落淚。",
+          },
+
+          { type: "text", value: "🍺 必做體驗：" },
+          {
+            type: "text",
+            value:
+              "參觀中途會來到戶外區 (Backlot)，這裡有一間餐廳。一定要買杯「奶油啤酒 (Butterbeer)」，它不含酒精，喝起來像焦糖奶油汽水。喝完的塑膠杯洗一洗可以帶回家當紀念品！",
+          },
+          {
+            type: "text",
+            value:
+              "在搭車回倫敦前，這是最後也是最大的一站！這裡有許多「倫敦市區買不到」的獨家商品。",
+          },
+          { type: "text", value: "🛍️ 內行玩家必買清單：" },
+          {
+            type: "text",
+            value:
+              "1. 客製化入學信 (Personalized Acceptance Letter)：\n這最值得！信封上會印著「你的名字」和「你家地址」，跟哈利收到的一模一樣，封蠟也是真的。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 片場限定服飾 (Studio Tour Exclusive)：\n請認明衣服背後有寫 Studio Tour London 金字的 Spirit Jersey (長袖寬版上衣)，這是你有來過片場的證明，市區商店沒有賣。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 巧克力蛙與柏蒂全口味豆：\n經典伴手禮，雖然哪裡都有，但這裡的包裝最齊全。",
+          },
+          {
+            type: "text",
+            value:
+              "4. 探險護照 (Passport)：\n這是免費的！別忘了檢查有沒有在各區蓋滿鋼印，這也是無價的回憶。",
+          },
+          { type: "text", value: "⚠️ 參觀攻略 (Tips)：" },
+          {
+            type: "text",
+            value:
+              "● 領取護照：入場前記得在服務台拿免費的「探險護照 (Passport)」，可以在各區蓋鋼印（尋寶遊戲）。\n● 戶外保暖：騎士公車和水蠟樹街 (德思禮家) 都在戶外，2月的倫敦很冷，外套別寄放。\n● 紀念品：最後的商店非常大，建議預留 30-45 分鐘逛。",
+          },
+        ],
+      },
+      {
+        id: "d14-3",
+        time: "17:00",
+        place: "回程 (Return Journey)",
+        note: "帶著魔杖與回憶返回倫敦",
+        content: [],
+      },
+      {
+        id: "d14-hotel",
+        time: "19:00",
+        place: "住宿：Ibis Earls Court",
+        note: "整理戰利品",
+        mapUrl: "https://maps.app.goo.gl/9BQHvaN1RTE35wSbA",
+        content: [
+          {
+            type: "text",
+            value:
+              "回到飯店。如果晚餐還沒吃，可以在 Earl's Court 附近找間酒吧，配著炸魚薯條，聊聊今天的魔法體驗。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 15 天 ---
-  { day: 15, title: "第 9 天標題", items: [] },
+  {
+    day: 15,
+    title: "2/20 倫敦西區：SOHO 探索與獅子王",
+    items: [
+      {
+        id: "d15-1",
+        time: "15:00",
+        place: "SOHO 蘇活區 & China Town",
+        note: "倫敦最潮街區 / 肯納比街 / 中國城",
+        mapUrl: "https://maps.app.goo.gl/Vaoy7sn7NiPxQpjh8",
+        content: [
+          {
+            type: "text",
+            value:
+              "SOHO 是倫敦最有活力的區域，充滿了獨立小店、酒吧、劇院和美食。這裡也是英國 LGBTQ+ 文化的中心，氣氛自由奔放。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/soho.jpg",
+            alt: "熱鬧的 SOHO 街道與霓虹燈",
+          },
+
+          {
+            type: "text",
+            value:
+              "這裡是倫敦最有活力的心臟地帶！SOHO 曾經是 17 世紀的貴族狩獵場（SOHO 是獵人發現獵物時的喊叫聲），後來變成了波希米亞藝術家、莫札特 (Mozart) 和馬克思 (Marx) 的居住地，現在則是潮流與美食的中心。",
+          },
+          { type: "text", value: "🛍️ SOHO 必逛與必買：" },
+          {
+            type: "text",
+            value:
+              "1. Liberty London (利伯提百貨)：\n這是倫敦最美的百貨！建於 1924 年，外觀是黑白色的都鐸式建築，木材來自兩艘真正的皇家海軍戰艦 (HMS Impregnable & Hindustan)。\n★ 必買：經典的 Liberty 印花布料 (Tana Lawn) 與絲巾，是英國著名的伴手禮。",
+          },
+          {
+            type: "text",
+            value:
+              "2. Carnaby Street (肯納比街)：\n60 年代「搖滾倫敦 (Swinging London)」的發源地，披頭四和滾石樂團常來這混。現在是色彩繽紛的步行街，頭頂的裝飾每季都會換，必拍！。",
+          },
+          {
+            type: "text",
+            value:
+              "3. Old Compton Street：\n這裡是倫敦 LGBTQ+ 的中心，街道上掛滿彩虹旗，有很多特色酒吧和咖啡廳，氣氛非常自由奔放。",
+          },
+
+          { type: "text", value: "🏮 China Town (倫敦華埠)：" },
+          {
+            type: "text",
+            value:
+              "位於 SOHO 旁，著名的「爵祿街 (Gerrard Street)」是核心。這裡原本在東倫敦，1950 年代才搬遷至此。入口的巨大牌樓和滿天的紅燈籠是最大特色。",
+          },
+          {
+            type: "text",
+            value:
+              "★ 必買必吃：\n1. 亞洲超市 (Loon Fung / SeeWoo)：想念家鄉味可以在這買泡麵或零食。\n2. 點心與燒鴨：文興酒家 (Four Seasons) 的燒鴨聞名全倫敦。\n3. 鯛魚燒 (Taiyaki)：中國城現在很流行這種網美甜點。",
+          },
+
+          { type: "text", value: "📸 網美必拍熱點 (Photo Spots)：" },
+          {
+            type: "text",
+            value:
+              "● Liberty 百貨正門：拍那個古老的木造鐘樓和花店入口。\n● Carnaby Street 的空中拱門：寫著 Welcome to Carnaby Street 的巨型標誌。\n● 中國城牌樓 (The Gates)：加上整排紅燈籠，非常有過年氣氛。\n● 蘇活廣場 (Soho Square) 的小木屋：廣場中間有一座可愛的都鐸式園丁小屋，很有童話感。",
+          },
+        ],
+      },
+      {
+        id: "d15-2",
+        time: "17:30",
+        place: "晚餐：劇前晚餐 (Pre-theatre Dinner)",
+        note: "建議在劇院附近用餐",
+        mapUrl: "https://goo.gl/maps/chinatown-london",
+        content: [
+          {
+            type: "text",
+            value:
+              "音樂劇 19:30 開演，建議在 17:30 左右先吃晚餐，以免開演前太趕。SOHO 區餐廳非常多：",
+          },
+          {
+            type: "text",
+            value:
+              "1. Burger & Lobster (Soho店)：\n經典的龍蝦大餐，離劇院區不遠。\n2. Flat Iron (鐵斗牛排)：\nCP 值極高的牛排，隨餐附送爆米花和餐後冰淇淋。\n3. 文興酒家 (Four Seasons)：\n在中國城，以「燒鴨」聞名全倫敦，想念中式口味的首選。",
+          },
+        ],
+      },
+      {
+        id: "d15-3",
+        time: "19:30",
+        place: "音樂劇：The Lion King (獅子王)",
+        note: "Lyceum Theatre / 視覺震撼 / 必看經典",
+        mapUrl: "https://maps.app.goo.gl/71eribWt2ZuuDGaY7",
+        content: [
+          {
+            type: "text",
+            value:
+              "在歷史悠久的 Lyceum Theatre (建於 1841 年) 欣賞迪士尼最成功的音樂劇。這不僅是聽歌，更是一場視覺盛宴。當《Circle of Life》響起，動物們從觀眾席走上舞台的那一刻，絕對會起雞皮疙瘩。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/lion.jpg",
+            alt: "獅子王音樂劇壯觀舞台",
+          },
+
+          { type: "text", value: "⚠️ 極重要觀劇須知 (Must Know)：" },
+          {
+            type: "text",
+            value:
+              "1. 嚴禁遲到：\n開演後通常會鎖門，要等到第一個適合的斷點（通常是 15-20 分鐘後）才能入場，錯過開場的《Circle of Life》就等於白來了！",
+          },
+          {
+            type: "text",
+            value:
+              "2. 安檢預留時間：\n入場需要檢查包包。建議 **19:00 前** 抵達劇院，還可以順便逛逛紀念品店或去酒吧買飲料。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 手機靜音：\n這非常重要。請將手機調成飛航模式或完全靜音，螢幕亮度調到最暗，以免影響他人。",
+          },
+          {
+            type: "text",
+            value:
+              "4. 禁止拍照錄影：\n演出期間「全程禁止」拍照錄影。工作人員抓得很嚴，甚至會用雷射筆照你警告。",
+          },
+
+          { type: "text", value: "👗 服裝與飲食：" },
+          {
+            type: "text",
+            value:
+              "● 穿著：Smart Casual (休閒但不隨便) 即可。不需要穿晚禮服，但請避免穿拖鞋、球衣或太破爛的短褲。\n● 飲食：劇院酒吧買的酒水可以帶進去喝（會幫你倒在塑膠杯裡），但禁止攜帶味道濃郁的熱食。",
+          },
+
+          { type: "text", value: "🚻 廁所攻略：" },
+          {
+            type: "text",
+            value:
+              "中場休息 (Interval) 只有 15 分鐘，女廁通常排爆。建議開演前先上，或是中場燈一亮立刻衝去。",
+          },
+        ],
+      },
+      {
+        id: "d15-hotel",
+        time: "22:15",
+        place: "返回 Ibis Earls Court",
+        note: "散場交通 / 小心扒手",
+        mapUrl: "https://maps.app.goo.gl/9BQHvaN1RTE35wSbA",
+        content: [
+          { type: "text", value: "散場時人潮洶湧，請注意隨身財物。" },
+          {
+            type: "text",
+            value:
+              "🚇 回程建議：\n從劇院走到 Covent Garden 或 Temple 地鐵站，搭乘 District Line (綠線) 或 Piccadilly Line (深藍線) 返回 Earl's Court。",
+          },
+          {
+            type: "text",
+            value:
+              "如果太累，也可以叫 Uber，但散場時段劇院門口車子很難停，建議稍微走遠一點（例如走到 Strand 大馬路上）再叫車。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 16 天 ---
-  { day: 16, title: "第 10 天標題", items: [] },
+  {
+    day: 16,
+    title: "2/21 自由行 & 完美的句點：最後衝刺與告別倫敦",
+    items: [
+      {
+        id: "d16-1",
+        time: "10:00",
+        place: "退房與寄放行李 (Check-out)",
+        note: "Ibis Earls Court",
+        content: [
+          {
+            type: "text",
+            value:
+              "辦理退房手續。建議將大件行李寄放在飯店櫃台 (Luggage Storage)，輕裝出門逛街，下午回來拿了直接去機場，非常順路。",
+          },
+        ],
+      },
+      {
+        id: "d16-2",
+        time: "11:00",
+        place: "Harrods 哈洛德百貨",
+        note: "倫敦地標級百貨 / 皇家認證",
+        mapUrl: "https://goo.gl/maps/harrods",
+        content: [
+          {
+            type: "text",
+            value:
+              "把握最後機會！從 Earls Court 搭地鐵 Piccadilly Line (深藍線) 只要幾站就到 Knightsbridge 站。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/d16-harrods.jpg",
+            alt: "Harrods 百貨華麗外觀",
+          },
+
+          { type: "text", value: "🛍️ 最後伴手禮推薦：" },
+          {
+            type: "text",
+            value:
+              "1. Harrods 紀念品部 (Gift Shop)：\n位於地下一樓。必買經典的 PVC 提袋 (Shopper Bag) 和穿著衛兵制服的哈洛德熊 (Harrods Bear)。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 食品廳 (Food Hall)：\n裝潢美得像宮殿。推薦買茶葉罐 (Earl Grey No.42)、奶油酥餅 (Shortbread) 或是松露巧克力。",
+          },
+
+          { type: "text", value: "🍽️ 奢華早午餐：" },
+          {
+            type: "text",
+            value:
+              "既然是最後一天，可以在 Harrods 裡面的 Tea Room 享用一頓優雅的早午餐，或是去附近的 Harvey Nichols 百貨頂樓餐廳。",
+          },
+        ],
+      },
+      {
+        id: "d16-3",
+        time: "14:00",
+        place: "V&A Museum 或 海德公園",
+        note: "最後的漫步",
+        mapUrl: "https://goo.gl/maps/va-museum",
+        content: [
+          {
+            type: "text",
+            value:
+              "逛完街如果還有時間，可以沿著 Brompton Road 走到附近的 V&A 博物館（世界最美博物館咖啡廳就在這），或是去海德公園散散步，享受倫敦最後的悠閒午後。",
+          },
+        ],
+      },
+      {
+        id: "d16-4",
+        time: "17:00",
+        place: "前往機場 (Head to Airport)",
+        note: "返回飯店拿行李 -> 希斯洛機場",
+        content: [
+          {
+            type: "text",
+            value: "回到 Ibis Earls Court 領取行李，準備前往機場。",
+          },
+          { type: "text", value: "🚇 交通方式 (最方便)：" },
+          {
+            type: "text",
+            value:
+              "直接在 **Earl's Court 站** 搭乘地鐵 **Piccadilly Line (深藍線)** 往西向 (Westbound) 直達 Heathrow Airport (LHR)。",
+          },
+          {
+            type: "text",
+            value:
+              "⏱️ 車程預估：約 45-50 分鐘。這條線直達，不用轉車搬行李，非常適合。",
+          },
+        ],
+      },
+      {
+        id: "d16-5",
+        time: "21:15",
+        place: "London 倫敦希斯洛機場 (LHR) 三航廈",
+        note: "訂單編號：FYYKJY，飛機：CI082 中華航空",
+        mapUrl: "https://maps.app.goo.gl/31aGFA558YxPgahg8",
+        content: [
+          {
+            type: "text",
+            value: "班機時間 21:15，建議在 **18:15 前** 抵達機場櫃檯報到。",
+          },
+          { type: "text", value: "⚠️ 機場提醒：" },
+          {
+            type: "text",
+            value:
+              "1. 退稅 (VAT Refund)：\n再次提醒，英國目前「沒有」遊客退稅服務。請不要花時間找退稅櫃台了。",
+          },
+          {
+            type: "text",
+            value: "2. 安檢：\n希斯洛機場安檢通常人很多，請預留足夠時間排隊。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 液體限制：\n手提行李的液體每瓶不能超過 100ml，且必須裝在透明夾鏈袋中（雖然部分航廈已升級掃描儀，但建議還是照舊規矩打包最保險）。",
+          },
+          {
+            type: "text",
+            value: "抵達桃園機場時間 18:15 一共飛行 13 小時",
+          },
+        ],
+      },
+    ],
+  },
 ];
