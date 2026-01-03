@@ -2118,13 +2118,11 @@ export const itineraryData = [
             value:
               "這間飯店最大的優勢就是「位置」！它是唯一一間位於機場航廈步行距離內的飯店。對於明天一早要搭飛機的人來說，不用半夜趕接駁車，可以睡到最後一刻。",
           },
-
           {
             type: "image",
             src: process.env.PUBLIC_URL + "/images/hotel_9.jpg",
             alt: "Aurora Hotel 外觀",
           },
-
           { type: "text", value: "🏨 住宿亮點：" },
           {
             type: "text",
@@ -2146,9 +2144,495 @@ export const itineraryData = [
     ],
   },
   // --- 第 10 天 ---
-  { day: 10, title: "第 10 天標題", items: [] },
+  {
+    day: 10,
+    title: "2/15 告別冰島，哈囉倫敦！",
+    items: [
+      {
+        id: "d10-1",
+        time: "05:00",
+        place: "凱夫拉維克國際機場 (KEF ✈️ LHR)",
+        note: "訂單編號：BEZMGQ，飛機：FI455 Icelandair",
+        mapUrl: "https://maps.app.goo.gl/ACwFGjhu8SAiJ8rV6",
+        content: [
+          {
+            type: "text",
+            value: "飛機時間：07:30-10:50",
+          },
+          {
+            type: "text",
+            value:
+              "早安！因為昨晚住在機場旁的 Aurora Hotel，今天早上不需要趕接駁車。直接拉著行李走路約 300 公尺 (4-5 分鐘) 就能抵達 Keflavík 機場的出境大廳。",
+          },
+          { type: "text", value: "✈️ 飛行提醒：" },
+          {
+            type: "text",
+            value:
+              "● 申根區離境：\n冰島是申根區，英國「不是」。所以在冰島機場通關時，會經過護照查驗 (Passport Control) 蓋離境章。抵達英國後也需要再過一次英國海關。",
+          },
+          {
+            type: "text",
+            value:
+              "● 時差：\n冰島 (GMT) 和英國 (GMT) 冬季時間是「沒有時差」的！不用調整手錶，非常方便。",
+          },
+        ],
+      },
+      {
+        id: "d10-2",
+        time: "12:00",
+        place: "Ibis Earls Court (寄放行李)",
+        note: "位於西倫敦的便捷住宿",
+        mapUrl: "https://maps.app.goo.gl/pEgMRe3ggBsmLuVg8",
+        content: [
+          {
+            type: "text",
+            value:
+              "抵達倫敦後，先前往飯店寄放行李。Ibis Earls Court 位於西倫敦，交通非常方便。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_10.jpg",
+            alt: "Ibis Earls Court",
+          },
+          { type: "text", value: "🚇 交通攻略 (How to get there)：" },
+          {
+            type: "text",
+            value:
+              "● 最近地鐵站：West Brompton (綠色 District Line)。\n從地鐵站出來走路約 3-5 分鐘即可抵達飯店。",
+          },
+          {
+            type: "text",
+            value:
+              "● 從機場來：\n如果是從 Heathrow (LHR) 機場，搭地鐵 Piccadilly Line 到 Earl's Court 站，再轉 District Line 一站到 West Brompton (或直接從 Earl's Court 走過來約 10 分鐘)。",
+          },
+        ],
+      },
+      {
+        id: "d10-3",
+        time: "15:00",
+        place: "Big Ben 大笨鐘 & 國會大廈",
+        note: "倫敦最經典地標 / 2022年修復完成",
+        mapUrl: "https://maps.app.goo.gl/XMyPbo7UesezoERd7",
+        content: [
+          {
+            type: "text",
+            value:
+              "Big Ben 是倫敦的地標，也是英國國會大廈 (Palace of Westminster) 的鐘樓。它剛剛經歷了長達 5 年的維修，終於在 2022 年拆除鷹架，露出煥然一新的金光閃閃面貌（原本是黑黑舊舊的）。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/clock.jpeg",
+            alt: "金光閃閃的大笨鐘與紅色雙層巴士",
+          },
+
+          { type: "text", value: "📜 歷史小知識：" },
+          {
+            type: "text",
+            value:
+              '其實 "Big Ben" 指的是塔裡面那顆重達 13 噸的「大鐘」，而不是塔本身。這座塔在 2012 年為了紀念伊莉莎白二世登基鑽石禧年，正式改名為「伊莉莎白塔 (Elizabeth Tower)」。',
+          },
+
+          { type: "text", value: "📸 最佳拍照點：" },
+          {
+            type: "text",
+            value:
+              "1. 西敏橋上 (Westminster Bridge)：最經典角度，但也最多人。\n2. 對岸的橋洞下：走過橋到南岸，找一個橋墩的拱門當相框，拍大笨鐘非常有氛圍。\n3. 紅色電話亭：在大笨鐘對街 (Great George St) 有幾個紅色電話亭，可以拍出「電話亭+大笨鐘」的完美倫敦意象。",
+          },
+        ],
+      },
+      {
+        id: "d10-4",
+        time: "16:30",
+        place: "London Eye 倫敦眼",
+        note: "千禧之輪 / 俯瞰泰晤士河",
+        mapUrl: "https://maps.app.goo.gl/K5fV6dpDRYBCijmn9",
+        content: [
+          {
+            type: "text",
+            value:
+              "就在大笨鐘的斜對岸（走過西敏橋就到了）。倫敦眼原本是為了慶祝西元 2000 年千禧年而蓋的「暫時性建築」，預計 5 年後拆除，結果太受歡迎而保留至今，現在是全球最熱門的付費觀光景點之一。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/big_eyes.jpg",
+            alt: "巨大的倫敦眼摩天輪",
+          },
+
+          { type: "text", value: "🎡 搭乘攻略：" },
+          {
+            type: "text",
+            value:
+              "● 轉一圈時間：約 30 分鐘。\n● 票價：現場買很貴且要排隊，強烈建議「提前上網買票」 (Standard Ticket 約 £30-35)。\n● 景色：天氣好時可以看到溫莎城堡。傍晚去最美，可以同時看到日落和亮燈後的夜景。",
+          },
+
+          { type: "text", value: "⚠️ 治安提醒 (Safety)：" },
+          {
+            type: "text",
+            value:
+              "西敏橋 (Westminster Bridge) 連接大笨鐘和倫敦眼，這裡遊客如織，是倫敦「扒手」最猖獗的地方！在橋上拍照時，包包一定要背前面，手機拿好，不要讓陌生人靠太近。",
+          },
+        ],
+      },
+      {
+        id: "d10-hotel",
+        time: "19:00",
+        place: "住宿：Ibis Earls Court",
+        note: "地鐵 West Brompton 站旁",
+        mapUrl: "https://maps.app.goo.gl/pEgMRe3ggBsmLuVg8",
+        content: [
+          {
+            type: "text",
+            value:
+              "結束第一天的倫敦探險，搭地鐵回到西倫敦的家。這間飯店是典型的商務旅館，房間雖不大但乾淨齊全。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_10.jpg",
+            alt: "Ibis Earls Court 飯店外觀",
+          },
+          { type: "text", value: "🏪 周邊機能：" },
+          {
+            type: "text",
+            value:
+              "● 超市：附近稍微走幾分鐘有 Tesco Express 或 Sainsbury's Local。\n● 晚餐：Earl's Court 地鐵站附近有很多餐廳（Nando's 烤雞、義大利麵、酒吧等），比飯店周邊熱鬧很多。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 11 天 ---
-  { day: 11, title: "第 9 天標題", items: [] },
+  {
+    day: 11,
+    title: "2/16 皇室風華與倫敦塔傳奇",
+    items: [
+      {
+        id: "d11-1",
+        time: "09:00",
+        place: "Westminster Abbey 西敏寺",
+        note: "歷代國王加冕地 / 達爾文牛頓長眠處",
+        mapUrl: "https://maps.app.goo.gl/GPpEnUJ1agGHUVCK7",
+        content: [
+          {
+            type: "text",
+            value:
+              "這座哥德式建築是英國地位最高的教堂。自 1066 年以來，幾乎每一位英國君主（包含伊莉莎白二世和現在的查爾斯三世）都在此舉行加冕典禮。這裡也是威廉王子與凱特的婚禮舉辦地。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/church_2.jpg",
+            alt: "壯麗的西敏寺外觀",
+          },
+          { type: "text", value: "📜 歷史看點：" },
+          {
+            type: "text",
+            value:
+              "除了皇室，這裡也是英國「偉人」的長眠地。你可以找到牛頓 (Newton)、達爾文 (Darwin)、狄更斯 (Dickens) 以及霍金 (Hawking) 的墓碑或紀念碑。踩在這些歷史巨人的名字上，感覺非常奇妙。",
+          },
+          {
+            type: "text",
+            value:
+              "⚠️ 參觀提醒：教堂內部神聖，雖然現在開放拍照，但請保持安靜。語音導覽機 (Audio Guide) 通常包含在門票內，有中文解說，非常值得聽。",
+          },
+        ],
+      },
+      {
+        id: "d11-2",
+        time: "10:45",
+        place: "Buckingham Palace 白金漢宮",
+        note: "衛兵交接儀式 / 英國王室居所",
+        mapUrl: "https://maps.app.goo.gl/fSc9SBZYG5Bj3HJ38",
+        content: [
+          {
+            type: "text",
+            value:
+              "從西敏寺穿過聖詹姆斯公園 (St James's Park) 走路約 15 分鐘即可抵達。您設定 10:45 是非常聰明的時間，因為著名的「衛兵交接 (Changing of the Guard)」通常在 11:00 正式開始，必須提早去卡位！",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/queen.jpg",
+            alt: "穿著紅衣黑帽的皇家衛兵",
+          },
+          { type: "text", value: "💂‍♂️ 觀賞攻略：" },
+          {
+            type: "text",
+            value:
+              "● 時間：冬季通常是「週一、三、五、日」舉行。正式儀式 11:00 開始，但建議 **10:15 - 10:30** 就先去卡位。",
+          },
+          {
+            type: "text",
+            value:
+              "● 取消風險：如果當天「下大雨」，儀式會臨時取消！請當天早上查看官方 Twitter (@ChangingGuard) 確認。",
+          },
+          {
+            type: "text",
+            value:
+              "● 最佳位置：維多利亞女王紀念碑 (The Victoria Memorial) 的台階上，視野最高。",
+          },
+
+          { type: "text", value: "🚩 國王在家嗎？看旗幟！" },
+          {
+            type: "text",
+            value:
+              "抬頭看宮殿上方的旗幟：\n● 君主旗 (紅黃藍配色)：國王 **在** 家。\n● 英國國旗 (米字旗)：國王 **不在** 家。",
+          },
+
+          { type: "text", value: "⚠️ 極重要注意事項 (Must Read)：" },
+          {
+            type: "text",
+            value:
+              "1. 廁所警告：\n白金漢宮周圍「完全沒有公廁」！最近的付費廁所在聖詹姆斯公園裡 (走約 10 分鐘)。請務必在地鐵站或咖啡廳先解決生理需求。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 扒手警戒：\n交接儀式時人潮極度擁擠，是倫敦扒手最喜歡下手的時刻。請將背包背在前面，手機錢包絕對不離手。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 勿觸碰衛兵：\n他們是配有真槍實彈的現役軍人。請保持距離，不要試圖觸碰或阻擋行進路線，否則會被喝斥。",
+          },
+        ],
+      },
+      {
+        id: "d11-3",
+        time: "12:30",
+        place: "午餐：Borough Market",
+        note: "倫敦最古老美食市集 / 哈利波特取景地",
+        mapUrl: "https://maps.app.goo.gl/UMkQttaxTSE633ee8",
+        content: [
+          {
+            type: "text",
+            value:
+              "看完衛兵，搭地鐵 (Jubilee Line) 到 London Bridge 站。Borough Market 是倫敦最棒的美食戰場，已有千年歷史！",
+          },
+          {
+            type: "text",
+            value:
+              "這裡是倫敦最古老的食品市場，歷史可追溯到 11 世紀（超過 1000 年！）。位於倫敦橋下，綠色的維多利亞式鐵路拱橋是它的標誌。這裡匯集了全英國最頂級的食材與街頭小吃，連名廚 Jamie Oliver 都是常客。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/market.jpg",
+            alt: "Borough Market",
+          },
+          { type: "text", value: "😋 必吃五大天王 (Must Eats)：" },
+          {
+            type: "text",
+            value:
+              "1. Richard Haward's Oysters：\n產地直送的生蠔，非常新鮮且便宜（一顆約 £1.5 - £2），立食體驗非常道地。",
+          },
+          {
+            type: "text",
+            value:
+              "2. Bread Ahead Bakery：\n必買「爆漿甜甜圈 (Doughnuts)」，經典的香草卡士達 (Vanilla Custard) 或海鹽焦糖 (Salted Caramel) 口味，咬下去內餡會炸出來，超級滿足。",
+          },
+          {
+            type: "text",
+            value:
+              "3. Brindisa：\n門口大排長龍就是在買這個！「西班牙臘腸捲 (Chorizo Roll)」，剛煎好的臘腸配上烤甜椒和芝麻葉，香氣逼人。",
+          },
+          {
+            type: "text",
+            value:
+              "4. Kappacasein Dairy：\n起司控的天堂。必點「烤起司三明治 (Cheese Toastie)」或直接淋在馬鈴薯上的熱熔起司 (Raclette)。",
+          },
+          {
+            type: "text",
+            value:
+              "5. Monmouth Coffee：\n就在市場對面，是倫敦最早的精品咖啡店之一。手沖咖啡 (Filter Coffee) 非常有名。",
+          },
+
+          { type: "text", value: "⚠️ 參觀小撇步 (Tips)：" },
+          {
+            type: "text",
+            value:
+              "● 公休日：\n週一市場大部分攤位休息（只有少數營業），週三至週六攤位最齊全。週日則只開到下午 4 點。",
+          },
+          {
+            type: "text",
+            value:
+              "● 座位：\n市場內座位非常少，大部分都是「立食」或拿到旁邊的教堂庭院吃。建議輕裝簡便，不要背太大的包包。",
+          },
+          {
+            type: "text",
+            value:
+              "● 廁所：\n市場內設有免費公廁，維持得還算乾淨，這在倫敦很難得。",
+          },
+        ],
+      },
+      {
+        id: "d11-4",
+        time: "14:30",
+        place: "Tower of London 倫敦塔",
+        note: "世界遺產 / 皇冠珠寶 / 倫敦最血腥的歷史",
+        mapUrl: "https://maps.app.goo.gl/CmV74oasEmBpv5Yi8",
+        content: [
+          {
+            type: "text",
+            value:
+              "吃飽後走過倫敦橋就到北岸的倫敦塔。別被名字騙了，它不是塔，而是一座巨大的「城堡」。它曾是皇宮、堡壘、軍火庫，最著名的是作為「監獄」和「刑場」。",
+          },
+          {
+            type: "text",
+            value:
+              "別被名字騙了，它不是一座塔，而是一座巨大的「城堡要塞」。由「征服者威廉 (William the Conqueror)」於 1078 年建造，最初是為了鎮壓倫敦市民。近千年來，它曾是皇宮、軍火庫、造幣廠，但最著名的身份是「國家監獄」和「刑場」。",
+          },
+
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/london_h.jpg",
+            alt: "倫敦塔的城牆與白塔",
+          },
+
+          { type: "text", value: "🩸 著名的血腥歷史 (Dark History)：" },
+          {
+            type: "text",
+            value:
+              "● 安妮·博林 (Anne Boleyn)：\n亨利八世的第二任妻子，因為生不出兒子被誣陷通姦，最後在塔內的綠地 (Tower Green) 被斬首。傳說她的幽靈至今仍會捧著頭在塔內遊蕩。",
+          },
+          {
+            type: "text",
+            value:
+              "● 塔中王子 (Princes in the Tower)：\n愛德華四世的兩個小兒子（12歲和9歲）被關進塔裡後神秘失蹤，兩百年後工人在樓梯下發現兩具兒童骨骸，至今仍是英國史上最大懸案。",
+          },
+
+          { type: "text", value: "💎 必看亮點 (Highlights)：" },
+          {
+            type: "text",
+            value:
+              "1. 皇冠珠寶 (The Crown Jewels)：\n這裡收藏著現任國王加冕時使用的聖愛德華皇冠、帝國皇冠（上面有 317 克拉的「庫里南二號」鑽石）以及鑲嵌著世界最大白鑽「非洲之星 (530克拉)」的權杖。排隊看這個絕對值得！",
+          },
+          {
+            type: "text",
+            value:
+              "2. 白塔 (White Tower)：\n城堡正中央最古老的建築，現在是皇家軍械庫，展示亨利八世巨大的盔甲和各式中世紀武器。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 皇家守衛 (Yeoman Warders)：\n身穿藍紅制服、胸前有皇冠標誌，俗稱 Beefeaters (吃牛肉的人)。他們不僅是守衛，更是最幽默的導覽員。強烈建議參加他們免費的導覽團 (約 60 分鐘)，聽他們講鬼故事非常精彩。",
+          },
+
+          { type: "text", value: "🦅 渡鴉傳說 (The Ravens)：" },
+          {
+            type: "text",
+            value:
+              "塔內飼養著 6-7 隻巨大的黑色渡鴉。傳說「如果渡鴉飛離倫敦塔，白塔將會倒塌，英國將會滅亡」。所以皇室非常迷信，設有專門的「渡鴉官」照顧牠們，甚至還剪了羽毛防止牠們飛太遠。",
+          },
+
+          { type: "text", value: "⚠️ 參觀小撇步：" },
+          {
+            type: "text",
+            value:
+              "● 購票：這是一個非常熱門的景點，強烈建議提前上網買票，可以省去現場排隊購票的時間。",
+          },
+          {
+            type: "text",
+            value:
+              "● 順序：一進場建議「先衝皇冠珠寶館 (Jewel House)」，因為那裡的隊伍通常最長。",
+          },
+        ],
+      },
+      {
+        id: "d11-5",
+        time: "16:30",
+        place: "Tower Bridge 倫敦塔橋",
+        note: "倫敦最美地標 / 注意不是 London Bridge",
+        mapUrl: "https://maps.app.goo.gl/PwUYFNKuXLdHxgBu9",
+        content: [
+          {
+            type: "text",
+            value:
+              "這就是那座童謠裡「跨下來」的橋（雖然童謠唱的是 London Bridge，但大家腦中浮現的都是這座）。它是倫敦最美的地標，兩座哥德式塔樓非常壯觀。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/town_london.jpg",
+            alt: "Tower Bridge 倫敦塔橋",
+          },
+          { type: "text", value: "📸 拍照攻略：" },
+          {
+            type: "text",
+            value:
+              "1. 橋上人行道：走在橋上拍藍色的懸索。\n2. 泰晤士河南岸 (Potters Fields Park)：過了橋往右走，在草地上可以拍到整座橋的全景，是最佳合照點。",
+          },
+          {
+            type: "text",
+            value:
+              "⚠️ 區分：\n請注意，剛剛在市場旁邊那座平平無奇的水泥橋叫「London Bridge (倫敦橋)」，這座有兩個尖塔的華麗橋樑才是「Tower Bridge (倫敦塔橋)」。",
+          },
+        ],
+      },
+      {
+        id: "d11-6",
+        time: "18:00",
+        place: "Regent Street 攝政街",
+        note: "購物天堂 / 絕美弧形街道 / Hamleys",
+        mapUrl: "https://maps.app.goo.gl/p8HRUEzB3BTfbbGN6",
+        content: [
+          {
+            type: "text",
+            value:
+              "搭地鐵到 Oxford Circus 站。這裡是倫敦最氣派的購物街，兩旁是優雅的喬治亞式建築，著名的「弧形街道」非常適合街拍。",
+          },
+          { type: "text", value: "🧸 必逛：Hamleys (玩具王國)" },
+          {
+            type: "text",
+            value:
+              "世界最古老、最大的玩具店，整整 7 層樓！這裡賣的不是玩具，是「快樂」。店員會在門口吹泡泡、變魔術、玩無人機。不管幾歲進去都會變成孩子。想買柏靈頓熊 (Paddington Bear) 或樂高 (Lego) 倫敦限定版，來這裡就對了。",
+          },
+
+          { type: "text", value: "🛍️ 必逛：Liberty London (百年百貨)" },
+          {
+            type: "text",
+            value:
+              "嚴格來說它在攝政街旁邊的巷子 (Great Marlborough St)，但絕對必去！這是一棟黑白色的「都鐸式木造建築」，已有百年歷史。裡面賣的是最高級的布料、絲巾和設計師選物。光是欣賞那古老的木造樓梯和採光天井就值得了。",
+          },
+
+          { type: "text", value: "🇬🇧 英國本土名牌旗艦店：" },
+          {
+            type: "text",
+            value:
+              "1. Burberry：\n全球旗艦店就在這裡，款式最齊全，想買經典風衣或圍巾的可以來朝聖。\n2. Jo Malone：\n攝政街上有旗艦店，價格通常比台灣便宜，是送禮首選。\n3. Barbour：\n英國皇室御用的防水外套品牌，非常有英倫紳士感。\n4. The Body Shop / Lush：\n這些源自英國的香氛保養品牌，在當地的價格非常親民。",
+          },
+
+          { type: "text", value: "⚠️ 購物重要提醒 (Tax Refund)：" },
+          {
+            type: "text",
+            value:
+              "這點非常重要！自從英國脫歐後，英國政府已經**「取消」了外國遊客的增值稅退稅 (VAT Refund)**。也就是說，現在在倫敦買名牌包或高價品，是**不能退稅**的（直接含稅價）。雖然英鎊匯率有時不錯，但少了 12-20% 的退稅，大額消費前請先按計算機比價一下。",
+          },
+        ],
+      },
+      {
+        id: "d11-hotel",
+        time: "21:00",
+        place: "住宿：Ibis Earls Court",
+        note: "地鐵 District Line 直達",
+        mapUrl: "https://maps.app.goo.gl/9BQHvaN1RTE35wSbA",
+        content: [
+          {
+            type: "text",
+            value:
+              "逛累了嗎？從 Piccadilly Circus 或 Oxford Circus 搭地鐵返回西倫敦休息。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/hotel_10.jpg",
+            alt: "Ibis Earls Court",
+          },
+          {
+            type: "text",
+            value:
+              "🚇 回程建議：\n如果是從 Piccadilly Circus 出發，搭乘深藍色 Piccadilly Line 直達 Earl's Court 站，再走回飯店，不用轉車最方便。",
+          },
+        ],
+      },
+    ],
+  },
   // --- 第 12 天 ---
   { day: 12, title: "第 10 天標題", items: [] },
   // --- 第 13 天 ---
