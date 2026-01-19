@@ -45,7 +45,7 @@ export const packingList = [
     items: [
       "手機充電器",
       "手錶充電器",
-      "sony 耳機",
+      "耳機（可選）",
       "變壓充電器",
       "手錶",
       "行動電源",
