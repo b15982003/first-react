@@ -154,7 +154,7 @@ export const itineraryData = [
           },
           {
             type: "mapButton",
-            url: "https://maps.app.goo.gl/fLMG1dXgXpaRpxVt5",
+            url: "https://maps.app.goo.gl/ChpsG1fjpNcb3g328",
             label: "🏨 導航去民宿",
           },
         ],
@@ -281,7 +281,7 @@ export const itineraryData = [
       {
         id: "d2-4",
         time: "15:30",
-        place: "Costco & 小豬超市",
+        place: "Costco & 小豬超市(3 日份）",
         note: "採買",
         mapUrl: "https://maps.app.goo.gl/taPYwREtbRJhdj1J8",
         content: [],
@@ -489,8 +489,8 @@ export const itineraryData = [
       {
         id: "d3-3",
         time: "12:00",
-        place: "午餐～",
-        note: "還在找",
+        place: "午餐：前一天小豬超市購買",
+        note: "",
         mapUrl: "https://goo.gl/maps/example2",
         content: [],
       },
@@ -614,10 +614,52 @@ export const itineraryData = [
       {
         id: "d3-6",
         time: "18:00",
-        place: "晚餐自理或是鎮上找",
-        note: "還在找",
+        place: "晚餐自煮或是鎮上餐廳",
+        note: "",
         mapUrl: "https://goo.gl/maps/example2",
         content: [],
+      },
+      {
+        id: "d3-7",
+        time: "19:00",
+        place: "N1 加油",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/W1uiiKYDmjDRK142A",
+        content: [
+          {
+            type: "text",
+            value:
+              "冰島加油站（如 N1、Olís）多數採「自助式」且無人值守。這不僅是補給燃料，更是體驗冰島公路旅行的一環。以下是操作流程與千萬要注意的陷阱。",
+          },
+          { type: "text", value: "⛽ 自助加油標準流程：" },
+          {
+            type: "text",
+            value:
+              "1. 插入信用卡 \n2. 輸入 4 位數 PIN 碼 (必備!) \n3. 選擇「固定金額」 (關鍵步驟) \n4. 輸入油槍號碼 \n5. 提槍加油 \n6. 若需收據通常需再次插卡",
+          },
+          { type: "text", value: "⚠️ 三大保命注意事項：" },
+          {
+            type: "text",
+            value:
+              "1. 勿選「加滿 (Fill Up/Full Tank)」：\n選加滿會被機器圈存高額預授權金 (約台幣 5000-7000 元)，解凍退款需數天到一週。建議選擇「固定金額」(如 5000 kr)，加不完只會扣實際金額，不會吃虧。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 必備 4 位數 PIN 碼：\n冰島無人機器強制要求輸入 PIN。出發前請務必向銀行開通「預借現金密碼」(4碼)。若無 PIN 碼，只能改用 Apple Pay (部分機器支援) 或至商店購買 N1 預付卡 (Prepaid Card)。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 認明油槍顏色：\n⚫ 黑色 = 柴油 (Diesel)\n🟢 綠色 = 95 汽油 (Bensín)\n千萬別只看顏色，務必核對文字，加錯油會導致引擎報銷且保險不理賠！",
+          },
+          { type: "text", value: "💡 省錢小撇步：" },
+          {
+            type: "text",
+            value:
+              "檢查租車鑰匙上有沒有掛著加油站的「感應扣 (Fob)」。操作時先拿感應扣在機器上嗶一下，再插信用卡，通常每公升能省 3 ISK 左右喔！",
+          },
+        ],
       },
     ],
   },
@@ -803,10 +845,53 @@ export const itineraryData = [
       {
         id: "d4-4",
         time: "12:00",
-        place: "午餐",
+        place: "午餐: Geysir Glima restaurant",
         note: "還在找",
-        mapUrl: "https://maps.app.goo.gl/VyeWxDH1mDaSqzZH9",
-        content: [],
+        mapUrl: "https://maps.app.goo.gl/SyBjpfqbbQi3ckrL7",
+        content: [
+          {
+            type: "text",
+            value:
+              "參觀完壯觀的 Strokkur 間歇泉後，這間位於 Geysir Center 內的餐廳是最佳的休息站。它採用 Bistro (小酒館) 風格，提供道地的冰島料理與舒適的落地窗景。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/rest_4.jpg",
+            alt: "Geysir Glima 餐廳內部與景觀",
+          },
+          { type: "text", value: "🍽️ 餐廳特色與推薦美食：" },
+          {
+            type: "text",
+            value:
+              "1. 必點湯品 (Must Try)：\n這裡最出名的是「傳統羊肉湯 (Kjötsúpa)」與「海鮮魚湯」。遊客評價湯品料多實在，在寒風中看完間歇泉後，來一碗熱湯是絕佳享受。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 冰島傳統風格：\nGlíma 是冰島傳統「摔跤」運動的名字。餐廳內展示了相關的歷史照片與獎盃，充滿濃厚的冰島文化氛圍。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 景觀座位：\n運氣好的話可以坐在靠窗位置，邊享用午餐，邊欣賞窗外每幾分鐘就噴發一次的間歇泉美景。",
+          },
+          { type: "text", value: "⚠️ 用餐注意事項：" },
+          {
+            type: "text",
+            value:
+              "1. 點餐方式 (Canteen Style)：\n這裡是採「自助式食堂」模式。你需要先在櫃台排隊點餐、結帳，然後自己端盤子找位子。尖峰時段人潮眾多，建議避開正午 12:00-13:00。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 價格提醒 (Price)：\n身為黃金圈核心景點，價格偏「觀光客價」。主餐價格約在 2,500 - 4,000 ISK (約台幣 600-1000元) 之間。若想省錢，點一碗湯配麵包是CP值較高的選擇。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 其他選擇：\n如果只想簡單吃，餐廳旁邊還有附設的速食區 (Fast Food) 提供漢堡和披薩，或者去旁邊的便利商店買三明治。",
+          },
+        ],
       },
       {
         id: "d4-5",
@@ -1021,6 +1106,14 @@ export const itineraryData = [
       },
       {
         id: "d5-3",
+        time: "12:00",
+        place: "Krónan Vík 超市 (3天份)",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/7wv1NQPYoijekxmUA",
+        content: [],
+      },
+      {
+        id: "d5-4",
         time: "13:00",
         place: "Fjaðrárgljúfur 羽毛峽谷",
         note: "Justin Bieber MV 取景地 / 世界最美峽谷",
@@ -1071,7 +1164,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d5-4",
+        id: "d5-5",
         time: "15:00",
         place: "Svartifoss 玄武岩瀑布",
         note: "需健行 / 冰島教堂的靈感來源",
@@ -1122,7 +1215,49 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d5-5",
+        id: "d5-6",
+        time: "19:00",
+        place: "N1 加油",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/W1uiiKYDmjDRK142A",
+        content: [
+          {
+            type: "text",
+            value:
+              "冰島加油站（如 N1、Olís）多數採「自助式」且無人值守。這不僅是補給燃料，更是體驗冰島公路旅行的一環。以下是操作流程與千萬要注意的陷阱。",
+          },
+          { type: "text", value: "⛽ 自助加油標準流程：" },
+          {
+            type: "text",
+            value:
+              "1. 插入信用卡 \n2. 輸入 4 位數 PIN 碼 (必備!) \n3. 選擇「固定金額」 (關鍵步驟) \n4. 輸入油槍號碼 \n5. 提槍加油 \n6. 若需收據通常需再次插卡",
+          },
+          { type: "text", value: "⚠️ 三大保命注意事項：" },
+          {
+            type: "text",
+            value:
+              "1. 勿選「加滿 (Fill Up/Full Tank)」：\n選加滿會被機器圈存高額預授權金 (約台幣 5000-7000 元)，解凍退款需數天到一週。建議選擇「固定金額」(如 5000 kr)，加不完只會扣實際金額，不會吃虧。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 必備 4 位數 PIN 碼：\n冰島無人機器強制要求輸入 PIN。出發前請務必向銀行開通「預借現金密碼」(4碼)。若無 PIN 碼，只能改用 Apple Pay (部分機器支援) 或至商店購買 N1 預付卡 (Prepaid Card)。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 認明油槍顏色：\n⚫ 黑色 = 柴油 (Diesel)\n🟢 綠色 = 95 汽油 (Bensín)\n千萬別只看顏色，務必核對文字，加錯油會導致引擎報銷且保險不理賠！",
+          },
+          { type: "text", value: "💡 省錢小撇步：" },
+          {
+            type: "text",
+            value:
+              "檢查租車鑰匙上有沒有掛著加油站的「感應扣 (Fob)」。操作時先拿感應扣在機器上嗶一下，再插信用卡，通常每公升能省 3 ISK 左右喔！",
+          },
+        ],
+      },
+      {
+        id: "d5-7",
         time: "17:00",
         place: "Vagnsstadir Guesthouse 住宿",
         note: "住宿 車程三小時",
@@ -1263,10 +1398,49 @@ export const itineraryData = [
       {
         id: "d6-2",
         time: "12:00",
-        place: "午餐",
-        note: "待確認",
-        mapUrl: "",
-        content: [],
+        place: "午餐: Fjallsárlón Frost Restaurant",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/TnnP9rRpy7dhcTEG9",
+        content: [
+          {
+            type: "text",
+            value:
+              "Frost Restaurant 位於 Fjallsárlón 冰河湖畔，是一間主打現代北歐風格的景觀餐廳。這裡擁有巨大的全景落地窗，讓遊客能邊享用熱食，邊欣賞震撼的 Vatnajökull 冰川全景。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/rest_6.jpg",
+            alt: "Frost Restaurant 的冰川全景座位",
+          },
+          { type: "text", value: "🥘 餐點特色 (Self-Service Buffet)：" },
+          {
+            type: "text",
+            value:
+              "1. 自助式熱食 (Buffet Style)：\n不同於一般單點餐廳，這裡主打「自助式」取餐。常見菜色包括咖哩雞、焗烤魚排、燉羊肉以及素食選項 (如扁豆燉菜)。對於趕時間的旅人來說，不需要等待太久即可開動。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 暖心湯品與輕食：\n如果不餓，強烈推薦點一碗「熱湯 (Soup of the day)」配麵包（約 2,000 ISK）。招牌的番茄湯或冰島肉湯，配上窗外的寒冷冰川，是許多遊客的最愛。另外也有三明治與蛋糕可供選擇。",
+          },
+          { type: "text", value: "✨ 獨家亮點：" },
+          {
+            type: "text",
+            value:
+              "1. 避開人潮的秘境：\n大部分團客都會擠在 Jökulsárlón 吃飯，這裡相對安靜許多。你可以悠閒地喝杯咖啡，享受不被干擾的冰河美景。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 絕佳視野 (The View)：\n餐廳設計採階梯式或大面寬窗戶，幾乎每個座位都能看到冰川。這被認為是冰島南部景觀最好的午餐地點之一。",
+          },
+          { type: "text", value: "ℹ️ 實用資訊：" },
+          {
+            type: "text",
+            value:
+              "・營業時間：主要供應午餐與下午茶 (通常為 09:30 - 16:00/17:00)，晚餐時段可能未營業，出發前請再次確認。\n・價格區間：每人約 2,000 - 4,000 ISK，屬中等價位。\n・無需訂位：採自助入座，直接抵達即可。",
+          },
+        ],
       },
       {
         id: "d6-3",
@@ -1442,10 +1616,54 @@ export const itineraryData = [
       {
         id: "d7-2",
         time: "13:00",
-        place: "午餐",
-        note: "待確認",
-        mapUrl: "",
-        content: [],
+        place: "午餐: Freysnes",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/XGxfCd74Pw95c3kZ7",
+        content: [
+          {
+            type: "text",
+            value:
+              "Freysnes 不僅僅是一個加油站，它是 Skaftafell 國家公園對面最重要的「遊客食堂」。這裡是前往冰川健行前後的最佳補給點，提供出乎意料美味的熱食與家常料理。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/rest_7.jpg",
+            alt: "Freysnes 加油站餐廳外觀",
+          },
+          { type: "text", value: "🍖 必吃美食推薦：" },
+          {
+            type: "text",
+            value:
+              "1. 招牌羊排 (Lamb Chops/Shank)：\n這裡的羊肉料理被許多遊客評為「驚喜之作」。肉質軟嫩無騷味，配上馬鈴薯與醬汁，是高CP值的選擇 (約 3,200 - 4,000 ISK)。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 傳統燉肉與魚排：\n自助餐台常供應冰島傳統燉羊肉 (Lamb Stew) 或蘑菇醬魚球 (Fish balls)。如果你想嘗試道地的冰島家常菜，這裡是絕佳機會。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 快速漢堡 (Burgers)：\n如果趕時間，他們的羊肉漢堡或牛肉漢堡也是現點現做，份量十足且多汁，甚至有提供藜麥做的素食漢堡。",
+          },
+          { type: "text", value: "📍 地理位置與戰略意義：" },
+          {
+            type: "text",
+            value:
+              "1. 冰川健行前後的基地：\n它就位於 Skaftafell 遊客中心正對面。大部分參加冰川健行 (Glacier Hike) 的團都會約在這裡集合或解散，是補充熱量最方便的地方。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 補貨最後機會：\nFreysnes 附設的商店 (Shop) 是這附近唯一的超市。如果你接下來要往東去 Jökulsárlón 或往西回 Vik，中間幾乎沒有商店，建議在這裡補齊水與零食。",
+          },
+          { type: "text", value: "💡 實用資訊：" },
+          {
+            type: "text",
+            value:
+              "・營業時間：通常為 09:00 - 20:00 (夏季可能延長)，建議晚餐不要太晚來以免廚房休息。\n・價格：主餐約 2,000 - 4,000 ISK，以冰島物價來說相當親民。\n・小缺點：尖峰時刻 (中午 12-1 點) 旅行團巴士多，可能需要排隊。",
+          },
+        ],
       },
       {
         id: "d7-3",
@@ -1623,6 +1841,14 @@ export const itineraryData = [
       },
       {
         id: "d8-2",
+        time: "08:00",
+        place: "買午餐: 小豬超市",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/WSzXJ9ggJ8X1zuuF7",
+        content: [],
+      },
+      {
+        id: "d8-3",
         time: "09:30",
         place: "Ytri Tunga 海豹沙灘",
         note: "斯奈山半島 / 金沙灘 / 野生海豹棲息地",
@@ -1669,7 +1895,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d8-3",
+        id: "d8-4",
         time: "12:00",
         place: "Kirkjufell 教堂山",
         note: "權力遊戲場景 / 攝影師必拍",
@@ -1708,34 +1934,18 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d8-4",
+        id: "d8-5",
         time: "13:00",
-        place: "午餐",
-        note: "待確認",
-        mapUrl: "",
-        content: [
-          {
-            type: "text",
-            value:
-              "拍完教堂山，開車 5 分鐘就是 Grundarfjörður 小鎮。推薦以下午餐選擇：",
-          },
-          {
-            type: "text",
-            value:
-              "1. Bjargarsteinn Mathús：\n當地最有名的餐廳，由舊工廠改建，就在海邊。著名的「海鮮湯」和當日鮮魚非常棒，裝潢溫馨。（建議先確認有無營業）",
-          },
-          {
-            type: "text",
-            value:
-              "2. Laki Hafnarkaffi：\n位於港口邊的咖啡廳，有很棒的披薩、湯品和三明治，價格比較親民，速度也快。",
-          },
-        ],
+        place: "午餐: 小豬超市",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/WSzXJ9ggJ8X1zuuF7",
+        content: [],
       },
       {
-        id: "d8-5",
+        id: "d8-6",
         time: "15:00",
         place: "Reykjavík 市區巡禮",
-        note: "哈爾格林姆教堂 / 太陽航海者 / Harpa",
+        note: "哈爾格林姆教堂 / 太陽航海者 / Harpa(可去可不去）",
         mapUrl: "https://maps.app.goo.gl/55VFkAMSFRbkVxst7",
         content: [
           {
@@ -1849,30 +2059,54 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d8-6",
+        id: "d8-7",
         time: "19:00",
-        place: "晚餐：首都美食推薦",
-        note: "羊肉熱狗 / 龍蝦湯 / 麵包湯",
-        mapUrl: "https://goo.gl/maps/reykjavik-dinner",
+        place: "晚餐：Laxárbakki restaurant",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/51sUz8UqCgyftbyP6",
         content: [
           {
             type: "text",
-            value: "雷克雅維克是美食一級戰區，既然來到市區，晚餐選擇非常多：",
+            value:
+              "Laxárbakki 坐落在 Laxá 鮭魚河畔，是一間結合民宿與餐廳的溫馨木屋。雖然外觀像一般的公路休息站，但這裡提供的「傳統冰島家常菜」卻讓無數遊客驚艷，被評價為旅途中最暖胃的一餐。",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/rest_8.jpeg",
+            alt: "Laxárbakki 餐廳內部的溫馨木質裝潢",
+          },
+          { type: "text", value: "🍲 必點菜單 (Menu Highlights)：" },
+          {
+            type: "text",
+            value:
+              "1. 冰島魚肉燉菜 (Plokkfiskur)：\n這是這裡的絕對招牌！將新鮮鱈魚、馬鈴薯與奶油白醬燉煮在一起，口感綿密濃郁，再鋪上起司焗烤。許多評論大讚這是「整趟冰島之旅最好吃的魚料理」。",
           },
           {
             type: "text",
             value:
-              '1. Bæjarins Beztu Pylsur (必吃熱狗)：\n柯林頓總統都吃過的路邊攤，必點 "One with everything" (加全部配料)，一份約 600-700 ISK，是最便宜的冰島美食。',
+              "2. 傳統羊肉湯 (Lamb Soup)：\n料多實在的羊肉湯，肉質軟嫩且沒有羊騷味，搭配無限續加的麵包與奶油，是寒冷天氣下的救贖。",
           },
           {
             type: "text",
             value:
-              "2. The Sea Baron (Sægreifinn)：\n在舊港口旁，最有名的是「龍蝦湯 (Lobster Soup)」配麵包，以及各式各樣的「烤魚串」。",
+              "3. 招牌漢堡與薯條：\n如果你想吃點美式口味，這裡的牛肉漢堡多汁且份量大，配上酥脆的粗薯條，簡單卻滿足。",
+          },
+          { type: "text", value: "🏠 用餐氛圍：" },
+          {
+            type: "text",
+            value:
+              "1. 河畔景觀：\n餐廳擁有大片窗戶，可以直接眺望 Laxá 河與遠處的雪山。運氣好的話，夏天能看到有人在河裡釣鮭魚，冬天則有機會在晚餐時看見極光。",
           },
           {
             type: "text",
             value:
-              "3. Icelandic Street Food：\n這家店以「無限續碗」的羊肉湯和貝殼麵包湯聞名，非常適合大食量且想省錢的旅人，店員超級熱情！",
+              "2. 溫馨木屋感：\n內部全由木頭打造，充滿「阿嬤家」般的溫暖感。這裡也是家族經營的旅館，服務人員通常非常親切友善。",
+          },
+          { type: "text", value: "ℹ️ 實用資訊：" },
+          {
+            type: "text",
+            value:
+              "・地理位置：位於雷克雅維克往北約 1 小時車程處，剛過海底隧道後不久，非常適合當作「離開市區後的第一站」或「回程前的最後一餐」。\n・營業時間：餐廳晚餐時段通常為 16:00 - 21:00 (淡旺季可能調整)，建議不要太晚抵達。\n・價格：主餐約 2,500 - 3,500 ISK，物有所值。",
           },
         ],
       },
@@ -1881,7 +2115,7 @@ export const itineraryData = [
         time: "20:30",
         place: "住宿：Esjan (Esjan Buses)",
         note: "住進改裝巴士裡 / 眺望 Esja 山",
-        mapUrl: "https://maps.app.goo.gl/ENAbpHs7cAFeA2537",
+        mapUrl: "https://maps.app.goo.gl/MZdEJR2yMZQtSKFg8",
         content: [
           {
             type: "text",
@@ -1929,9 +2163,9 @@ export const itineraryData = [
       {
         id: "d9-1",
         time: "10:00",
-        place: "Laugavegur 購物街 & 托寧湖",
+        place: "雷克雅維克",
         note: "購買紀念品 / 餵鴨子 / 市政廳",
-        mapUrl: "https://maps.app.goo.gl/PBo1B94WiWfjJEez6",
+        mapUrl: "https://maps.app.goo.gl/8efVRw6TV5ejhH7Y9",
         content: [
           {
             type: "text",
@@ -1960,8 +2194,50 @@ export const itineraryData = [
       },
       {
         id: "d9-2",
+        time: "00:00",
+        place: "N1 加油",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/W1uiiKYDmjDRK142A",
+        content: [
+          {
+            type: "text",
+            value:
+              "冰島加油站（如 N1、Olís）多數採「自助式」且無人值守。這不僅是補給燃料，更是體驗冰島公路旅行的一環。以下是操作流程與千萬要注意的陷阱。",
+          },
+          { type: "text", value: "⛽ 自助加油標準流程：" },
+          {
+            type: "text",
+            value:
+              "1. 插入信用卡 \n2. 輸入 4 位數 PIN 碼 (必備!) \n3. 選擇「固定金額」 (關鍵步驟) \n4. 輸入油槍號碼 \n5. 提槍加油 \n6. 若需收據通常需再次插卡",
+          },
+          { type: "text", value: "⚠️ 三大保命注意事項：" },
+          {
+            type: "text",
+            value:
+              "1. 勿選「加滿 (Fill Up/Full Tank)」：\n選加滿會被機器圈存高額預授權金 (約台幣 5000-7000 元)，解凍退款需數天到一週。建議選擇「固定金額」(如 5000 kr)，加不完只會扣實際金額，不會吃虧。",
+          },
+          {
+            type: "text",
+            value:
+              "2. 必備 4 位數 PIN 碼：\n冰島無人機器強制要求輸入 PIN。出發前請務必向銀行開通「預借現金密碼」(4碼)。若無 PIN 碼，只能改用 Apple Pay (部分機器支援) 或至商店購買 N1 預付卡 (Prepaid Card)。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 認明油槍顏色：\n⚫ 黑色 = 柴油 (Diesel)\n🟢 綠色 = 95 汽油 (Bensín)\n千萬別只看顏色，務必核對文字，加錯油會導致引擎報銷且保險不理賠！",
+          },
+          { type: "text", value: "💡 省錢小撇步：" },
+          {
+            type: "text",
+            value:
+              "檢查租車鑰匙上有沒有掛著加油站的「感應扣 (Fob)」。操作時先拿感應扣在機器上嗶一下，再插信用卡，通常每公升能省 3 ISK 左右喔！",
+          },
+        ],
+      },
+      {
+        id: "d9-3",
         time: "12:30",
-        place: "午餐：Brauð & Co 肉桂捲",
+        place: "午餐：Brauð & Co 肉桂捲(可選）",
         note: "雷克雅維克最香的麵包店",
         mapUrl: "https://maps.app.goo.gl/qNvzBrFyYSZEzebNA",
         content: [
@@ -1978,9 +2254,9 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d9-3",
+        id: "d9-4",
         time: "14:30",
-        place: "Perlan 珍珠樓",
+        place: "Perlan 珍珠樓 (可選）",
         note: "360度觀景台 / 人造冰洞",
         mapUrl: "https://maps.app.goo.gl/V7FA3mXWAw6kvD4k6",
         content: [
@@ -2039,9 +2315,9 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d9-4",
+        id: "d9-5",
         time: "18:00",
-        place: "情人節晚餐：Messinn",
+        place: "情人節晚餐：Messinn(可選）",
         note: "平價美味的鐵鍋魚料理",
         mapUrl: "https://maps.app.goo.gl/b94a9Hyhv3MHeNkt8",
         content: [
@@ -2058,21 +2334,6 @@ export const itineraryData = [
           {
             type: "text",
             value: "⚠️ 提醒：情人節這天餐廳通常會客滿，強烈建議提早訂位。",
-          },
-        ],
-      },
-      {
-        id: "d9-5",
-        time: "22:00",
-        place: "前往機場 & 加油",
-        note: "離開市區往機場移動",
-        mapUrl: "https://goo.gl/maps/kef-gas",
-        content: [
-          { type: "text", value: "從市區開往機場約需 45-50 分鐘 (Route 41)。" },
-          {
-            type: "text",
-            value:
-              "⛽ 重要任務：加滿油 (Full Tank)\n租車公司通常要求「滿油還車」。建議在機場附近的加油站（如 Orkan 或 N1 Keflavíkurflugvelli）把油加滿，保留收據以防萬一。",
           },
         ],
       },
@@ -2155,6 +2416,10 @@ export const itineraryData = [
         note: "訂單編號：BEZMGQ，飛機：FI455 Icelandair",
         mapUrl: "https://maps.app.goo.gl/ACwFGjhu8SAiJ8rV6",
         content: [
+          {
+            type: "text",
+            value: "走路到機場（4 分鐘）",
+          },
           {
             type: "text",
             value: "飛機時間：07:30-10:50",
@@ -2307,6 +2572,14 @@ export const itineraryData = [
     day: 11,
     title: "2/16 皇室風華與倫敦塔傳奇",
     items: [
+      {
+        id: "d11-2",
+        time: "00:00",
+        place: "廁所地圖",
+        note: "或是 google map 輸入 public toile",
+        mapUrl: "https://www.toiletmap.org.uk/",
+        content: [],
+      },
       {
         id: "d11-1",
         time: "09:00",
@@ -2466,7 +2739,7 @@ export const itineraryData = [
       {
         id: "d11-4",
         time: "14:30",
-        place: "Tower of London 倫敦塔",
+        place: "London Tower 倫敦塔",
         note: "世界遺產 / 皇冠珠寶 / 倫敦最血腥的歷史",
         mapUrl: "https://maps.app.goo.gl/CmV74oasEmBpv5Yi8",
         content: [
@@ -2638,6 +2911,14 @@ export const itineraryData = [
     day: 12,
     title: "2/17 皇室花園與泰晤士河巡航",
     items: [
+      {
+        id: "d11-2",
+        time: "00:00",
+        place: "廁所地圖",
+        note: "或是 google map 輸入 public toile",
+        mapUrl: "https://www.toiletmap.org.uk/",
+        content: [],
+      },
       {
         id: "d12-1",
         time: "10:00",
@@ -2837,6 +3118,14 @@ export const itineraryData = [
     title: "2/18 KKDay 巨石陣一日遊",
     items: [
       {
+        id: "d11-2",
+        time: "00:00",
+        place: "廁所地圖",
+        note: "或是 google map 輸入 public toile",
+        mapUrl: "https://www.toiletmap.org.uk/",
+        content: [],
+      },
+      {
         id: "d13-1",
         time: "07:30",
         place: "集合出發 (Meeting Point)",
@@ -3027,6 +3316,14 @@ export const itineraryData = [
     title: "2/19 走進魔法世界：哈利波特片場",
     items: [
       {
+        id: "d11-2",
+        time: "00:00",
+        place: "廁所地圖",
+        note: "或是 google map 輸入 public toile",
+        mapUrl: "https://www.toiletmap.org.uk/",
+        content: [],
+      },
+      {
         id: "d14-1",
         time: "10:45",
         place: "集合出發 (Meeting Point)",
@@ -3148,6 +3445,14 @@ export const itineraryData = [
     title: "2/20 倫敦西區：SOHO 探索與獅子王",
     items: [
       {
+        id: "d11-2",
+        time: "00:00",
+        place: "廁所地圖",
+        note: "或是 google map 輸入 public toile",
+        mapUrl: "https://www.toiletmap.org.uk/",
+        content: [],
+      },
+      {
         id: "d15-1",
         time: "15:00",
         place: "SOHO 蘇活區 & China Town",
@@ -3211,7 +3516,7 @@ export const itineraryData = [
       {
         id: "d15-2",
         time: "17:30",
-        place: "晚餐：劇前晚餐 (Pre-theatre Dinner)",
+        place: "晚餐：劇前晚餐 (Pre-theatre Dinner)(可選）",
         note: "建議在劇院附近用餐",
         mapUrl: "https://goo.gl/maps/chinatown-london",
         content: [
@@ -3311,6 +3616,14 @@ export const itineraryData = [
     title: "2/21 自由行 & 完美的句點：最後衝刺與告別倫敦",
     items: [
       {
+        id: "d11-2",
+        time: "00:00",
+        place: "廁所地圖",
+        note: "或是 google map 輸入 public toile",
+        mapUrl: "https://www.toiletmap.org.uk/",
+        content: [],
+      },
+      {
         id: "d16-1",
         time: "10:00",
         place: "退房與寄放行李 (Check-out)",
@@ -3326,7 +3639,7 @@ export const itineraryData = [
       {
         id: "d16-2",
         time: "11:00",
-        place: "Harrods 哈洛德百貨",
+        place: "Harrods 哈洛德百貨（可選）",
         note: "倫敦地標級百貨 / 皇家認證",
         mapUrl: "https://goo.gl/maps/harrods",
         content: [
@@ -3365,7 +3678,7 @@ export const itineraryData = [
       {
         id: "d16-3",
         time: "14:00",
-        place: "V&A Museum 或 海德公園",
+        place: "V&A Museum 或 海德公園（可選）",
         note: "最後的漫步",
         mapUrl: "https://goo.gl/maps/va-museum",
         content: [
