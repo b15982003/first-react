@@ -67,15 +67,24 @@ export const itineraryData = [
         mapUrl: "https://maps.app.goo.gl/uX2G4puBVYG77Krs8",
         content: [
           {
-            type: "text",
-            value:
-              "🔴 轉機最高準則：\n下飛機後，不管誰問什麼，眼睛只找「紫色 Flight Connections (轉機)」指標走。千萬不要跟著黃色 Arrival (入境) 走。",
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/transfer_plan_1.jpg",
+            alt: "轉機指標",
           },
-
           {
             type: "image",
-            src: process.env.PUBLIC_URL + "/images/turn_flight.jpg",
-            alt: "認準紫色轉機指標",
+            src: process.env.PUBLIC_URL + "/images/transfer_plan_2.jpg",
+            alt: "轉機指標",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/transfer_plan_3.jpg",
+            alt: "轉機指標",
+          },
+          {
+            type: "image",
+            src: process.env.PUBLIC_URL + "/images/transfer_plan_4.jpg",
+            alt: "轉機指標",
           },
 
           { type: "text", value: "👮‍♀️ 安檢與人員提問攻略：" },
@@ -92,12 +101,6 @@ export const itineraryData = [
             type: "text",
             value:
               "Q: Any liquids or laptops? (有液體或筆電嗎？)\nA: Yes, in my bag. (有的，在包包裡) \n*T3 目前多為新機器不需取出，但請聽現場指令。",
-          },
-
-          {
-            type: "text",
-            value:
-              "🚌 航廈確認：\n請抬頭看電子大螢幕，確認你的下一班飛機在 T2、T3 還是 T5。\n- 若在 T3：直接過安檢去登機門。\n- 若在 T2/T5：跟著指標去搭接駁車 (Transfer Bus)。",
           },
         ],
       },
