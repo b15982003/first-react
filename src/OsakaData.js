@@ -105,8 +105,7 @@ export const itineraryData = [
         time: "20:00",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
-        mapUrl:
-          "https://www.airbnb.com.tw/rooms/35134130?source_impression_id=p3_1772802973_P3iQdHNWkOUtUEA5",
+        mapUrl: "https://maps.app.goo.gl/ZdmHnp98uaGhkUzr6",
         content: [],
       },
     ],
@@ -160,9 +159,21 @@ export const itineraryData = [
         time: "20:00",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
-        mapUrl:
-          "https://www.airbnb.com.tw/rooms/35134130?source_impression_id=p3_1772802973_P3iQdHNWkOUtUEA5",
+        mapUrl: "https://maps.app.goo.gl/ZdmHnp98uaGhkUzr6",
         content: [],
+      },
+      {
+        id: "d2-3",
+        time: "17:00",
+        place: "晚餐：串とテール煮 様様",
+        note: "九條總本店",
+        mapUrl: "https://maps.app.goo.gl/3WLx5tSRY2VGuebeA",
+        content: [
+          {
+            type: "text",
+            value: "推薦：品嚐招牌串燒與牛尾煮，感受在地居酒屋氛圍。",
+          },
+        ],
       },
     ],
   },
@@ -260,8 +271,7 @@ export const itineraryData = [
         time: "21:00",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
-        mapUrl:
-          "https://www.airbnb.com.tw/rooms/35134130?source_impression_id=p3_1772802973_P3iQdHNWkOUtUEA5",
+        mapUrl: "https://maps.app.goo.gl/ZdmHnp98uaGhkUzr6",
         content: [],
       },
     ],
@@ -361,8 +371,7 @@ export const itineraryData = [
         time: "20:00",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
-        mapUrl:
-          "https://www.airbnb.com.tw/rooms/35134130?source_impression_id=p3_1772802973_P3iQdHNWkOUtUEA5",
+        mapUrl: "https://maps.app.goo.gl/ZdmHnp98uaGhkUzr6",
         content: [],
       },
     ],
@@ -409,19 +418,6 @@ export const itineraryData = [
       },
       {
         id: "d5-4",
-        time: "17:00",
-        place: "晚餐：串とテール煮 様様",
-        note: "九條總本店",
-        mapUrl: "https://maps.app.goo.gl/3WLx5tSRY2VGuebeA",
-        content: [
-          {
-            type: "text",
-            value: "推薦：品嚐招牌串燒與牛尾煮，感受在地居酒屋氛圍。",
-          },
-        ],
-      },
-      {
-        id: "d5-5",
         time: "18:00",
         place: "移動行李至大阪 / Spa World (大阪）",
         note: "弁天町站",
@@ -448,12 +444,12 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d5-6",
+        id: "d5-5",
         time: "21:00",
         place: "住宿",
         note: "【LE】Samurai House Kuromon 黒門",
         mapUrl:
-          "https://www.airbnb.com.tw/rooms/1470989390596632316?source_impression_id=p3_1772802976_P3GA3FZb24g9rclJ",
+          "https://maps.app.goo.gl/xJgXZegussyC5p1Z6](https://maps.app.goo.gl/xJgXZegussyC5p1Z6)",
         content: [],
       },
     ],
@@ -476,7 +472,7 @@ export const itineraryData = [
         place: "住宿",
         note: "【LE】Samurai House Kuromon 黒門",
         mapUrl:
-          "https://www.airbnb.com.tw/rooms/1470989390596632316?source_impression_id=p3_1772802976_P3GA3FZb24g9rclJ",
+          "[https://maps.app.goo.gl/xJgXZegussyC5p1Z6](https://maps.app.goo.gl/xJgXZegussyC5p1Z6)",
         content: [],
       },
     ],
@@ -521,11 +517,19 @@ export const itineraryData = [
       },
       {
         id: "d7-2",
+        time: "15:00",
+        place: "甲子園歷史館",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/MeBUsrCkhE9AD5uX6",
+        content: [],
+      },
+      {
+        id: "d7-3",
         time: "21:00",
         place: "住宿",
         note: "【LE】Samurai House Kuromon 黒門",
         mapUrl:
-          "https://www.airbnb.com.tw/rooms/1470989390596632316?source_impression_id=p3_1772802976_P3GA3FZb24g9rclJ",
+          "[https://maps.app.goo.gl/xJgXZegussyC5p1Z6](https://maps.app.goo.gl/xJgXZegussyC5p1Z6)",
         content: [],
       },
     ],
@@ -625,9 +629,18 @@ export const itineraryData = [
       {
         id: "d8-6",
         time: "22:00",
+        place: "在地湯屋",
+        note: "找",
+        mapUrl: "",
+        content: [],
+      },
+      {
+        id: "d8-7",
+        time: "22:00",
         place: "住宿",
         note: "【LE】Samurai House Kuromon 黒門",
-        mapUrl: "https://www.airbnb.com.tw/rooms/1470989390596632316",
+        mapUrl:
+          "[https://maps.app.goo.gl/xJgXZegussyC5p1Z6](https://maps.app.goo.gl/xJgXZegussyC5p1Z6)",
         content: [],
       },
     ],
