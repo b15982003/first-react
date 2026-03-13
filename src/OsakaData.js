@@ -423,14 +423,27 @@ export const itineraryData = [
       {
         id: "d5-5",
         time: "18:00",
-        place: "移動行李至大阪 / 空庭溫泉",
+        place: "移動行李至大阪 / Spa World (大阪）",
         note: "弁天町站",
-        mapUrl: "https://maps.app.goo.gl/zzEUt4UQPg2BEb6YA",
+        mapUrl: "https://maps.app.goo.gl/xaTMeRt5iXgUYrSUA",
         content: [
           { type: "text", value: "1. 傍晚將行李移動至大阪住宿點。" },
           {
             type: "text",
-            value: "2. 空庭溫泉：體驗穿著浴衣在空中花園散步，適合拍照放鬆。",
+            value:
+              "2. 體驗重點：世界各國主題溫泉，分歐洲區與亞洲區（按月輪替男女）。",
+          },
+          {
+            type: "text",
+            value: "3. 設施：除溫泉外還有水上樂園、岩盤浴與美食區。",
+          },
+          {
+            type: "text",
+            value: "4. 備品：現場提供毛巾與沐浴用品，空手前往即可。",
+          },
+          {
+            type: "text",
+            value: "5. 提醒：若有大面積刺青可能無法入場，建議先確認官網規範。",
           },
         ],
       },
