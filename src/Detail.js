@@ -1,7 +1,7 @@
 // src/Detail.js
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { itineraryData } from "./Data";
+import { itineraryData } from "./OsakaData";
 
 const Detail = () => {
   const { itemId } = useParams();

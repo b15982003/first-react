@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import { itineraryData } from "./Data";
+import { itineraryData } from "./OsakaData";
 
 // --- 子組件：單個行程項目 ---
 const ItineraryItem = ({ item }) => {
@@ -95,7 +95,7 @@ const Home = () => {
       <header className="bg-white shadow-sm p-3 sticky-top">
         <div className="container" style={{ maxWidth: "600px" }}>
           <h4 className="m-0 fw-bold text-primary d-flex align-items-center">
-            📅 16天英國冰島行
+            📅 日本關西之旅
           </h4>
         </div>
       </header>
