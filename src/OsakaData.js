@@ -102,7 +102,15 @@ export const itineraryData = [
       },
       {
         id: "d1-4",
-        time: "20:00",
+        time: "21:25",
+        place: "乘車票",
+        note: "",
+        mapUrl: "https://guest-ui.west-qr.com/#/packages/login/index",
+        content: [],
+      },
+      {
+        id: "d1-5",
+        time: "23:30",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
         mapUrl: "https://maps.app.goo.gl/ZdmHnp98uaGhkUzr6",
@@ -121,6 +129,10 @@ export const itineraryData = [
         note: "京都車站",
         mapUrl: "",
         content: [
+          {
+            type: "text",
+            value: "門票網站：https://ticket.mobilitystation.jp/",
+          },
           { type: "text", value: "鈴鹿賽道接駁車（Shuttle Bus）：" },
           {
             type: "text",
@@ -156,6 +168,14 @@ export const itineraryData = [
       },
       {
         id: "d2-2",
+        time: "00:00",
+        place: "門票",
+        note: "",
+        mapUrl: "https://ticket.mobilitystation.jp/",
+        content: [],
+      },
+      {
+        id: "d2-3",
         time: "20:00",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
@@ -163,7 +183,7 @@ export const itineraryData = [
         content: [],
       },
       {
-        id: "d2-3",
+        id: "d2-4",
         time: "17:00",
         place: "晚餐：串とテール煮 様様",
         note: "九條總本店",
@@ -282,7 +302,7 @@ export const itineraryData = [
     items: [
       {
         id: "d4-1",
-        time: "09:00",
+        time: "08:00",
         place: "租車取車",
         note: "補租車資訊",
         mapUrl: "",
@@ -301,6 +321,44 @@ export const itineraryData = [
       },
       {
         id: "d4-2",
+        time: "09:00",
+        place: "三井寺 (園城寺)",
+        note: "日本三大名鐘、賞櫻名所",
+        mapUrl: "https://maps.app.goo.gl/f1PonppKwt596TEh7",
+        content: [
+          { type: "text", value: "景點重點與特色：" },
+          {
+            type: "text",
+            value:
+              "門票：成人約 600 日圓（點燈期夜間門票可能不同，約 1,000 日圓）時間：08:00 – 17:00（夜間點燈通常至 21:30",
+          },
+          {
+            type: "text",
+            value:
+              "1. 三井之晚鐘：日本三大名鐘之一，音色莊嚴優美，可自費體驗撞鐘。",
+          },
+          {
+            type: "text",
+            value: "2. 國寶金堂：桃山時代的宏偉建築，內有珍貴佛像與文化財。",
+          },
+          {
+            type: "text",
+            value:
+              "3. 觀音堂展望台：登上最高點可俯瞰大津市景與壯闊的琵琶湖景。",
+          },
+          {
+            type: "text",
+            value:
+              "4. 櫻花季限定：此處為賞櫻百選，若時間剛好可欣賞夜間點燈與透明舞台的倒影櫻花。",
+          },
+          {
+            type: "text",
+            value: "5. 停車提醒：自駕前往非常方便，寺方設有專用大型停車場。",
+          },
+        ],
+      },
+      {
+        id: "d4-3",
         time: "11:30",
         place: "琵琶湖-白鬚神社",
         note: "湖中鳥居",
@@ -318,27 +376,19 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-3",
-        time: "14:00",
-        place: "Biwako Valley Ropeway",
-        note: "琵琶湖景觀台",
-        mapUrl: "https://maps.app.goo.gl/WR7mgb77SwfB5C1DA",
-        content: [
-          { type: "text", value: "纜車重點：" },
-          { type: "text", value: "1. 搭乘高速纜車上山，可俯瞰整個琵琶湖。" },
-          { type: "text", value: "2. 山頂氣溫較低，建議多帶一件薄外套。" },
-          {
-            type: "text",
-            value: "3. 若天氣不佳雲層太厚，可考慮調整行程順序。",
-          },
-        ],
+        id: "d4-4",
+        time: "12:00",
+        place: "午餐",
+        note: "",
+        mapUrl: "",
+        content: [],
       },
       {
-        id: "d4-4",
-        time: "16:30",
+        id: "d4-5",
+        time: "15:00",
         place: "近江八幡市",
         note: "古城水鄉散策",
-        mapUrl: "https://maps.app.goo.gl/2RoE6R78D23YgZQf6",
+        mapUrl: "https://maps.app.goo.gl/Jk13oAqb3nzS4S7j9",
         content: [
           {
             type: "text",
@@ -347,7 +397,15 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-5",
+        id: "d4-6",
+        time: "17:00",
+        place: "晚餐",
+        note: "近江牛或鰻魚飯）",
+        mapUrl: "",
+        content: [],
+      },
+      {
+        id: "d4-7",
         time: "19:30",
         place: "サウナの梅湯",
         note: "在地澡堂",
@@ -367,7 +425,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-6",
+        id: "d4-8",
         time: "20:00",
         place: "住宿",
         note: "Private residence 瑞 -ZUI",
@@ -525,6 +583,14 @@ export const itineraryData = [
       },
       {
         id: "d7-3",
+        time: "19:00",
+        place: "晚餐（新宿燒肉 牛舌的檸檬 大阪本店）",
+        note: "",
+        mapUrl: "https://maps.app.goo.gl/fQGzSJRwvB6yNUD49",
+        content: [],
+      },
+      {
+        id: "d7-4",
         time: "21:00",
         place: "住宿",
         note: "【LE】Samurai House Kuromon 黒門",
