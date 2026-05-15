@@ -1,7 +1,7 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { packingList, precautions } from "./NoteData";
+import { packingList, precautions } from "./data/NoteData";
 
 const Notes = () => {
   const navigate = useNavigate();
