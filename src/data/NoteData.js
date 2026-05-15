@@ -7,6 +7,8 @@ export const packingList = [
     category: "證件與交通保險",
     items: [
       "護照", 
+      "駕照",
+      "駕照日文譯本",
       "Visit Japan Web QR Code (截圖備用)", 
       "海外旅遊平安險 (含不便險)",
       "實體交通票券 (若有事先購買)"
@@ -16,7 +18,6 @@ export const packingList = [
     id: 2,
     category: "衣物與穿戴配件",
     items: [
-      "洋蔥式穿法衣物",
       "防風/防潑水外套",
       "睡衣",
       "摺疊傘",
