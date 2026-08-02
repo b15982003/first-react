@@ -662,7 +662,7 @@ export const itineraryData = [
         id: "d6-1",
         time: "13:15",
         place: "那霸機場",
-        note: "開車一小時，放阿修，航班：MM927，訂單編號：EV4Q2N",
+        note: "開車一小時，放阿修，航班：MM927",
         mapUrl: "https://maps.app.goo.gl/zRRFZSK12EuyLxSE9",
         content: [
           {
@@ -728,7 +728,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-5",
+        id: "d6-6",
         time: "21:30",
         place: "桃園機場",
         note: "航班：CI123 (中華航空)，訂單編號：EV4Q2N",
@@ -741,7 +741,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-6",
+        id: "d6-7",
         time: "23:00",
         place: "台中包車",
         note: "",
