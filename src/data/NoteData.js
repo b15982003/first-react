@@ -39,7 +39,8 @@ export const packingList = [
       "個人藥品 (止瀉、感冒、過敏藥)",
       "水壺",
       "毛巾",
-      "小板凳"
+      "小板凳",
+      "防曬乳"
     ],
   },
   {
@@ -47,7 +48,6 @@ export const packingList = [
     category: "電子產品 & 科技工具",
     items: [
       "行動電源",
-      "多孔充電頭",
     ],
   },
 ];

@@ -6,8 +6,8 @@ export const itineraryData = [
     items: [
       {
         id: "d1-1",
-        time: "09:00",
-        place: "台中包車",
+        time: "12:00",
+        place: "台中高鐵",
         note: "前往桃園機場",
         mapUrl: "",
         content: [],
@@ -65,7 +65,7 @@ export const itineraryData = [
       },
       {
         id: "d1-4",
-        time: "21:00",
+        time: "21:15",
         place: "住宿 TSUBOYA 一號公寓",
         note: "Holiday Homes TSUBOYA 1st",
         mapUrl: "https://maps.app.goo.gl/pwXaM2SwRm6g3qQ77",
@@ -73,7 +73,7 @@ export const itineraryData = [
       },
       {
         id: "d1-5",
-        time: "21:30",
+        time: "21:45",
         place: "國際通屋台村",
         note: "宵夜、小酌",
         mapUrl: "https://maps.app.goo.gl/YHzUAf6RZQRWArFZ7",
@@ -82,6 +82,20 @@ export const itineraryData = [
             type: "text",
             value:
               "推薦：抵達沖繩的第一晚，點些道地串燒、沖繩炒苦瓜與生啤酒，感受在地熱鬧的居酒屋氛圍。",
+          },
+        ],
+      },
+      {
+        id: "d1-6",
+        time: "00:00",
+        place: "Happy Happy",
+        note: "",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "第 1 部公演觀賞門票（20:00 開放入場，20:30 正式開演）與第 2 部公演觀賞門票（22:00 開放入場，22:30 正式開演）【超級震撼座位】保證舞台最前排座位 ＋ 附 1 杯飲料 ＋ 10 張 Churan 小費券/【震撼座位】保證前排座位 ＋ 附 1 杯飲料 ＋ 10 張 Churan 小費券/【前排座位】保證前方區域座位 ＋ 附 1 杯飲料/【普通座位方案】附 1 杯飲料",
           },
         ],
       },
@@ -94,11 +108,15 @@ export const itineraryData = [
     items: [
       {
         id: "d2-1",
-        time: "09:30",
+        time: "10:00",
         place: "租車公司",
         note: "店家名稱：Harebare Rent a Car Naha Branch\n店家地址：沖縄県那覇市鏡原町10-20",
         mapUrl: "https://maps.app.goo.gl/zCHYbkk1gefwZDN48",
         content: [
+          {
+            type: "text",
+            value: "走路到租車 37 分鐘",
+          },
           {
             type: "text",
             value:
@@ -153,6 +171,10 @@ export const itineraryData = [
         content: [
           {
             type: "text",
+            value: "開車時間：30 分鐘",
+          },
+          {
+            type: "text",
             value:
               "介紹：位於沖繩世界（文化王國）內，是日本規模最大的鐘乳石洞穴。歷經三十萬年形成的自然奇景宏偉壯觀，洞內長年恆溫約 21 度，走在蜿蜒的步道中能近距離觀察壯麗的石筍與鐘乳石。",
           },
@@ -160,25 +182,86 @@ export const itineraryData = [
       },
       {
         id: "d2-5",
-        time: "14:30",
-        place: "波上宮",
+        time: "15:00",
+        place: "首里城",
         note: "",
-        mapUrl: "https://maps.app.goo.gl/JXtnVcDqGAQHaw1K8",
+        mapUrl: "https://maps.app.goo.gl/8PzFN8oNPyiu9yox8",
         content: [
           {
             type: "text",
             value:
-              "介紹：那霸市區最知名的神社，矗立在斷崖之上，俯瞰著波之上海灘。這裡是琉球八社之首，也是求取交通平安與航海平安的聖地，紅瓦建築展現出濃厚的琉球文化風格。",
+              "介紹：琉球王國的政治與文化中心。必看的亮點包含 2000 日圓紙鈔上的圖案「守禮門」，以及世界文化遺產「園比屋武御嶽石門」。",
+          },
+          {
+            type: "text",
+            value:
+              "絕景推薦：一定要登上西側的觀景台「西臺（西のアザナ）」，可以將那霸市區的早晨街景盡收眼底，天氣好時還能遠眺慶良間群島。",
+          },
+          {
+            type: "text",
+            value:
+              "期間限定體驗：目前正殿正以「公開重建過程（見せる復興）」的模式開放，能近距離觀看工匠修復木材的傳統技法，是一生難得幾回見的歷史參與感！還可以向案內所免費索取收集紙，邊逛邊玩印章收集。",
           },
         ],
       },
       {
         id: "d2-6",
+        time: "15:00",
+        place: "達摩寺",
+        note: "首里城旁邊",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：位於首里城附近的西來院（達摩寺），是一座寧靜且充滿歷史感的寺廟。寺內供奉著許多達摩祖師像，環境清幽，與首里城的熱鬧形成強烈對比。",
+          },
+          {
+            type: "text",
+            value:
+              "🚶 散步路線：從首里城走過來約 10-15 分鐘。建議逛完首里城後，從「龍潭池」側離開，沿著水池步道欣賞首里城與湖面倒影，接著轉入首里的靜謐住宅巷弄，就能順路且輕鬆地抵達達摩寺。",
+          },
+        ],
+      },
+      {
+        id: "d2-7",
         time: "17:00",
-        place: "國際通",
+        place: "瀨長島看夕陽 或是 宜野灣玩水",
+        note: "傍晚行程二擇一",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value: "開車時間：37 分鐘",
+          },
+          {
+            type: "text",
+            value:
+              "介紹：這是一個二擇一的傍晚放鬆行程，可依照當天的體力與心情，決定要看浪漫夕陽還是去海邊戲水。",
+          },
+          {
+            type: "text",
+            value:
+              "🌅 選擇一【瀨長島看夕陽】：被譽為「沖繩的希臘」，擁有純白階梯式建築的 Umikaji Terrace 充滿異國風情。這裡距離那霸機場非常近，可以一邊喝著咖啡或享用人氣幸福鬆餅，一邊近距離觀賞震撼的飛機起降，並將絕美的東海夕陽盡收眼底。",
+          },
+          {
+            type: "text",
+            value:
+              "🏖️ 選擇二【宜野灣玩水】：如果想趁著傍晚陽光比較柔和的時候踩踩水，宜野灣的 Tropical Beach 是極佳的選擇。這裡的沙灘乾淨、海浪平緩且周邊設施非常完善，非常適合慵懶地放鬆耍廢，伴隨著西海岸的落日餘暉，享受悠閒的海島步調。",
+          },
+        ],
+      },
+      {
+        id: "d2-8",
+        time: "18:00",
+        place: "晚餐",
         note: "",
         mapUrl: "https://maps.app.goo.gl/K6TmnGnQdfsU9fUJ8",
         content: [
+          {
+            type: "text",
+            value: "阿古豬豬排",
+          },
           {
             type: "text",
             value:
@@ -191,43 +274,42 @@ export const itineraryData = [
   // 第三天
   {
     day: 3,
-    title: "9/24（四） 首里城、美國村與北上恩納",
+    title: "9/24（四） 波上宮、美國村與北上恩納",
     items: [
       {
         id: "d3-1",
         time: "09:00",
-        place: "首里城",
-        note: "下午去比較不熱",
-        mapUrl: "https://maps.app.goo.gl/i1wSuXUo8g1gaq1y9",
+        place: "波上宮",
+        note: "琉球八社之首",
+        mapUrl: "https://maps.app.goo.gl/aM1TUtCNQhsGnahh8",
         content: [
           {
             type: "text",
+            value: "開車時間：15 分鐘",
+          },
+          {
+            type: "text",
             value:
-              "介紹：琉球王國的政治與文化中心，擁有獨特的鮮紅建築與融合中日風格的城門。雖然正殿仍在持續重建中，但廣大的城郭、守禮門及登高俯瞰那霸市區的開闊景色，依然非常值得一訪。",
+              "介紹：波上宮是沖繩地位最高的神社，被尊為「琉球八社之首」與沖繩總鎮守。最獨特的是它建在珊瑚礁懸崖之上，朱紅色的屋瓦與充滿琉球風情的建築設計，和日本本土的神社有著截然不同的美感。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：這裡非常適合祈求交通安全與旅途平安。參拜結束後，強烈建議走到神社下方的「波之上海灘」散步踩沙；如果想拍出明信片般的風景，可以走到旁邊的橋上，就能捕捉到波上宮矗立於懸崖之上的經典絕美畫面！",
           },
         ],
       },
       {
         id: "d3-2",
-        time: "10:00",
-        place: "達摩寺",
-        note: "首里城旁邊",
-        mapUrl: "https://maps.app.goo.gl/8BKH731kd7gZz7FM8",
-        content: [
-          {
-            type: "text",
-            value:
-              "介紹：位於首里城附近的西來院（達摩寺），是一座寧靜且充滿歷史感的寺廟。寺內供奉著許多達摩祖師像，環境清幽，適合在參觀首里城後順道來此散步，感受靜謐的氛圍。",
-          },
-        ],
-      },
-      {
-        id: "d3-3",
         time: "12:00",
         place: "購物 shopping paco city",
         note: "午餐",
         mapUrl: "https://maps.app.goo.gl/4ZajMW7rd5G8bo83A",
         content: [
+          {
+            type: "text",
+            value: "開車時間：16 分鐘",
+          },
           {
             type: "text",
             value:
@@ -236,21 +318,30 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-4",
+        id: "d3-3",
         time: "14:00",
         place: "宜野灣 Tropical Beach",
-        note: "玩水",
-        mapUrl: "https://maps.app.goo.gl/667ZbjefKMYpqhSk8",
+        note: "放鬆耍廢玩水沙灘",
+        mapUrl: "https://maps.app.goo.gl/hRPvKaG45HRvRLL96",
         content: [
           {
             type: "text",
+            value: "開車時間：15 分鐘",
+          },
+          {
+            type: "text",
             value:
-              "介紹：當地人與遊客都非常喜愛的人氣海灘。擁有潔白的沙灘與清澈的漸層海水，周邊設施非常完善，非常適合在這裡慵懶地「耍廢玩水」，享受充滿度假感的午後時光。",
+              "介紹：位於西海岸的宜野灣 Tropical Beach，是當地極具人氣的度假沙灘。這裡擁有迷人的漸層藍色海水與綿延的細白沙灘，不僅風景優美，周邊的更衣室、淋浴間與置物櫃等設施也非常乾淨完善。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：這裡完全符合你想要的「放鬆耍廢玩水」需求！由於有防波堤的保護，海浪平靜安全，無論是下水游泳、在沙灘上發呆曬太陽，或是單純散步吹著微風，都能讓你徹底切換到悠閒的海島度假模式。",
           },
         ],
       },
       {
-        id: "d3-5",
+        id: "d3-4",
         time: "17:00",
         place: "美國村",
         note: "逛街",
@@ -264,7 +355,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-6",
+        id: "d3-5",
         time: "19:00",
         place: "迴轉壽司",
         note: "晚餐",
@@ -278,7 +369,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-7",
+        id: "d3-6",
         time: "19:00",
         place: "阿古豬 涮涮鍋",
         note: "晚餐",
@@ -292,7 +383,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-8",
+        id: "d3-7",
         time: "19:30",
         place: "格蘭迪奧索沖繩別墅恩納1",
         note: "住宿",
@@ -306,7 +397,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-9",
+        id: "d3-8",
         time: "",
         place: "宵夜 京都北白川 魅力屋 拉麵",
         note: "美國村旁",
@@ -328,7 +419,7 @@ export const itineraryData = [
     items: [
       {
         id: "d4-1",
-        time: "09:30",
+        time: "00:00",
         place: "名護城公園",
         note: "逛公園",
         mapUrl: "https://maps.app.goo.gl/wDg6LXKSoWNs94Er9",
@@ -342,40 +433,102 @@ export const itineraryData = [
       },
       {
         id: "d4-2",
-        time: "13:00",
-        place: "古宇利島",
-        note: "蝦蝦飯",
-        mapUrl: "https://maps.app.goo.gl/NtNREXuFnyJrUezv8",
+        time: "00:00",
+        place: "恩納村",
+        note: "回家",
+        mapUrl: "https://maps.app.goo.gl/7TPJeBWtmHj6tPyQ7",
         content: [
           {
             type: "text",
             value:
-              "介紹：被稱為「神之島」的古宇利島，周圍環繞著沖繩頂級的透明海水。開車行駛過壯觀的古宇利大橋本身就是一場視覺饗宴。",
+              "介紹：恩納村位於沖繩本島西海岸，是沖繩最具代表性的海濱度假勝地。這裡擁有綿延數十公里的絕美海岸線、清澈見底的珊瑚礁海域，以及充滿南國風情的熱帶景致，被譽為沖繩的黃金海岸。",
           },
           {
             type: "text",
             value:
-              "推薦：午餐安排享用島上超人氣的「KOURI SHRIMP 蝦蝦飯」，濃郁的蒜香奶油蝦搭配白飯非常開胃，是來此必吃的打卡美食！",
+              "推薦：既然這幾天都入住在恩納村的 Villa，非常推薦在這裡的沿海公路（國道 58 號）享受自駕兜風的樂趣，或是找間無敵海景咖啡廳放鬆。傍晚時分，這裡更是絕佳的觀夕景點，能安靜地欣賞太陽緩緩沉入東海的浪漫畫面。",
           },
         ],
       },
       {
         id: "d4-3",
-        time: "",
-        place: "blue seal 冰店",
-        note: "吃冰",
-        mapUrl: "https://maps.app.goo.gl/afR6pUTWsevoZVwG8",
+        time: "00:00",
+        place: "萬座毛",
+        note: "大自然鬼斧神工的象鼻岩",
+        mapUrl: "https://maps.app.goo.gl/52VrQUHDNmeZfAnD8",
         content: [
           {
             type: "text",
             value:
-              "介紹：「源自美國，生於沖繩」的在地指標性冰品店。強烈推薦嘗試沖繩特色口味，例如：紅芋（紫薯）、鹽味金楚糕或是沖繩香檸，是旅途中絕佳的消暑甜點。",
+              "介紹：萬座毛是沖繩西海岸最具代表性的自然奇景。「萬座」意指可供萬人齊坐，「毛」在沖繩方言中則是原野、草地的意思。這裡最著名的地標，就是經過海浪長年侵蝕，形狀宛如巨大「象鼻」的隆起珊瑚礁懸崖。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：沿著平緩的海岸步道漫步，可以居高臨下欣賞清澈見底的湛藍海水與拍打礁石的白色浪花。站在廣闊的草坪上，還能遠眺對岸恩納村的美麗海岸線，是來沖繩絕對不能錯過的經典拍照打卡勝地！",
           },
         ],
       },
       {
         id: "d4-4",
-        time: "17:00",
+        time: "00:00",
+        place: "御守販賣機",
+        note: "特色打卡點與創意伴手禮",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：位於萬座毛周邊的新型休息站內，有一台非常特別的「御守販賣機」。這台自動販賣機販售著各種造型精緻的御守，將傳統的神社祈福小物與日本無所不賣的販賣機文化完美結合，充滿了現代巧思與趣味。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：在欣賞完大自然的壯麗海景後，不妨順道來這裡投幣挑選心儀的款式。用這種新奇便捷的方式為自己或親友求得一份平安與祝福，絕對是充滿回憶又特別的特色伴手禮！",
+          },
+        ],
+      },
+      {
+        id: "d4-5",
+        time: "00:00",
+        place: "瀨底島",
+        note: "透明獨木舟體驗",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：瀨底島是位於沖繩北部的一座小離島，只要開車穿過壯觀的瀨底大橋即可輕鬆抵達。這裡以全沖繩本島數一數二的超高海水透明度聞名，擁有潔白綿延的天然沙灘與豐富的淺灘珊瑚礁生態。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：來到這裡，一定要親自感受令人期待的「透明獨木舟」體驗！乘坐著船身全透明的小船，彷彿懸浮在湛藍的果凍海上。即使不換泳裝下水，也能直接低頭欣賞海面下美麗的珊瑚礁與色彩斑斕的熱帶魚，是一場非常夢幻且療癒的海上探險。",
+          },
+        ],
+      },
+      {
+        id: "d4-6",
+        time: "00:00",
+        place: "朔溪瀑布秘境 Ta-taki Waterfall",
+        note: "山原森林的溯溪探險",
+        mapUrl: "https://maps.app.goo.gl/hkzRzLU5y1d4ae2X8",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：位於沖繩北部大宜味村的「山原（Yambaru）」亞熱帶叢林深處，是一處充滿原始風情的自然秘境。前往瀑布的路程沒有人工鋪設的步道，必須沿著清澈的河床一路涉水向上游前進，是一場充滿野趣的溯溪挑戰。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：這是一趟極度消暑的大自然冒險！大約涉水步行 30 到 40 分鐘即可抵達高低落差約 10 公尺的壯觀瀑布。你可以在瀑布下的天然水池盡情游泳消暑、享受大自然的負離子 SPA，甚至挑戰林間的泰山繩索鞦韆。記得穿著防滑的溯溪鞋，準備好迎接全身濕透的暢快感！",
+          },
+        ],
+      },
+      {
+        id: "d4-7",
+        time: "00:00",
         place: "暖木拉麵",
         note: "晚餐",
         mapUrl: "https://maps.app.goo.gl/uBZAMzvVxd5RBMzy5",
@@ -388,16 +541,21 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d4-5",
-        time: "18:00",
-        place: "恩納村",
-        note: "回家",
-        mapUrl: "https://maps.app.goo.gl/7TPJeBWtmHj6tPyQ7",
+        id: "d4-8",
+        time: "20:00",
+        place: "美國村煙火",
+        note: "絢麗的海濱夜空秀",
+        mapUrl: "",
         content: [
           {
             type: "text",
             value:
-              "介紹：沖繩西海岸最知名的海濱度假區。這裡有綿延的絕美海岸線，傍晚時分非常適合在海灘或 Villa 附近散步，欣賞落日夕陽，享受沖繩特有的慢活度假氛圍。",
+              "介紹：北谷町美國村在特定週末或節慶期間，會於沿海夜空施放璀璨的煙火。色彩繽紛的煙花與美國村充滿異國風情的建築、霓虹燈火相互輝映，為這座美式休閒小鎮增添了無比浪漫的氛圍。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：最佳的觀賞地點推薦在日落海灘（Sunset Beach）或海濱步道（Depot Island Boardwalk）一帶。建議可以提早買些小吃或飲料，找個喜歡的位子坐在海堤邊吹著微風，欣賞這場短暫卻令人難忘的視覺饗宴，為充實的一天畫下完美的句點！",
           },
         ],
       },
@@ -410,49 +568,7 @@ export const itineraryData = [
     items: [
       {
         id: "d5-1",
-        time: "08:00",
-        place: "萬座毛",
-        note: "住宿旁邊",
-        mapUrl: "https://maps.app.goo.gl/2rdX3eWfxDSovyx29",
-        content: [
-          {
-            type: "text",
-            value:
-              "介紹：萬座毛是沖繩最具代表性的自然景觀之一，「毛」在沖繩方言中意指雜草叢生的空地。這裡以形似「象鼻」的隆起珊瑚礁斷崖聞名，站在遼闊的草坪上，可以遠眺湛藍無邊的東海與對岸的恩納村海岸線。",
-          },
-        ],
-      },
-      {
-        id: "d5-2",
-        time: "08:30",
-        place: "御守販賣機",
-        note: "找",
-        mapUrl: "",
-        content: [
-          {
-            type: "text",
-            value:
-              "介紹：位於萬座毛新型休息站內的特色設施。這台自動販賣機販售各種造型精緻的御守，讓旅人在欣賞美景之餘，也能以現代便捷的方式求得一份平安與祝福，是非常有趣的伴手禮選擇。",
-          },
-        ],
-      },
-      {
-        id: "d5-3",
-        time: "09:30",
-        place: "屋我地島 水底滑板車",
-        note: "玩水",
-        mapUrl: "https://maps.app.goo.gl/Ytm15ia6khFWBmGP9",
-        content: [
-          {
-            type: "text",
-            value:
-              "介紹：水底滑板車（Sensui Scooter）是一項不需要潛水執照，甚至不需要會游泳也能輕鬆探索海底的活動。戴上連接氧氣的特製頭盔，坐在電力驅動的滑板車上，就能在屋我地島清澈透明的海域中穿梭，近距離觀察色彩繽紛的熱帶魚與珊瑚礁。",
-          },
-        ],
-      },
-      {
-        id: "d5-4",
-        time: "14:00",
+        time: "10:00",
         place: "沖繩美麗海水族館",
         note: "預計停留 4 小時",
         mapUrl: "https://maps.app.goo.gl/NxXPEqWLiLB6Lyu36",
@@ -465,7 +581,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d5-5",
+        id: "d5-2",
         time: "15:00",
         place: "Shinmei Coffee 黑糖珍奶",
         note: "必喝",
@@ -478,6 +594,63 @@ export const itineraryData = [
           },
         ],
       },
+      {
+        id: "d5-3",
+        time: "13:00",
+        place: "古宇利島",
+        note: "神之島與絕美古宇利大橋",
+        mapUrl: "https://maps.app.goo.gl/kPwaqSFhgux3JcwUA",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：古宇利島擁有「神之島」與「戀之島」的美稱，以清澈見底的「古宇利藍」漸層海色聞名。連接周邊與古宇利島的「古宇利大橋」全長近兩公里，兩側被無敵海景包圍，是沖繩最具代表性的絕美跨海大橋。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：非常推薦開車自駕駛過筆直的大橋，享受彷彿在海面上奔馳的夢幻兜風體驗！抵達島上後，可以前往北側的ティーヌ浜（Teinu 海灘）尋找著名的浪漫地標「心形岩」，或是到古宇利海洋塔（Kouri Ocean Tower）居高臨下俯瞰壯麗的漸層海景。",
+          },
+        ],
+      },
+      {
+        id: "d5-4",
+        time: "00:00",
+        place: "蝦蝦飯 (Kouri Shrimp) 與黑糖珍奶",
+        note: "古宇利島超人氣必吃美食",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：來到古宇利島，絕對不能錯過爆紅的排隊美食「蝦蝦飯」！這道源自夏威夷的經典料理（Garlic Shrimp），將鮮Q彈牙的蝦子以大量蒜蓉與濃郁奶油乾煎，香氣四溢的醬汁淋在熱騰騰的白飯上，超級開胃下飯。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：強烈建議在享受蒜香濃郁的蝦蝦飯時，搭配一杯「沖繩黑糖珍奶」。沖繩在地產的黑糖帶有獨特的炭火焦香與豐富的礦物質風味，熬煮出來的糖漿比起一般糖水更有層次，結合香濃鮮奶與 Q 彈珍珠，在海島的豔陽下吃上一組，絕對是最完美的度假標配！",
+          },
+        ],
+      },
+      {
+        id: "d5-5",
+        time: "20:00",
+        place: "美國村煙火",
+        note: "絢麗的海濱夜空秀",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：北谷町美國村在特定週末或節慶期間，會於沿海夜空施放璀璨的煙火。色彩繽紛的煙花與美國村充滿異國風情的建築、霓虹燈火相互輝映，為這座美式休閒小鎮增添了無比浪漫的氛圍。",
+          },
+          {
+            type: "text",
+            value:
+              "推薦：最佳的觀賞地點推薦在日落海灘（Sunset Beach）或海濱步道（Depot Island Boardwalk）一帶。建議可以提早買些小吃或飲料，找個喜歡的位子坐在海堤邊吹著微風，欣賞這場短暫卻令人難忘的視覺饗宴，為充實的一天畫下完美的句點！",
+          },
+        ],
+      },
     ],
   },
   // 第六天
@@ -487,6 +660,19 @@ export const itineraryData = [
     items: [
       {
         id: "d6-1",
+        time: "13:15",
+        place: "那霸機場",
+        note: "開車一小時，放阿修，航班：MM927，訂單編號：EV4Q2N",
+        mapUrl: "https://maps.app.goo.gl/zRRFZSK12EuyLxSE9",
+        content: [
+          {
+            type: "text",
+            value: "航班時間 13:15",
+          },
+        ],
+      },
+      {
+        id: "d6-2",
         time: "11:00",
         place: "瀨長島 或 Outlet 進行最後採購",
         note: "逛街",
@@ -500,8 +686,8 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-2",
-        time: "11:00",
+        id: "d6-3",
+        time: "12:00",
         place: "濱邊的茶屋 (浜辺の茶屋)",
         note: "休息",
         mapUrl: "https://maps.app.goo.gl/DFX8CpKG5rKYCwdt8",
@@ -514,7 +700,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-3",
+        id: "d6-4",
         time: "15:00",
         place: "租車公司",
         note: "店家名稱：Harebare Rent a Car Naha Branch\n店家地址：沖縄県那覇市鏡原町10-20",
@@ -528,7 +714,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-4",
+        id: "d6-5",
         time: "20:55",
         place: "那霸機場",
         note: "航班：CI123 (中華航空)，訂單編號：EV4Q2N",
