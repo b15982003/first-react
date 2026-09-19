@@ -412,7 +412,7 @@ export const itineraryData = [
         id: "d3-1",
         time: "09:00",
         place: "波上宮",
-        note: "琉球八社之首",
+        note: "琉球八社之首｜開車 15 分鐘｜走到橋上拍照",
         mapUrl: "https://maps.app.goo.gl/aM1TUtCNQhsGnahh8",
         content: [
           {
@@ -433,9 +433,9 @@ export const itineraryData = [
       },
       {
         id: "d3-2",
-        time: "12:00",
+        time: "10:00 開",
         place: "購物 shopping paco city",
-        note: "午餐",
+        note: "午餐｜開車 16 分鐘",
         mapUrl: "https://maps.app.goo.gl/4ZajMW7rd5G8bo83A",
         content: [
           {
@@ -451,9 +451,29 @@ export const itineraryData = [
       },
       {
         id: "d3-3",
+        time: "",
+        place: "hoppepan 麵包店",
+        note: "去中部路上｜每週只開 4 天，去前先確認",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=hoppepan+ほっぺパン+浦添",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：號稱沖繩人氣第一的麵包店（ほっぺパン），從宜野灣搬遷到浦添。店內以貓咪插畫為招牌，玻璃櫃裡擺滿現做的鹹麵包與甜點，自助式挑選，種類多到選擇障礙。",
+          },
+          {
+            type: "text",
+            value:
+              "🍞 大多麵包一個約 200–400 円，CP 值高。以外帶為主，想現吃可請店家結帳時加熱。\n📍 浦添市內間 2-10-10｜🕗 08:00–19:00｜⚠️ 每週僅營業 4 天且常排隊，出發前務必先確認營業日或電話詢問。",
+          },
+        ],
+      },
+      {
+        id: "d3-4",
         time: "14:00",
         place: "宜野灣 Tropical Beach",
-        note: "放鬆耍廢玩水沙灘",
+        note: "玩水｜開車 15 分鐘",
         mapUrl: "https://maps.app.goo.gl/hRPvKaG45HRvRLL96",
         content: [
           {
@@ -473,10 +493,50 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-4",
+        id: "d3-5",
+        time: "",
+        place: "寶可夢中心",
+        note: "Pokémon Center OKINAWA",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=Pokemon+Center+Okinawa+AEON+MALL+Rycom",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：位於 AEON MALL Okinawa Rycom（永旺夢樂城沖繩來客夢）1 樓的寶可夢官方專賣店。店內販售大量限定商品、娃娃與周邊，門口還有巨型皮卡丘等拍照點，喜歡寶可夢的一定要來朝聖。",
+          },
+          {
+            type: "text",
+            value:
+              "📍 北中城村來客夢 AEON MALL 1F｜🕙 10:00–22:00｜逛完順便在賣場採買與用餐。",
+          },
+        ],
+      },
+      {
+        id: "d3-6",
+        time: "",
+        place: "普天滿宮 鐘乳石",
+        note: "琉球八社之一｜地底鐘乳石洞神宮",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=普天満宮+宜野湾",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：位於宜野灣市普天間，是琉球最早的神社之一、琉球八社之一。最大特色是本殿後方藏著一處約 280 公尺長的鐘乳石洞穴，洞內設有地底奧宮，傳說是女神與仙人現身之地。",
+          },
+          {
+            type: "text",
+            value:
+              "⛩️ 參觀規則：鐘乳石洞需先到社務所申請，由巫女帶路入內，洞穴參拜時間為每天 10:00–17:00。\n⚠️ 洞內禁止手機拍照、禁止觸摸鐘乳石，也不可帶走洞內任何物品。",
+          },
+        ],
+      },
+      {
+        id: "d3-7",
         time: "17:00",
-        place: "美國村",
-        note: "逛街",
+        place: "美國村（或是直接北上）",
+        note: "逛街｜開車 17 分鐘",
         mapUrl: "https://maps.app.goo.gl/rhPqfo7NSgajQPwy5",
         content: [
           {
@@ -484,10 +544,15 @@ export const itineraryData = [
             value:
               "介紹：位於北谷町，充滿美式風情與異國色彩的娛樂休閒區。色彩繽紛的建築、特色小店與傍晚日落海灘（Sunset Beach）的絕美夕陽，是拍照打卡與悠閒散步的絕佳聖地。",
           },
+          {
+            type: "text",
+            value:
+              "🚗 彈性選項：若當天想早點抵達恩納村 Villa 休息，也可跳過美國村直接北上。",
+          },
         ],
       },
       {
-        id: "d3-5",
+        id: "d3-8",
         time: "19:00",
         place: "迴轉壽司",
         note: "晚餐",
@@ -501,24 +566,24 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-6",
-        time: "19:00",
-        place: "阿古豬 涮涮鍋",
-        note: "晚餐",
-        mapUrl: "https://maps.app.goo.gl/de7tUxTfje3hAdCV7",
+        id: "d3-9",
+        time: "",
+        place: "宵夜 京都北白川 魅力屋 拉麵",
+        note: "美國村旁",
+        mapUrl: "https://maps.app.goo.gl/kVFiYgCah2Fo4w3b9",
         content: [
           {
             type: "text",
             value:
-              "介紹：阿古豬（Agu豬）是沖繩特有的頂級黑豬肉品種，以肉質鮮嫩、油脂鮮甜且不膩口聞名。無論是做成涮涮鍋還是燒肉，都能品嚐到入口即化的夢幻滋味。",
+              "介紹：來自京都的高人氣拉麵連鎖店。以清甜的醬油湯頭搭配大量背脂（豬背油）為特色，細麵條吸附滿滿湯汁，香氣濃郁卻不負擔，是夜晚解饞的完美消夜選擇。",
           },
         ],
       },
       {
-        id: "d3-7",
-        time: "19:30",
+        id: "d3-10",
+        time: "21:00",
         place: "格蘭迪奧索沖繩別墅恩納1",
-        note: "住宿",
+        note: "住宿｜開車 35 分鐘",
         mapUrl: "https://maps.app.goo.gl/Gxr6qreNa3ZYYLU4A",
         content: [
           {
@@ -529,16 +594,30 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d3-8",
+        id: "d3-11",
         time: "",
-        place: "宵夜 京都北白川 魅力屋 拉麵",
-        note: "美國村旁",
-        mapUrl: "https://maps.app.goo.gl/kVFiYgCah2Fo4w3b9",
+        place: "海邊看夜景",
+        note: "恩納村海岸放鬆",
+        mapUrl: "",
         content: [
           {
             type: "text",
             value:
-              "介紹：來自京都的高人氣拉麵連鎖店。以清甜的醬油湯頭搭配大量背脂（豬背油）為特色，細麵條吸附滿滿湯汁，香氣濃郁卻不負擔，是夜晚解饞的完美消夜選擇。",
+              "介紹：入住恩納村 Villa 後，可到附近海邊散步吹風、欣賞星空與海景夜色，安靜地為忙碌的一天收尾。",
+          },
+        ],
+      },
+      {
+        id: "d3-12",
+        time: "",
+        place: "泡溫泉",
+        note: "睡前放鬆",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：睡前泡個溫泉舒緩自駕與逛街的疲勞。可利用 Villa 內設施，或就近前往恩納村周邊的溫泉／SPA。",
           },
         ],
       },
