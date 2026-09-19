@@ -14,9 +14,9 @@ export const itineraryData = [
       },
       {
         id: "d1-2",
-        time: "17:05",
+        time: "15:05",
         place: "桃園國際機場 (TPE)",
-        note: "航班：CI122 (中華航空)，訂單編號：EV4Q2N",
+        note: "抵達機場｜飛機 17:05 起飛｜航班：CI122 (中華航空)，訂單編號：EV4Q2N",
         mapUrl: "https://maps.app.goo.gl/dCUucVe5qfq6pPa8A",
         content: [
           {
@@ -67,15 +67,61 @@ export const itineraryData = [
         id: "d1-4",
         time: "21:15",
         place: "住宿 TSUBOYA 一號公寓",
-        note: "Holiday Homes TSUBOYA 1st",
+        note: "Holiday Homes TSUBOYA 1st｜房號 TSUBOYA 1st｜門鎖密碼 5292B｜Wi-Fi 密碼 loveokinawa",
         mapUrl: "https://maps.app.goo.gl/pwXaM2SwRm6g3qQ77",
-        content: [],
+        content: [
+          {
+            type: "text",
+            value:
+              "🔑 房號：TSUBOYA 1st\n🔒 門鎖密碼（PIN）：5292 B\n📶 Wi-Fi 密碼：loveokinawa（網路名稱 Good Stay TSUBOYA）",
+          },
+          {
+            type: "text",
+            value:
+              "🗓️ 入住日期：2026/9/22（二）\n入住時間：下午 16:00 起｜退房時間：上午 10:00\n⚠️ 不提供入住前後的行李寄放服務。",
+          },
+          {
+            type: "text",
+            value:
+              "📍 地址：沖繩縣那霸市坪屋 2-6-23（郵遞區號 902-0065）\n藍白相間的兩層建築，一樓是美髮沙龍「heavyHIMEYURI」。",
+          },
+          {
+            type: "text",
+            value:
+              "🅿️ 停車：請停「樓梯底部」的那個車位，勿使用理髮店的停車場。",
+          },
+          {
+            type: "text",
+            value:
+              "🚪 入住方式（無櫃台，自助）：\n1. 直接前往房間，使用一樓停車場。\n2. 停車場後方有樓梯，上二樓（無電梯）。\n3. 門上輸入 PIN「5292 B」，再將門把向左轉開鎖。\n4. 完成入住，無需聯繫對方。\n5. 入住前請先在官網填寫「宿泊者資訊」。",
+          },
+          {
+            type: "text",
+            value:
+              "🧳 打包清單建議：\n1. 拖鞋（下海玩好用，但不建議所謂的「海島涼鞋」）\n2. 睡衣\n3. 直髮器（房內備有吹風機）\n4. 帽子、太陽眼鏡、防曬乳",
+          },
+          {
+            type: "text",
+            value:
+              "🧺 洗衣：房內有洗衣機與烘乾機各一台（需自備洗衣精）。大量衣物可用吉野家大樓 2、3 樓的洗衣設施。",
+          },
+          {
+            type: "text",
+            value:
+              "📞 聯絡人：松川幸一郎\n電話：080-3990-9069\nEmail：tsuboya.okinawa@gmail.com\nLINE ID：tsuboyahotel",
+          },
+          {
+            type: "mapButton",
+            url: "https://tsuboya-okinawa.com/",
+            label: "官網（入住說明／宿泊者登記／停車／叫車／洗衣）",
+          },
+        ],
       },
       {
         id: "d1-5",
         time: "21:45",
         place: "國際通屋台村",
-        note: "宵夜、小酌",
+        note: "宵夜、小酌（住宿走到國際通約 16 分鐘）",
         mapUrl: "https://maps.app.goo.gl/YHzUAf6RZQRWArFZ7",
         content: [
           {
@@ -83,19 +129,45 @@ export const itineraryData = [
             value:
               "推薦：抵達沖繩的第一晚，點些道地串燒、沖繩炒苦瓜與生啤酒，感受在地熱鬧的居酒屋氛圍。",
           },
+          {
+            type: "text",
+            value:
+              "🏮 屋台村介紹：位於牧志 3 丁目 11，聚集約 20 間小攤販，賣著日式串燒、沖繩麵、壽司、天婦羅等美食。將日本路邊攤放進整齊的小房間裡，入夜點燈後充滿夏日祭典般的熱鬧氛圍，很適合露天用餐融入在地。",
+          },
+          {
+            type: "text",
+            value:
+              "🕛 營業時間：約 12:00–00:00（各攤略有差異）。若人潮太多，對面的「國際通のれん街」是三層樓的室內版美食街，也可作為備案。",
+          },
         ],
       },
       {
         id: "d1-6",
-        time: "00:00",
-        place: "Happy Happy",
-        note: "",
-        mapUrl: "",
+        time: "未訂",
+        place: "沖繩居酒屋 昭和村 平和通り店",
+        note: "沖縄県那覇市牧志3-1-20 3階（尚未預約）",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=沖縄居酒屋+昭和村+平和通り店",
         content: [
           {
             type: "text",
             value:
-              "第 1 部公演觀賞門票（20:00 開放入場，20:30 正式開演）與第 2 部公演觀賞門票（22:00 開放入場，22:30 正式開演）【超級震撼座位】保證舞台最前排座位 ＋ 附 1 杯飲料 ＋ 10 張 Churan 小費券/【震撼座位】保證前排座位 ＋ 附 1 杯飲料 ＋ 10 張 Churan 小費券/【前排座位】保證前方區域座位 ＋ 附 1 杯飲料/【普通座位方案】附 1 杯飲料",
+              "介紹：走進店裡彷彿穿越回昭和時代的商店街，赤電話、可樂玻璃瓶等懷舊老物件散落四處，充滿琉球昭和復古情調。",
+          },
+          {
+            type: "text",
+            value:
+              "🎶 亮點：前川家族的沖繩民謠 Live 每隔約 1 小時免費演出，現場氣氛熱鬧，不收表演費（チャージ無料）。",
+          },
+          {
+            type: "text",
+            value:
+              "🍶 餐點：附 3 小時飲み放題（無限暢飲）的套餐 3,300 日圓起，可品嚐沖繩鄉土料理配泡盛。",
+          },
+          {
+            type: "text",
+            value:
+              "📍 交通與資訊：位於國際通旁的平和通商店街內，從單軌電車「牧志駅」步行約 7 分鐘。電話：098-866-0106。※目前尚未訂位，建議提前致電或線上預約。",
           },
         ],
       },
