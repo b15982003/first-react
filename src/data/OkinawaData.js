@@ -956,20 +956,20 @@ export const itineraryData = [
     items: [
       {
         id: "d6-1",
-        time: "13:15",
+        time: "11:00",
         place: "那霸機場",
-        note: "開車一小時，放阿修，航班：MM927",
+        note: "開車 1 小時｜放阿修（航班 MM927）",
         mapUrl: "https://maps.app.goo.gl/zRRFZSK12EuyLxSE9",
         content: [
           {
             type: "text",
-            value: "航班時間 13:15",
+            value: "先送阿修到那霸機場搭 MM927（開車約 1 小時）。",
           },
         ],
       },
       {
         id: "d6-2",
-        time: "11:00",
+        time: "",
         place: "瀨長島 或 Outlet 進行最後採購",
         note: "逛街",
         mapUrl: "https://maps.app.goo.gl/ZPTDqfCFfVSTHATs7",
@@ -983,7 +983,7 @@ export const itineraryData = [
       },
       {
         id: "d6-3",
-        time: "12:00",
+        time: "",
         place: "濱邊的茶屋 (浜辺の茶屋)",
         note: "休息",
         mapUrl: "https://maps.app.goo.gl/DFX8CpKG5rKYCwdt8",
@@ -997,8 +997,22 @@ export const itineraryData = [
       },
       {
         id: "d6-4",
+        time: "",
+        place: "藥妝店跟禮品店",
+        note: "最後補貨伴手禮",
+        mapUrl: "",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：回國前把握時間到藥妝店與禮品店補齊伴手禮。推薦沖繩限定商品：紅芋塔、鹽味金楚糕（ちんすこう）、黑糖、シークヮーサー（香檬）相關製品、海鹽與各式藥妝。",
+          },
+        ],
+      },
+      {
+        id: "d6-5",
         time: "15:00",
-        place: "租車公司",
+        place: "還車（租車公司）",
         note: "店家名稱：Harebare Rent a Car Naha Branch\n店家地址：沖縄県那覇市鏡原町10-20",
         mapUrl: "https://maps.app.goo.gl/zCHYbkk1gefwZDN48",
         content: [
@@ -1010,7 +1024,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-5",
+        id: "d6-6",
         time: "20:55",
         place: "那霸機場",
         note: "航班：CI123 (中華航空)，訂單編號：EV4Q2N",
@@ -1024,7 +1038,7 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-6",
+        id: "d6-7",
         time: "21:30",
         place: "桃園機場",
         note: "航班：CI123 (中華航空)，訂單編號：EV4Q2N",
@@ -1037,8 +1051,8 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d6-7",
-        time: "23:00",
+        id: "d6-8",
+        time: "9:00",
         place: "台中包車",
         note: "",
         mapUrl: "",
