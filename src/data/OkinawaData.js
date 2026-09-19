@@ -204,6 +204,11 @@ export const itineraryData = [
             value:
               "🚗 取車提醒：記得攜帶台灣駕照正本與日文譯本，並在出發前確認車體外觀是否有損傷並錄影存證。",
           },
+          {
+            type: "text",
+            value:
+              "❓ 現場要問清楚：\n1. 保險方案與 ETC 卡租借\n2. 加油規定（還車前是否需加滿、指定加油站）\n3. NOC（營業損失賠償金）條款",
+          },
         ],
       },
       {
@@ -238,12 +243,12 @@ export const itineraryData = [
         id: "d2-4",
         time: "13:30",
         place: "玉泉洞",
-        note: "大概半小時",
+        note: "大概停留半小時",
         mapUrl: "https://maps.app.goo.gl/vcaosRoQjqjYWVBC7",
         content: [
           {
             type: "text",
-            value: "開車時間：30 分鐘",
+            value: "開車時間：約 33 分鐘",
           },
           {
             type: "text",
@@ -255,10 +260,14 @@ export const itineraryData = [
       {
         id: "d2-5",
         time: "15:00",
-        place: "首里城",
-        note: "",
+        place: "首里城（下午去比較不熱）",
+        note: "開車 30 分鐘｜再確認是否在整修",
         mapUrl: "https://maps.app.goo.gl/8PzFN8oNPyiu9yox8",
         content: [
+          {
+            type: "text",
+            value: "開車時間：約 30 分鐘。※前往前再確認正殿是否仍在整修。",
+          },
           {
             type: "text",
             value:
@@ -278,9 +287,9 @@ export const itineraryData = [
       },
       {
         id: "d2-6",
-        time: "15:00",
-        place: "達摩寺",
-        note: "首里城旁邊",
+        time: "",
+        place: "達摩寺（首里城旁邊）",
+        note: "開放到 18:00",
         mapUrl: "",
         content: [
           {
@@ -325,19 +334,70 @@ export const itineraryData = [
       },
       {
         id: "d2-8",
-        time: "18:00",
-        place: "晚餐",
-        note: "",
-        mapUrl: "https://maps.app.goo.gl/K6TmnGnQdfsU9fUJ8",
+        time: "",
+        place: "阿古豬豬排 Tonton Jacky Pork",
+        note: "晚餐｜每日限量，賣完為止",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=豚々ジャッキー+Tonton+Jacky+那覇",
         content: [
           {
             type: "text",
-            value: "阿古豬豬排",
+            value:
+              "介紹：那霸人氣 No.1 的炸豬排名店（豚々ジャッキー）。使用沖繩阿古豬（あぐー豚）與山原島豚，炸豬排外酥內嫩、油脂鮮甜。招牌阿古豬里肌炸豬排每日限量，賣完為止。",
           },
           {
             type: "text",
             value:
-              "介紹：那霸最繁華的「奇蹟一英里」，全長約 1.6 公里。集結了所有沖繩熱門的伴手禮、藥妝、雜貨與美食。在自駕移動前，這裡是非常好的補貨與觀察當地活力的地方。",
+              "🍽️ 套餐附大量高麗菜絲、白飯無限續、豬肉湯與味噌湯。阿古里肌約 3,300 円、阿古菲力約 1,800 円起、一般里肌約 1,200 円起。",
+          },
+          {
+            type: "text",
+            value:
+              "📍 地址：那霸市久米 2-9-11（ABC 久米大樓 2F），單軌「旭橋站」步行約 5 分鐘。\n🕚 營業：11:30–14:00、17:00–21:00，週二公休（9/23 為週三，正常營業）。座位少，建議避開尖峰或先訂位。電話 098-866-1010。",
+          },
+        ],
+      },
+      {
+        id: "d2-9",
+        time: "",
+        place: "國際通",
+        note: "國際通現炸薯條",
+        mapUrl: "https://maps.app.goo.gl/prpURo4EM2gjbRFU6",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：那霸最繁華的「奇蹟一英里」，全長約 1.6 公里。集結了所有沖繩熱門的伴手禮、藥妝、雜貨與美食。飯後來這裡散步血拚，別忘了試試街邊的現炸薯條。",
+          },
+        ],
+      },
+      {
+        id: "d2-10",
+        time: "22:00 入場",
+        place: "Happy Happy Churasun 6 沖繩",
+        note: "第 2 部公演（22:00 開放入場，22:30 正式開演）",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=ちゅらさん6+Churasun6+那覇+松山",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：2024 年 5 月開幕於那霸松山，號稱日本最大規模的表演俱樂部。以「太空船底部」為概念，配備 400 盞舞台燈、巨型 LED 螢幕與 d&b 頂規音響，由專業舞者、DJ、歌手演出，融合沖繩文化與未來感。",
+          },
+          {
+            type: "text",
+            value:
+              "🎫 場次：第 1 部（20:00 開放入場、20:30 開演）／第 2 部（22:00 開放入場、22:30 開演）。本次為第 2 部。",
+          },
+          {
+            type: "text",
+            value:
+              "🪑 座位方案：\n【超級震撼座位】保證舞台最前排 ＋ 1 杯飲料 ＋ 10 張 Churan 小費券\n【震撼座位】保證前排 ＋ 1 杯飲料 ＋ 10 張 Churan 小費券\n【前排座位】保證前方區域 ＋ 1 杯飲料\n【普通座位方案】附 1 杯飲料",
+          },
+          {
+            type: "text",
+            value:
+              "📍 地址：那霸市松山 1-5-1 Namura Plaza 大樓 2F，松山交差點步行約 2 分鐘。",
           },
         ],
       },
