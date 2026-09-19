@@ -862,20 +862,6 @@ export const itineraryData = [
       },
       {
         id: "d5-2",
-        time: "15:00",
-        place: "Shinmei Coffee 黑糖珍奶",
-        note: "必喝",
-        mapUrl: "https://maps.app.goo.gl/JPeBNZb77r1QaFF59",
-        content: [
-          {
-            type: "text",
-            value:
-              "介紹：沖繩以盛產黑糖聞名。使用在地純手工熬煮的黑糖製作而成的珍珠奶茶，擁有獨特的焦糖香氣與濃郁口感。在結束一整天的戶外行程後，來一杯清涼香甜的黑糖珍奶，絕對是緩解疲勞的最佳享受。",
-          },
-        ],
-      },
-      {
-        id: "d5-3",
         time: "13:00",
         place: "古宇利島",
         note: "神之島與絕美古宇利大橋",
@@ -894,26 +880,56 @@ export const itineraryData = [
         ],
       },
       {
-        id: "d5-4",
-        time: "00:00",
-        place: "蝦蝦飯 (Kouri Shrimp) 與黑糖珍奶",
+        id: "d5-3",
+        time: "",
+        place: "蝦蝦飯 (Kouri Shrimp)",
         note: "古宇利島超人氣必吃美食",
-        mapUrl: "",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=古宇利島+シュリンプ+Kouri+Shrimp",
         content: [
           {
             type: "text",
             value:
               "介紹：來到古宇利島，絕對不能錯過爆紅的排隊美食「蝦蝦飯」！這道源自夏威夷的經典料理（Garlic Shrimp），將鮮Q彈牙的蝦子以大量蒜蓉與濃郁奶油乾煎，香氣四溢的醬汁淋在熱騰騰的白飯上，超級開胃下飯。",
           },
+        ],
+      },
+      {
+        id: "d5-4",
+        time: "",
+        place: "黑糖珍奶",
+        note: "必喝（Shinmei Coffee 等）",
+        mapUrl: "https://maps.app.goo.gl/JPeBNZb77r1QaFF59",
+        content: [
           {
             type: "text",
             value:
-              "推薦：強烈建議在享受蒜香濃郁的蝦蝦飯時，搭配一杯「沖繩黑糖珍奶」。沖繩在地產的黑糖帶有獨特的炭火焦香與豐富的礦物質風味，熬煮出來的糖漿比起一般糖水更有層次，結合香濃鮮奶與 Q 彈珍珠，在海島的豔陽下吃上一組，絕對是最完美的度假標配！",
+              "介紹：沖繩以盛產黑糖聞名。使用在地純手工熬煮的黑糖製作而成的珍珠奶茶，擁有獨特的焦糖香氣與濃郁口感。在地黑糖帶有炭火焦香與豐富礦物質風味，熬煮出來的糖漿比一般糖水更有層次，結合香濃鮮奶與 Q 彈珍珠，在海島豔陽下最消暑。",
           },
         ],
       },
       {
         id: "d5-5",
+        time: "",
+        place: "blue seal 冰店",
+        note: "沖繩美式冰淇淋老牌",
+        mapUrl:
+          "https://www.google.com/maps/search/?api=1&query=Blue+Seal+ブルーシール+沖縄",
+        content: [
+          {
+            type: "text",
+            value:
+              "介紹：Blue Seal（ブルーシール）是沖繩的美式冰淇淋代表品牌，1948 年誕生於沖繩美軍基地，主打「Born in America, Raised in Okinawa」。經典口味有紅芋、鹽金楚糕、沖繩香檬（シークヮーサー）等在地限定風味。",
+          },
+          {
+            type: "text",
+            value:
+              "🍦 北谷美濱、國際通等地都有分店，很適合逛街途中來一支消暑。",
+          },
+        ],
+      },
+      {
+        id: "d5-6",
         time: "20:00",
         place: "美國村煙火",
         note: "絢麗的海濱夜空秀",
